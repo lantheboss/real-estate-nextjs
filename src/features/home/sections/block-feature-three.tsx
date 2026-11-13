@@ -6,8 +6,8 @@ export function BlockFeatureThreeSection() {
         			<div className="container">
         				<div className="position-relative z-1">
         					<div className="title-one text-center mb-75 xl-mb-50 md-mb-30 wow fadeInUp">
-        						<h3>Explore Popular <span>Location <img src="/images/lazy.svg" data-src="/images/shape/title_shape_02.svg" alt="" className="lazy-img" /></span></h3>
-        						<p className="fs-22">Explore the latest listings & projects in diverse areas</p>
+        						<h3>Explora <span>Ubicaciones <img src="/images/lazy.svg" data-src="/images/shape/title_shape_02.svg" alt="" className="lazy-img" /></span>Populares</h3>
+        						<p className="fs-22">Explora los últimos anuncios y proyectos en diversas áreas</p>
         					</div>
 
 
@@ -16,7 +16,7 @@ export function BlockFeatureThreeSection() {
         							<div className="location-card-one position-relative z-1 d-flex align-items-end" style={{ backgroundImage: "url(images/media/img_05.jpg)" }}>
         								<div className="content text-center w-100 tran3s">
         									<h5 className="text-white fw-normal">Kelowna</h5>
-        									<p className="text-white fw-light">1,230 Properties</p>
+        									<p className="text-white fw-light">1,230 Propiedades</p>
         								</div>
         								<a href="/listing_01" className="stretched-link"></a>
         							</div>
@@ -26,7 +26,7 @@ export function BlockFeatureThreeSection() {
         							<div className="location-card-one position-relative z-1 d-flex align-items-end" style={{ backgroundImage: "url(images/media/img_06.jpg)" }}>
         								<div className="content text-center w-100 tran3s">
         									<h5 className="text-white fw-normal">California</h5>
-        									<p className="text-white fw-light">1,190 Properties</p>
+        									<p className="text-white fw-light">1,190 Propiedades</p>
         								</div>
         								<a href="/listing_01" className="stretched-link"></a>
         							</div>
@@ -35,8 +35,8 @@ export function BlockFeatureThreeSection() {
         						<div className="item">
         							<div className="location-card-one position-relative z-1 d-flex align-items-end" style={{ backgroundImage: "url(images/media/img_07.jpg)" }}>
         								<div className="content text-center w-100 tran3s">
-        									<h5 className="text-white fw-normal">New York</h5>
-        									<p className="text-white fw-light">1,710 Properties</p>
+        									<h5 className="text-white fw-normal">Nueva York</h5>
+        									<p className="text-white fw-light">1,710 Propiedades</p>
         								</div>
         								<a href="/listing_01" className="stretched-link"></a>
         							</div>
@@ -46,7 +46,7 @@ export function BlockFeatureThreeSection() {
         							<div className="location-card-one position-relative z-1 d-flex align-items-end" style={{ backgroundImage: "url(images/media/img_08.jpg)" }}>
         								<div className="content text-center w-100 tran3s">
         									<h5 className="text-white fw-normal">Miami</h5>
-        									<p className="text-white fw-light">670 Properties</p>
+        									<p className="text-white fw-light">670 Propiedades</p>
         								</div>
         								<a href="/listing_01" className="stretched-link"></a>
         							</div>
@@ -56,7 +56,7 @@ export function BlockFeatureThreeSection() {
         							<div className="location-card-one position-relative z-1 d-flex align-items-end" style={{ backgroundImage: "url(images/media/img_09.jpg)" }}>
         								<div className="content text-center w-100 tran3s">
         									<h5 className="text-white fw-normal">Dhaka</h5>
-        									<p className="text-white fw-light">1,670 Properties</p>
+        									<p className="text-white fw-light">1,670 Propiedades</p>
         								</div>
         								<a href="/listing_01" className="stretched-link"></a>
         							</div>

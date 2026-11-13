@@ -8,8 +8,8 @@ export function BlockFeatureFiveSection() {
         				<div className="row">
         					<div className="col-xl-8 m-auto">
         						<div className="title-one text-center mb-35 lg-mb-20">
-        							<h3>We’r here to help <br /> you get your <span>dream home<img src="/images/lazy.svg" data-src="/images/shape/title_shape_07.svg" alt="" className="lazy-img" /></span></h3>
-        							<p className="fs-24 color-dark">It’s easy to start with us with these simple steps</p>
+        							<h3>Estamos aquí para ayudarte <br /> a conseguir la <span>casa de tus sueños<img src="/images/lazy.svg" data-src="/images/shape/title_shape_07.svg" alt="" className="lazy-img" /></span></h3>
+        							<p className="fs-24 color-dark">Es fácil empezar con nosotros con estos sencillos pasos</p>
         						</div>
 
         					</div>
@@ -20,24 +20,24 @@ export function BlockFeatureFiveSection() {
         							<div className="col-lg-4 col-sm-6">
         								<div className="card-style-one text-center wow fadeInUp mt-40">
         									<img src="/images/lazy.svg" data-src="/images/icon/icon_07.svg" alt="" className="lazy-img m-auto icon" />
-        									<h5 className="mt-50 lg-mt-30 mb-15">Create Account</h5>
-        									<p className="pe-xxl-4 ps-xxl-4">It’s very easy to open an account and start your journey.</p>
+        									<h5 className="mt-50 lg-mt-30 mb-15">Crear una Cuenta</h5>
+        									<p className="pe-xxl-4 ps-xxl-4">Es muy fácil abrir una cuenta y comenzar tu viaje.</p>
         								</div>
 
         							</div>
         							<div className="col-lg-4 col-sm-6">
         								<div className="card-style-one text-center wow fadeInUp mt-40 arrow position-relative" data-wow-delay="0.1s">
         									<img src="/images/lazy.svg" data-src="/images/icon/icon_08.svg" alt="" className="lazy-img m-auto icon" />
-        									<h5 className="mt-50 lg-mt-30 mb-15">Find Home</h5>
-        									<p className="pe-xxl-4 ps-xxl-4">Complete your profile with all the info to get attention of client.</p>
+        									<h5 className="mt-50 lg-mt-30 mb-15">Encontrar un Hogar</h5>
+        									<p className="pe-xxl-4 ps-xxl-4">Completa tu perfil con toda la información para llamar la atención del cliente.</p>
         								</div>
 
         							</div>
         							<div className="col-lg-4 col-sm-6">
         								<div className="card-style-one text-center wow fadeInUp mt-40" data-wow-delay="0.2s">
         									<img src="/images/lazy.svg" data-src="/images/icon/icon_09.svg" alt="" className="lazy-img m-auto icon" />
-        									<h5 className="mt-50 lg-mt-30 mb-15">Quick Process</h5>
-        									<p className="pe-xxl-4 ps-xxl-4">Apply & get your preferable jobs with all the requirements and get it.</p>
+        									<h5 className="mt-50 lg-mt-30 mb-15">Proceso Rápido</h5>
+        									<p className="pe-xxl-4 ps-xxl-4">Aplica y consigue tus trabajos preferidos con todos los requisitos y listo.</p>
         								</div>
 
         							</div>
@@ -57,17 +57,17 @@ export function BlockFeatureFiveSection() {
         				<div className="row align-items-center">
         					<div className="col-lg-6">
         						<div className="title-one text-center text-lg-start md-mb-40 pe-xl-5">
-        							<h3 className="text-white m0">Start your <span>Journey<img src="/images/lazy.svg" data-src="/images/shape/title_shape_06.svg" alt="" className="lazy-img" /></span> As a Retailer.</h3>
+        							<h3 className="text-white m0">Comienza tu <span>Viaje<img src="/images/lazy.svg" data-src="/images/shape/title_shape_06.svg" alt="" className="lazy-img" /></span> Como Agente Inmobiliario.</h3>
         						</div>
 
         					</div>
         					<div className="col-lg-6">
         						<div className="form-wrapper me-auto ms-auto me-lg-0">
         							<form action="#">
-        								<input type="email" placeholder="Email address" />
-        								<button>Get Started</button>
+        								<input type="email" placeholder="Correo electrónico" />
+        								<button>Comenzar</button>
         							</form>
-        							<div className="fs-16 mt-10 text-white">Already a Agent? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in.</a></div>
+        							<div className="fs-16 mt-10 text-white">¿Ya eres un Agente? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Inicia sesión.</a></div>
         						</div>
         					</div>
         				</div>
@@ -83,10 +83,10 @@ export function BlockFeatureFiveSection() {
         				<div className="row">
         					<div className="col-xl-7 col-md-8 m-auto">
         						<div className="title-one mb-45 md-mb-30">
-        							<h2>Any Inquiry? <span>Feel free<img src="/images/lazy.svg" data-src="/images/shape/title_shape_08.svg" alt="" className="lazy-img" /></span> To contact Us.</h2>
+        							<h2>¿Tienes alguna duda? <span>Siéntete libre<img src="/images/lazy.svg" data-src="/images/shape/title_shape_08.svg" alt="" className="lazy-img" /></span> de contactarnos.</h2>
         						</div>
 
-        						<a href="/contact" className="btn-five text-uppercase">SEND MESSAGE</a>
+        						<a href="/contact" className="btn-five text-uppercase">ENVIAR MENSAJE</a>
         					</div>
         				</div>
         			</div>

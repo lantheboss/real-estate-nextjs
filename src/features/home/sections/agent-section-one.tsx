@@ -6,8 +6,8 @@ export function AgentSectionOne() {
         			<div className="container">
         				<div className="position-relative">
         					<div className="title-one mb-85 lg-mb-50 wow fadeInLeft">
-        						<h3>Our <span>Agents<img src="/images/lazy.svg" data-src="/images/shape/title_shape_05.svg" alt="" className="lazy-img" /></span></h3>
-        						<p className="fs-22 mt-xs">Lorem  is placeholder text commonly used  graphic </p>
+        						<h3>Nuestros <span>Agentes<img src="/images/lazy.svg" data-src="/images/shape/title_shape_05.svg" alt="" className="lazy-img" /></span></h3>
+        						<p className="fs-22 mt-xs">Descubre a nuestro equipo de profesionales inmobiliarios dedicados a ti.</p>
         					</div>
 
 
@@ -20,7 +20,7 @@ export function AgentSectionOne() {
         									</div>
         									<div className="text-center">
         										<h6>Mark Filo</h6>
-        										<a href="/agent_details" className="stretched-link">CEO & Founder</a>
+        										<a href="/agent_details" className="stretched-link">CEO y Fundador</a>
         									</div>
         								</div>
 
@@ -32,7 +32,7 @@ export function AgentSectionOne() {
         									</div>
         									<div className="text-center">
         										<h6>Chris Matial</h6>
-        										<a href="/agent_details" className="stretched-link">Retailer</a>
+        										<a href="/agent_details" className="stretched-link">Minorista</a>
         									</div>
         								</div>
 
@@ -44,7 +44,7 @@ export function AgentSectionOne() {
         									</div>
         									<div className="text-center">
         										<h6>Jubayer Al Hasan</h6>
-        										<a href="/agent_details" className="stretched-link">Marketing Expert</a>
+        										<a href="/agent_details" className="stretched-link">Experto en Marketing</a>
         									</div>
 
         								</div>
@@ -57,7 +57,7 @@ export function AgentSectionOne() {
         									</div>
         									<div className="text-center">
         										<h6>Jannatul Ferdaus</h6>
-        										<a href="/agent_details" className="stretched-link">Broker</a>
+        										<a href="/agent_details" className="stretched-link">Corredora</a>
         									</div>
         								</div>
 
@@ -69,7 +69,7 @@ export function AgentSectionOne() {
         									</div>
         									<div className="text-center">
         										<h6>Chris Matial</h6>
-        										<a href="/agent_details" className="stretched-link">Broker</a>
+        										<a href="/agent_details" className="stretched-link">Corredor</a>
         									</div>
         								</div>
 
@@ -79,7 +79,7 @@ export function AgentSectionOne() {
 
 
         					<div className="section-btn text-center md-mt-60">
-        						<a href="/agent" className="btn-one fw-normal">Meet Entire Team</a>
+        						<a href="/agent" className="btn-one fw-normal">Conoce a Todo el Equipo</a>
         					</div>
         				</div>
         			</div>

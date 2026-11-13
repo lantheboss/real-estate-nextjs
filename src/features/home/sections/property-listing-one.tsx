@@ -7,8 +7,8 @@ export function PropertyListingOneSection() {
         			<div className="container">
         				<div className="position-relative">
         					<div className="title-one text-center text-lg-start mb-45 xl-mb-30 lg-mb-20 wow fadeInUp">
-        						<h3>New <span>Listings <img src="/images/lazy.svg" data-src="/images/shape/title_shape_03.svg" alt="" className="lazy-img" /></span></h3>
-        						<p className="fs-22 mt-xs">Explore latest & featured properties for sale.</p>
+        						<h3>Nuevas <span>Propiedades <img src="/images/lazy.svg" data-src="/images/shape/title_shape_03.svg" alt="" className="lazy-img" /></span></h3>
+        						<p className="fs-22 mt-xs">Explora las últimas propiedades en venta y destacadas.</p>
         					</div>
 
 
@@ -17,7 +17,7 @@ export function PropertyListingOneSection() {
         							<div className="listing-card-one border-25 h-100 w-100">
         								<div className="img-gallery p-15">
         									<div className="position-relative border-25 overflow-hidden">
-        										<div className="tag border-25">FOR RENT</div>
+        										<div className="tag border-25">EN ALQUILER</div>
         										<div id="carousel1" className="carousel slide">
         											<div className="carousel-indicators">
         												<button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -40,20 +40,20 @@ export function PropertyListingOneSection() {
         								</div>
 
         								<div className="property-info p-25">
-        									<a href="/listing_details_01" className="title tran3s">Blueberry villa</a>
-        									<div className="address">Mirpur 10, Stadium dhaka 1208</div>
+        									<a href="/listing_details_01" className="title tran3s">Villa Blueberry</a>
+        									<div className="address">Mirpur 10, Estadio Dhaka 1208</div>
         									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_04.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">1370 sqft</span>
+        											<span className="fs-16">1370 m²</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_05.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">03 bed</span>
+        											<span className="fs-16">03 hab</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_06.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bath</span>
+        											<span className="fs-16">02 baños</span>
         										</li>
         									</ul>
         									<div className="pl-footer top-border d-flex align-items-center justify-content-between">
@@ -69,7 +69,7 @@ export function PropertyListingOneSection() {
         							<div className="listing-card-one border-25 h-100 w-100">
         								<div className="img-gallery p-15">
         									<div className="position-relative border-25 overflow-hidden">
-        										<div className="tag sale border-25">FOR SELL</div>
+        										<div className="tag sale border-25">EN VENTA</div>
         										<div id="carousel2" className="carousel slide">
         											<div className="carousel-indicators">
         												<button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -92,20 +92,20 @@ export function PropertyListingOneSection() {
         								</div>
 
         								<div className="property-info p-25">
-        									<a href="/listing_details_01" className="title tran3s">White House villa</a>
+        									<a href="/listing_details_01" className="title tran3s">Villa White House</a>
         									<div className="address">Muza link road, ca, usa</div>
         									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_04.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">1270 sqft</span>
+        											<span className="fs-16">1270 m²</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_05.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bed</span>
+        											<span className="fs-16">02 hab</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_06.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bath</span>
+        											<span className="fs-16">02 baños</span>
         										</li>
         									</ul>
         									<div className="pl-footer top-border d-flex align-items-center justify-content-between">
@@ -121,7 +121,7 @@ export function PropertyListingOneSection() {
         							<div className="listing-card-one border-25 h-100 w-100">
         								<div className="img-gallery p-15">
         									<div className="position-relative border-25 overflow-hidden">
-        										<div className="tag sale border-25">FOR SELL</div>
+        										<div className="tag sale border-25">EN VENTA</div>
         										<div id="carousel3" className="carousel slide">
         											<div className="carousel-indicators">
         												<button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -144,20 +144,20 @@ export function PropertyListingOneSection() {
         								</div>
 
         								<div className="property-info p-25">
-        									<a href="/listing_details_01" className="title tran3s">Luxury villa in Dal lake.</a>
-        									<div className="address">Mirpur 10, Stadium</div>
+        									<a href="/listing_details_01" className="title tran3s">Villa de lujo en el lago Dal.</a>
+        									<div className="address">Mirpur 10, Estadio</div>
         									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_04.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">1270 sqft</span>
+        											<span className="fs-16">1270 m²</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_05.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bed</span>
+        											<span className="fs-16">02 hab</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_06.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bath</span>
+        											<span className="fs-16">02 baños</span>
         										</li>
         									</ul>
         									<div className="pl-footer top-border d-flex align-items-center justify-content-between">
@@ -173,7 +173,7 @@ export function PropertyListingOneSection() {
         							<div className="listing-card-one border-25 h-100 w-100">
         								<div className="img-gallery p-15">
         									<div className="position-relative border-25 overflow-hidden">
-        										<div className="tag border-25">FOR RENT</div>
+        										<div className="tag border-25">EN ALQUILER</div>
         										<div id="carousel4" className="carousel slide">
         											<div className="carousel-indicators">
         												<button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -196,20 +196,20 @@ export function PropertyListingOneSection() {
         								</div>
 
         								<div className="property-info p-25">
-        									<a href="/listing_details_01" className="title tran3s">Blueberry villa</a>
-        									<div className="address">Mirpur 10, Stadium dhaka 1208</div>
+        									<a href="/listing_details_01" className="title tran3s">Villa Blueberry</a>
+        									<div className="address">Mirpur 10, Estadio Dhaka 1208</div>
         									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_04.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">1370 sqft</span>
+        											<span className="fs-16">1370 m²</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_05.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">03 bed</span>
+        											<span className="fs-16">03 hab</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_06.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bath</span>
+        											<span className="fs-16">02 baños</span>
         										</li>
         									</ul>
         									<div className="pl-footer top-border d-flex align-items-center justify-content-between">
@@ -225,7 +225,7 @@ export function PropertyListingOneSection() {
         							<div className="listing-card-one border-25 h-100 w-100">
         								<div className="img-gallery p-15">
         									<div className="position-relative border-25 overflow-hidden">
-        										<div className="tag sale border-25">FOR SELL</div>
+        										<div className="tag sale border-25">EN VENTA</div>
         										<div id="carousel5" className="carousel slide">
         											<div className="carousel-indicators">
         												<button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -248,20 +248,20 @@ export function PropertyListingOneSection() {
         								</div>
 
         								<div className="property-info p-25">
-        									<a href="/listing_details_01" className="title tran3s">White House villa</a>
+        									<a href="/listing_details_01" className="title tran3s">Villa White House</a>
         									<div className="address">Muza link road, ca, usa</div>
         									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_04.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">1270 sqft</span>
+        											<span className="fs-16">1270 m²</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_05.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bed</span>
+        											<span className="fs-16">02 hab</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_06.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bath</span>
+        											<span className="fs-16">02 baños</span>
         										</li>
         									</ul>
         									<div className="pl-footer top-border d-flex align-items-center justify-content-between">
@@ -277,7 +277,7 @@ export function PropertyListingOneSection() {
         							<div className="listing-card-one border-25 h-100 w-100">
         								<div className="img-gallery p-15">
         									<div className="position-relative border-25 overflow-hidden">
-        										<div className="tag border-25">FOR RENT</div>
+        										<div className="tag border-25">EN ALQUILER</div>
         										<div id="carousel6" className="carousel slide">
         											<div className="carousel-indicators">
         												<button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -300,20 +300,20 @@ export function PropertyListingOneSection() {
         								</div>
 
         								<div className="property-info p-25">
-        									<a href="/listing_details_01" className="title tran3s">Luxury villa in Dal lake.</a>
-        									<div className="address">Mirpur 10, Stadium</div>
+        									<a href="/listing_details_01" className="title tran3s">Villa de lujo en el lago Dal.</a>
+        									<div className="address">Mirpur 10, Estadio</div>
         									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_04.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">1270 sqft</span>
+        											<span className="fs-16">1270 m²</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_05.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bed</span>
+        											<span className="fs-16">02 hab</span>
         										</li>
         										<li className="d-flex align-items-center">
         											<img src="/images/lazy.svg" data-src="/images/icon/icon_06.svg" alt="" className="lazy-img icon me-2" />
-        											<span className="fs-16">02 bath</span>
+        											<span className="fs-16">02 baños</span>
         										</li>
         									</ul>
         									<div className="pl-footer top-border d-flex align-items-center justify-content-between">
@@ -328,7 +328,7 @@ export function PropertyListingOneSection() {
         					</div>
 
         					<div className="section-btn text-center md-mt-60">
-        						<a href="/listing_01" className="btn-five">Explore All</a>
+        						<a href="/listing_01" className="btn-five">Explorar Todo</a>
         					</div>
         				</div>
         			</div>
@@ -344,19 +344,19 @@ export function PropertyListingOneSection() {
         				<div className="row">
         					<div className="col-lg-6 wow fadeInLeft">
         						<div className="title-one mb-45 lg-mb-30">
-        							<h3 className="text-white">Exclusive <span>Monthly <img src="/images/lazy.svg" data-src="/images/shape/title_shape_04.svg" alt="" className="lazy-img" /></span>Deal for you.</h3>
-        							<p className="fs-24 text-white pe-xl-5 me-xxl-5">Don't miss out on this personalized monthly exclusive offer for you.</p>
+        							<h3 className="text-white">Oferta <span>Mensual <img src="/images/lazy.svg" data-src="/images/shape/title_shape_04.svg" alt="" className="lazy-img" /></span>Exclusiva para ti.</h3>
+        							<p className="fs-24 text-white pe-xl-5 me-xxl-5">No te pierdas esta oferta mensual exclusiva y personalizada para ti.</p>
         						</div>
 
-        						<a href="/listing_details_02" className="btn-six">More Details</a>
+        						<a href="/listing_details_02" className="btn-six">Más Detalles</a>
         					</div>
         					<div className="col-lg-6 wow fadeInRight">
         						<div className="property-item md-mt-60 position-relative z-1">
         							<div className="row gx-0">
         								<div className="col-md-5 d-flex">
         									<div className="gutter border-right w-100 h-100">
-        										<div className="tag mb-20">FOR SELL</div>
-        										<h4 className="mb-70 sm-mb-40">Luxury fisa orkit villa.</h4>
+        										<div className="tag mb-20">EN VENTA</div>
+        										<h4 className="mb-70 sm-mb-40">Villa de lujo fisa orkit.</h4>
         										<ul className="style-none d-flex action-icons">
         											<li><a href="#"><i className="fa-light fa-heart"></i></a></li>
         											<li><a href="#"><i className="fa-light fa-bookmark"></i></a></li>
@@ -367,20 +367,20 @@ export function PropertyListingOneSection() {
         								</div>
         								<div className="col-md-7 d-flex">
         									<div className="gutter w-100 h-100">
-        										<p>Mirpur 10, National Stadium, 1210, Dhaka, BD</p>
+        										<p>Mirpur 10, Estadio Nacional, 1210, Dhaka, BD</p>
         										<h2 className="price text-center">$28,100.00</h2>
         										<ul className="style-none d-flex feature">
         											<li>
         												<strong className="d-block color-dark fw-500 fs-20">2137</strong>
-        												<span className="fs-16">sqft</span>
+        												<span className="fs-16">m²</span>
         											</li>
         											<li className="text-center">
         												<strong className="d-block color-dark fw-500 fs-20">03</strong>
-        												<span className="fs-16">bed</span>
+        												<span className="fs-16">hab</span>
         											</li>
         											<li className="text-end">
         												<strong className="d-block color-dark fw-500 fs-20">02</strong>
-        												<span className="fs-16">bath</span>
+        												<span className="fs-16">baños</span>
         											</li>
         										</ul>
         									</div>
@@ -388,7 +388,7 @@ export function PropertyListingOneSection() {
         								</div>
         							</div>
         							<div className="button-group gutter d-flex justify-content-between align-items-center">
-        								<a href="/listing_details_02" className="btn-three"><span>Check Full Details</span></a>
+        								<a href="/listing_details_02" className="btn-three"><span>Ver Detalles Completos</span></a>
         								<a href="/listing_details_02" className="btn-four rounded-circle"><i className="bi bi-arrow-up-right"></i></a>
         							</div>
         						</div>
