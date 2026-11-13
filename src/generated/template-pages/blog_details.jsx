@@ -3,9 +3,9 @@
 import { TemplatePageShell } from "@/components/template-page-shell";
 
 export const metadata = {
-  title: "Home Real Estate Next.js Template & Dashboard",
-  description: "Home Real Estate is a modern Next.js template designed for real estate agencies.",
-  keywords: ["Real estate","Property sale","Property buy"],
+  title: "Plantilla Inmobiliaria Home Real Estate Next.js y Panel de Control",
+  description: "Home Real Estate es una plantilla moderna de Next.js diseñada para agencias inmobiliarias.",
+  keywords: ["Bienes raíces", "Venta de propiedades", "Compra de propiedades"],
 };
 
 const scripts = [
@@ -34,23 +34,16 @@ export default function TemplatePage() {
     			</div>
     		</div>
 
-
-
-
-
             <div className="modal fade" id="searchModal" tabIndex="-1" aria-hidden="true">
                 <div className="modal-dialog modal-fullscreen modal-dialog-centered">
                     <div className="modal-content d-flex justify-content-center">
                         <form action="#">
-                            <input type="text" placeholder="Buy Apartments, Rent Condos, Sell Houses" />
+                            <input type="text" placeholder="Comprar Apartamentos, Alquilar Condominios, Vender Casas" />
                             <button><i className="fa-light fa-arrow-right-long"></i></button>
                         </form>
                     </div>
                 </div>
             </div>
-
-
-
 
     		<header className="theme-main-menu menu-overlay menu-style-six sticky-menu">
     			<div className="inner-content gap-two">
@@ -65,7 +58,7 @@ export default function TemplatePage() {
     						<div className="right-widget ms-auto me-3 me-lg-0 order-lg-3">
     							<ul className="d-flex align-items-center style-none">
     								<li className="d-none d-md-inline-block me-4">
-                                        <a href="/dashboard/add-property" className="btn-ten rounded-0" target="_blank" rel="noopener noreferrer"><span>Add Listing</span> <i className="bi bi-arrow-up-right"></i></a>
+                                        <a href="/dashboard/add-property" className="btn-ten rounded-0" target="_blank" rel="noopener noreferrer"><span>Añadir Anuncio</span> <i className="bi bi-arrow-up-right"></i></a>
                                     </li>
     								<li>
                                         <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="login-btn-two rounded-circle tran3s d-flex align-items-center justify-content-center"><i className="fa-regular fa-lock"></i></a>
@@ -85,68 +78,68 @@ export default function TemplatePage() {
     								<ul className="navbar-nav align-items-lg-center">
     									<li className="d-block d-lg-none"><div className="logo"><a href="/" className="d-block"><img src="/images/logo/logo.svg" alt="" /></a></div></li>
     									<li className="nav-item dashboard-menu">
-    										<a className="nav-link" href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Dashboard</a>
+    										<a className="nav-link" href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Panel</a>
     									</li>
     									<li className="nav-item dropdown">
     										<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-    											data-bs-auto-close="outside" aria-expanded="false">Home
+    											data-bs-auto-close="outside" aria-expanded="false">Inicio
     										</a>
     										<ul className="dropdown-menu">
-    											<li><a href="/" className="dropdown-item"><span>Home 01</span></a></li>
-    											<li><a href="/index-2" className="dropdown-item"><span>Home 02</span></a></li>
-    											<li><a href="/index-3" className="dropdown-item"><span>Home 03</span></a></li>
-    											<li><a href="/index-4" className="dropdown-item"><span>Home 04</span></a></li>
-    											<li><a href="/index-5" className="dropdown-item"><span>Home 05</span></a></li>
-    											<li><a href="/index-6" className="dropdown-item"><span>Home 06</span></a></li>
-    											<li><a href="/index-7" className="dropdown-item"><span>Home 07</span></a></li>
+    											<li><a href="/" className="dropdown-item"><span>Inicio 01</span></a></li>
+    											<li><a href="/index-2" className="dropdown-item"><span>Inicio 02</span></a></li>
+    											<li><a href="/index-3" className="dropdown-item"><span>Inicio 03</span></a></li>
+    											<li><a href="/index-4" className="dropdown-item"><span>Inicio 04</span></a></li>
+    											<li><a href="/index-5" className="dropdown-item"><span>Inicio 05</span></a></li>
+    											<li><a href="/index-6" className="dropdown-item"><span>Inicio 06</span></a></li>
+    											<li><a href="/index-7" className="dropdown-item"><span>Inicio 07</span></a></li>
     										</ul>
     									</li>
     									<li className="nav-item dropdown mega-dropdown-sm">
-    							        	<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Listing
+    							        	<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Anuncios
     										</a>
     						                <ul className="dropdown-menu">
     							                <li className="row gx-1">
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Listing Type</h6>
+    														<h6 className="mega-menu-title">Tipo de Anuncio</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_01" className="dropdown-item"><span>Grid Sidebar-1</span></a></li>
-    															<li><a href="/listing_05" className="dropdown-item"><span>Grid Sidebar-2</span></a></li>
-    															<li><a href="/listing_02" className="dropdown-item"><span>List Sidebar-1</span></a></li>
-    															<li><a href="/listing_06" className="dropdown-item"><span>List Sidebar-2</span></a></li>
-    															<li><a href="/listing_03" className="dropdown-item"><span>Grid Top Filter-1</span></a></li>
-    															<li><a href="/listing_07" className="dropdown-item"><span>Grid Top Filter-2</span></a></li>
-    															<li><a href="/listing_04" className="dropdown-item"><span>List Top Filter-1</span></a></li>
-    															<li><a href="/listing_08" className="dropdown-item"><span>List Top Filter-2</span></a></li>
-    															<li><a href="/listing_09" className="dropdown-item"><span>Grid Banner Filter-1</span></a></li>
+    															<li><a href="/listing_01" className="dropdown-item"><span>Cuadrícula con Barra Lateral-1</span></a></li>
+    															<li><a href="/listing_05" className="dropdown-item"><span>Cuadrícula con Barra Lateral-2</span></a></li>
+    															<li><a href="/listing_02" className="dropdown-item"><span>Lista con Barra Lateral-1</span></a></li>
+    															<li><a href="/listing_06" className="dropdown-item"><span>Lista con Barra Lateral-2</span></a></li>
+    															<li><a href="/listing_03" className="dropdown-item"><span>Cuadrícula Filtro Superior-1</span></a></li>
+    															<li><a href="/listing_07" className="dropdown-item"><span>Cuadrícula Filtro Superior-2</span></a></li>
+    															<li><a href="/listing_04" className="dropdown-item"><span>Lista Filtro Superior-1</span></a></li>
+    															<li><a href="/listing_08" className="dropdown-item"><span>Lista Filtro Superior-2</span></a></li>
+    															<li><a href="/listing_09" className="dropdown-item"><span>Cuadrícula Filtro Banner-1</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Listing Type</h6>
+    														<h6 className="mega-menu-title">Tipo de Anuncio</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_11" className="dropdown-item"><span>Grid Banner Filter-2</span></a></li>
-    															<li><a href="/listing_10" className="dropdown-item"><span>List Banner Filter-1</span></a></li>
-    															<li><a href="/listing_12" className="dropdown-item"><span>List Banner Filter-2</span></a></li>
-    															<li><a href="/listing_13" className="dropdown-item"><span>Grid Fullwidth</span></a></li>
-    															<li><a href="/listing_14" className="dropdown-item"><span>Grid Fullwidth Map-1</span></a></li>
-    															<li><a href="/listing_16" className="dropdown-item"><span>Grid Fullwidth Map-2</span></a></li>
-    															<li><a href="/listing_15" className="dropdown-item"><span>List Fullwidth Map-1</span></a></li>
-    															<li><a href="/listing_17" className="dropdown-item"><span>List Fullwidth Map-2</span></a></li>
+    															<li><a href="/listing_11" className="dropdown-item"><span>Cuadrícula Filtro Banner-2</span></a></li>
+    															<li><a href="/listing_10" className="dropdown-item"><span>Lista Filtro Banner-1</span></a></li>
+    															<li><a href="/listing_12" className="dropdown-item"><span>Lista Filtro Banner-2</span></a></li>
+    															<li><a href="/listing_13" className="dropdown-item"><span>Cuadrícula Ancho Completo</span></a></li>
+    															<li><a href="/listing_14" className="dropdown-item"><span>Cuadrícula Ancho Completo Mapa-1</span></a></li>
+    															<li><a href="/listing_16" className="dropdown-item"><span>Cuadrícula Ancho Completo Mapa-2</span></a></li>
+    															<li><a href="/listing_15" className="dropdown-item"><span>Lista Ancho Completo Mapa-1</span></a></li>
+    															<li><a href="/listing_17" className="dropdown-item"><span>Lista Ancho Completo Mapa-2</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Single Listing</h6>
+    														<h6 className="mega-menu-title">Anuncio Individual</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_details_01" className="dropdown-item"><span>Listing Details-1</span></a></li>
-    															<li><a href="/listing_details_02" className="dropdown-item"><span>Listing Details-2</span></a></li>
-    															<li><a href="/listing_details_03" className="dropdown-item"><span>Listing Details-3</span></a></li>
-    															<li><a href="/listing_details_04" className="dropdown-item"><span>Listing Details-4</span></a></li>
-    															<li><a href="/listing_details_05" className="dropdown-item"><span>Listing Details-5</span></a></li>
-    															<li><a href="/listing_details_06" className="dropdown-item"><span>Listing Details-6</span></a></li>
+    															<li><a href="/listing_details_01" className="dropdown-item"><span>Detalles del Anuncio-1</span></a></li>
+    															<li><a href="/listing_details_02" className="dropdown-item"><span>Detalles del Anuncio-2</span></a></li>
+    															<li><a href="/listing_details_03" className="dropdown-item"><span>Detalles del Anuncio-3</span></a></li>
+    															<li><a href="/listing_details_04" className="dropdown-item"><span>Detalles del Anuncio-4</span></a></li>
+    															<li><a href="/listing_details_05" className="dropdown-item"><span>Detalles del Anuncio-5</span></a></li>
+    															<li><a href="/listing_details_06" className="dropdown-item"><span>Detalles del Anuncio-6</span></a></li>
     														</ul>
     													</div> 
     												</div>
@@ -155,48 +148,48 @@ export default function TemplatePage() {
     						            </li>
     									<li className="nav-item dropdown mega-dropdown-sm">
     										<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-    											data-bs-auto-close="outside" aria-expanded="false">Pages
+    											data-bs-auto-close="outside" aria-expanded="false">Páginas
     										</a>
     										<ul className="dropdown-menu">
     							                <li className="row gx-1">
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Essential</h6>
+    														<h6 className="mega-menu-title">Esenciales</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/about_us_01" className="dropdown-item"><span>About us -1</span></a></li>
-    															<li><a href="/about_us_02" className="dropdown-item"><span>About us -2</span></a></li>
-    															<li><a href="/agency" className="dropdown-item"><span>Agency</span></a></li>
-    															<li><a href="/agency_details" className="dropdown-item"><span>Agency Details</span></a></li>
-    															<li><a href="/agent" className="dropdown-item"><span>Agent</span></a></li>
-    															<li><a href="/agent_details" className="dropdown-item"><span>Agent Details</span></a></li>
+    															<li><a href="/about_us_01" className="dropdown-item"><span>Sobre nosotros -1</span></a></li>
+    															<li><a href="/about_us_02" className="dropdown-item"><span>Sobre nosotros -2</span></a></li>
+    															<li><a href="/agency" className="dropdown-item"><span>Agencia</span></a></li>
+    															<li><a href="/agency_details" className="dropdown-item"><span>Detalles de la Agencia</span></a></li>
+    															<li><a href="/agent" className="dropdown-item"><span>Agente</span></a></li>
+    															<li><a href="/agent_details" className="dropdown-item"><span>Detalles del Agente</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Features</h6>
+    														<h6 className="mega-menu-title">Características</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/project_01" className="dropdown-item"><span>Project -1</span></a></li>
-    															<li><a href="/project_02" className="dropdown-item"><span>Project -2</span></a></li>
-    															<li><a href="/project_03" className="dropdown-item"><span>Project -3</span></a></li>
-    															<li><a href="/project_04" className="dropdown-item"><span>Project -4</span></a></li>
-    															<li><a href="/project_details_01" className="dropdown-item"><span>Project Details</span></a></li>
-    															<li><a href="/service_01" className="dropdown-item"><span>Services -1</span></a></li>
-    															<li><a href="/service_02" className="dropdown-item"><span>Services -2</span></a></li>
-    															<li><a href="/service_details" className="dropdown-item"><span>Service Details</span></a></li>
+    															<li><a href="/project_01" className="dropdown-item"><span>Proyecto -1</span></a></li>
+    															<li><a href="/project_02" className="dropdown-item"><span>Proyecto -2</span></a></li>
+    															<li><a href="/project_03" className="dropdown-item"><span>Proyecto -3</span></a></li>
+    															<li><a href="/project_04" className="dropdown-item"><span>Proyecto -4</span></a></li>
+    															<li><a href="/project_details_01" className="dropdown-item"><span>Detalles del Proyecto</span></a></li>
+    															<li><a href="/service_01" className="dropdown-item"><span>Servicios -1</span></a></li>
+    															<li><a href="/service_02" className="dropdown-item"><span>Servicios -2</span></a></li>
+    															<li><a href="/service_details" className="dropdown-item"><span>Detalles del Servicio</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Others</h6>
+    														<h6 className="mega-menu-title">Otros</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/compare" className="dropdown-item"><span>Property Compare</span></a></li>
-    															<li><a href="/pricing_01" className="dropdown-item"><span>Pricing -1</span></a></li>
-    															<li><a href="/pricing_02" className="dropdown-item"><span>Pricing -2</span></a></li>
-    															<li><a href="/contact" className="dropdown-item"><span>Contact Us</span></a></li>
-    															<li><a href="/faq" className="dropdown-item"><span>FAQ's</span></a></li>
-    															<li><a href="/404" className="dropdown-item"><span>404-Error</span></a></li>
+    															<li><a href="/compare" className="dropdown-item"><span>Comparar Propiedades</span></a></li>
+    															<li><a href="/pricing_01" className="dropdown-item"><span>Precios -1</span></a></li>
+    															<li><a href="/pricing_02" className="dropdown-item"><span>Precios -2</span></a></li>
+    															<li><a href="/contact" className="dropdown-item"><span>Contacto</span></a></li>
+    															<li><a href="/faq" className="dropdown-item"><span>Preguntas Frecuentes</span></a></li>
+    															<li><a href="/404" className="dropdown-item"><span>Error 404</span></a></li>
     														</ul>
     													</div> 
     												</div>
@@ -208,14 +201,14 @@ export default function TemplatePage() {
     											data-bs-auto-close="outside" aria-expanded="false">Blog
     										</a>
     										<ul className="dropdown-menu">
-    											<li><a href="/blog_01" className="dropdown-item"><span>Blog Grid</span></a></li>
-    											<li><a href="/blog_02" className="dropdown-item"><span>Blog List</span></a></li>
-    											<li><a href="/blog_03" className="dropdown-item"><span>Blog 2 column</span></a></li>
-    											<li><a href="/blog_details" className="dropdown-item"><span>Blog Details</span></a></li>
+    											<li><a href="/blog_01" className="dropdown-item"><span>Cuadrícula del Blog</span></a></li>
+    											<li><a href="/blog_02" className="dropdown-item"><span>Lista del Blog</span></a></li>
+    											<li><a href="/blog_03" className="dropdown-item"><span>Blog 2 columnas</span></a></li>
+    											<li><a href="/blog_details" className="dropdown-item"><span>Detalles del Blog</span></a></li>
     										</ul>
     									</li>
     									<li className="d-md-none ps-2 pe-2 mt-20">
-    										<a href="/dashboard/add-property" className="btn-ten w-100 rounded-0" target="_blank" rel="noopener noreferrer"><span>Add Listing</span> <i className="bi bi-arrow-up-right"></i></a>
+    										<a href="/dashboard/add-property" className="btn-ten w-100 rounded-0" target="_blank" rel="noopener noreferrer"><span>Añadir Anuncio</span> <i className="bi bi-arrow-up-right"></i></a>
     									</li>
     								</ul>
     							</div>
@@ -225,18 +218,13 @@ export default function TemplatePage() {
     			</div> 
     		</header> 
 
-
-
-
-
-
     		<div className="blog-details border-top mt-130 xl-mt-100 pt-100 xl-pt-80 mb-150 xl-mb-100">
     			<div className="container">
                     <div className="row gx-xl-5">
                         <div className="col-lg-8">
                             <div className="blog-post-meta mb-60 lg-mb-40">
                                 <div className="post-info"><a href="/blog_02">Rashed Kabir .</a> 6 min</div>
-                                <h3 className="blog-title">Print, publishing qui visual ux layout mockups.</h3>
+                                <h3 className="blog-title">Impresión, publicación qui visual ux layout mockups.</h3>
                             </div>
                         </div>
                     </div>
@@ -253,32 +241,32 @@ export default function TemplatePage() {
                                         <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto"><img src="/images/lazy.svg" data-src="/images/icon/icon_67.svg" alt="" className="lazy-img" /></div>
                                         <div className="row">
                                             <div className="col-xxl-10 col-xl-11 col-lg-12 col-md-9 m-auto">
-                                                <h4>Quick solutions coupled with extraordinary nice performance—a recommendation that's great.</h4>
+                                                <h4>Soluciones rápidas combinadas con un rendimiento agradable y extraordinario: una recomendación excelente.</h4>
                                             </div>
                                         </div>
-                                        <h6>James Bond. <span>USA</span></h6>
+                                        <h6>James Bond. <span>EE. UU.</span></h6>
                                     </div>
-                                    <h5>Easy Process for Buy an Apartments</h5>
-                                    <p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehenderit .</p>
+                                    <h5>Proceso sencillo para comprar un apartamento</h5>
+                                    <p>Un toque de una estufa al rojo vivo suele ser todo lo que necesitamos para evitar ese tipo de incomodidad en quis elit future. Lo mismo Duis aute irure dolor in reprehenderit.</p>
                                     <ul className="style-none list-item">
-                                        <li>Find the problem first</li>
-                                        <li>Make research and find out the solution</li>
-                                        <li>Finalize the solution &amp; apply.</li>
+                                        <li>Encuentra primero el problema</li>
+                                        <li>Investiga y encuentra la solución</li>
+                                        <li>Finaliza la solución y aplícala.</li>
                                     </ul>
-                                    <p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis future. The same Duis aute irure dolor in reprehenderit. sunt in culpa qui official deserunt mollit anim id avoid est laborum.</p>
+                                    <p>Un toque de una estufa al rojo vivo suele ser todo lo que necesitamos para evitar ese tipo de incomodidad en quis future. Lo mismo Duis aute irure dolor in reprehenderit. sunt in culpa qui official deserunt mollit anim id avoid est laborum.</p>
                                     <div className="img-meta"><img src="/images/lazy.svg" data-src="/images/blog/blog_img_16.jpg" alt="" className="lazy-img w-100" /></div>
-                                    <div className="img-caption">Buy or rent properties with no commission</div>
+                                    <div className="img-caption">Compra o alquila propiedades sin comisión</div>
                                     <p>Tomfoolery crikey bits and bobs brilliant bamboozled down the pub amongst brolly hanky panky, cack bonnet arse over tit burke bugger all mate bodge. cillum dolore fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official deserunt mollit anim  Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Sit amet ris nullam eget felis.</p>
                                 </div>
                                 <div className="bottom-widget d-sm-flex align-items-center justify-content-between">
                                     <ul className="d-flex align-items-center tags style-none pt-20">
-                                        <li>Tag:</li>
-                                        <li><a href="#">Apartments,</a></li>
-                                        <li><a href="#">loan,</a></li>
-                                        <li><a href="#">Sale</a></li>
+                                        <li>Etiqueta:</li>
+                                        <li><a href="#">Apartamentos,</a></li>
+                                        <li><a href="#">préstamo,</a></li>
+                                        <li><a href="#">Venta</a></li>
                                     </ul>
                                     <ul className="d-flex share-icon align-items-center style-none pt-20">
-                                        <li>Share:</li>
+                                        <li>Compartir:</li>
                                         <li><a href="#"><i className="fa-brands fa-whatsapp"></i></a></li>
                                         <li><a href="#"><i className="fa-brands fa-x-twitter"></i></a></li>
                                         <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
@@ -288,21 +276,21 @@ export default function TemplatePage() {
                             </article>
 
                             <div className="blog-comment-area">
-                                <h3 className="blog-inner-title pb-35">2 Comments</h3>
+                                <h3 className="blog-inner-title pb-35">2 Comentarios</h3>
                                 <div className="comment position-relative d-flex">
                                     <img src="/images/lazy.svg" data-src="/images/blog/avatar_01.jpg" alt="" className="lazy-img user-avatar rounded-circle" />
                                     <div className="comment-text">
                                         <div className="name fw-500">Al Hasani</div>
-                                        <div className="date">27 Aug, 2023, 4:10pm</div>
-                                        <p>One touch of a red-hot stove is usually all we need to avoid that kind of lorem discomfort in future. The same true we experience </p>
-                                        <a href="#" className="reply-btn tran3s">Reply</a>
+                                        <div className="date">27 Ago, 2023, 4:10pm</div>
+                                        <p>Un toque de una estufa al rojo vivo suele ser todo lo que necesitamos para evitar ese tipo de lorem incomodidad en el futuro. Lo mismo que experimentamos</p>
+                                        <a href="#" className="reply-btn tran3s">Responder</a>
     									<div className="comment position-relative reply-comment d-flex">
     										<img src="/images/lazy.svg" data-src="/images/blog/avatar_02.jpg" alt="" className="lazy-img user-avatar rounded-circle" />
     										<div className="comment-text">
     											<div className="name fw-500">Rashed ka.</div>
-    											<div className="date">29 Aug, 2023, 7:30pm</div>
+    											<div className="date">29 Ago, 2023, 7:30pm</div>
     											<p>Lorem ipsum dolor sit amet consectetur. Feugiat suspendisse ipsum purus in pharetra neque libero. Varius ut consectetur pellentesque</p>
-    											<a href="#" className="reply-btn tran3s">Reply</a>
+    											<a href="#" className="reply-btn tran3s">Responder</a>
     										</div> 
     									</div> 
                                     </div> 
@@ -311,19 +299,19 @@ export default function TemplatePage() {
                                     <img src="/images/lazy.svg" data-src="/images/blog/avatar_03.jpg" alt="" className="lazy-img user-avatar rounded-circle" />
                                     <div className="comment-text">
                                         <div className="name fw-500">Jubayer Al Hasan</div>
-                                        <div className="date">12 June, 2023, 7:30pm</div>
+                                        <div className="date">12 Junio, 2023, 7:30pm</div>
                                         <p>Lorem ipsum dolor sit amet consectetur. Enim in aceu velit. Euismod non posu pellentesque neque. Feugiat cras egestas facilisis.</p>
-                                        <a href="#" className="reply-btn tran3s">Reply</a>
+                                        <a href="#" className="reply-btn tran3s">Responder</a>
                                     </div> 
                                 </div> 
                             </div>
 
     						<div className="blog-comment-form">
-    							<h3 className="blog-inner-title">Leave A Comment</h3>
-    							<p><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="text-decoration-underline fw-500">Sign in</a> Sign-in to post your comment or signup if you don’t have any account.</p>
+    							<h3 className="blog-inner-title">Deja un Comentario</h3>
+    							<p><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="text-decoration-underline fw-500">Inicia sesión</a> para publicar tu comentario o regístrate si no tienes una cuenta.</p>
     							<form action="#" className="mt-30">
     								<div className="input-wrapper mb-30">
-    									<label>Name*</label>
+    									<label>Nombre*</label>
     									<input type="text" placeholder="Rashed Kabir" />
     								</div> 
     								<div className="input-wrapper mb-40">
@@ -331,9 +319,9 @@ export default function TemplatePage() {
     									<input type="email" placeholder="rshdkabir@gmail.com" />
     								</div> 
     								<div className="input-wrapper mb-30">
-    									<textarea placeholder="Your Comment"></textarea>
+    									<textarea placeholder="Tu Comentario"></textarea>
     								</div> 
-    								<button className="btn-five rounded-0">Post Comment</button>
+    								<button className="btn-five rounded-0">Publicar Comentario</button>
     							</form>
     						</div>
 
@@ -342,58 +330,56 @@ export default function TemplatePage() {
     						<div className="blog-sidebar dot-bg ms-xxl-4 md-mt-60">
     							<div className="search-form bg-white mb-30">
                                     <form action="#" className="position-relative">
-                                        <input type="text" placeholder="Search..." />
+                                        <input type="text" placeholder="Buscar..." />
                                         <button><i className="fa-sharp fa-regular fa-magnifying-glass"></i></button>
                                     </form>
                                 </div>
 
-
     							<div className="categories bg-white bg-wrapper mb-30">
-    								<h5 className="mb-20">Category</h5>
+    								<h5 className="mb-20">Categoría</h5>
     								<ul className="style-none">
                                         <li><a href="#">Digital  (3)</a></li>
                                         <li><a href="#">Marketing (4)</a></li>
-                                        <li><a href="#">Design (2)</a></li>
+                                        <li><a href="#">Diseño (2)</a></li>
                                         <li><a href="#">WordPress (8)</a></li>
                                         <li><a href="#">Plugin (5)</a></li>
-                                        <li><a href="#">Developer (3)</a></li>
-                                        <li><a href="#">Account (7)</a></li>
+                                        <li><a href="#">Desarrollador (3)</a></li>
+                                        <li><a href="#">Cuenta (7)</a></li>
                                     </ul>
     							</div>
 
-
     							<div className="recent-news bg-white bg-wrapper mb-30">
-    								<h5 className="mb-20">Recent News</h5>
+    								<h5 className="mb-20">Noticias Recientes</h5>
     								<div className="news-block d-flex align-items-center pb-25">
                                         <div><img src="/images/lazy.svg" data-src="/images/blog/blog_img_08.jpg" alt="" className="lazy-img" /></div>
                                         <div className="post ps-4">
-                                            <h4 className="mb-5"><a href="/blog_details" className="title tran3s">10 days quick challenge for boost visitors.</a></h4>
-                                            <div className="date">23 July, 2022</div>
+                                            <h4 className="mb-5"><a href="/blog_details" className="title tran3s">Desafío rápido de 10 días para aumentar visitantes.</a></h4>
+                                            <div className="date">23 Julio, 2022</div>
                                         </div>
                                     </div>
                                     <div className="news-block d-flex align-items-center pb-25">
                                         <div><img src="/images/lazy.svg" data-src="/images/blog/blog_img_09.jpg" alt="" className="lazy-img" /></div>
                                         <div className="post ps-4">
-                                            <h4 className="mb-5"><a href="/blog_details" className="title tran3s">Speaking remotely at WordCamp US.</a></h4>
-                                            <div className="date">23 July, 2022</div>
+                                            <h4 className="mb-5"><a href="/blog_details" className="title tran3s">Hablando de forma remota en WordCamp US.</a></h4>
+                                            <div className="date">23 Julio, 2022</div>
                                         </div>
                                     </div>
                                     <div className="news-block d-flex align-items-center">
                                         <div><img src="/images/lazy.svg" data-src="/images/blog/blog_img_10.jpg" alt="" className="lazy-img" /></div>
                                         <div className="post ps-4">
-                                            <h4 className="mb-5"><a href="/blog_details" className="title tran3s">Monthly Roundup event December 2022.</a></h4>
-                                            <div className="date">23 July, 2022</div>
+                                            <h4 className="mb-5"><a href="/blog_details" className="title tran3s">Evento resumen mensual diciembre 2022.</a></h4>
+                                            <div className="date">23 Julio, 2022</div>
                                         </div>
                                     </div>
     							</div>
 
                                 <div className="keyword bg-white bg-wrapper">
-    								<h5 className="mb-20">Keywords</h5>
+    								<h5 className="mb-20">Palabras clave</h5>
     								<ul className="style-none d-flex flex-wrap">
                                         <li><a href="#">Ideas</a></li>
-                                        <li><a href="#">Education</a></li>
-                                        <li><a href="#">Design</a></li>
-                                        <li><a href="#">Development</a></li>
+                                        <li><a href="#">Educación</a></li>
+                                        <li><a href="#">Diseño</a></li>
+                                        <li><a href="#">Desarrollo</a></li>
                                         <li><a href="#">Branding</a></li>
                                     </ul>
     							</div>
@@ -405,37 +391,27 @@ export default function TemplatePage() {
     			</div>
     		</div>
 
-
-
-
-
-
     		<div className="fancy-banner-two position-relative z-1 pt-90 lg-pt-50 pb-90 lg-pb-50">
     			<div className="container">
     				<div className="row align-items-center">
     					<div className="col-lg-6">
     						<div className="title-one text-center text-lg-start md-mb-40 pe-xl-5">
-    							<h3 className="text-white m0">Start your <span>Journey<img src="/images/lazy.svg" data-src="/images/shape/title_shape_06.svg" alt="" className="lazy-img" /></span> As a Retailer.</h3>
+    							<h3 className="text-white m0">Comienza tu <span>Viaje<img src="/images/lazy.svg" data-src="/images/shape/title_shape_06.svg" alt="" className="lazy-img" /></span> Como Minorista.</h3>
     						</div>
 
     					</div>
     					<div className="col-lg-6">
     						<div className="form-wrapper me-auto ms-auto me-lg-0">
     							<form action="#">
-    								<input type="email" placeholder="Email address" className="rounded-0" />
-    								<button className="rounded-0">Get Started</button>
+    								<input type="email" placeholder="Dirección de correo electrónico" className="rounded-0" />
+    								<button className="rounded-0">Comenzar</button>
     							</form>
-    							<div className="fs-16 mt-10 text-white">Already a Agent? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in.</a></div>
+    							<div className="fs-16 mt-10 text-white">¿Ya eres Agente? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Inicia sesión.</a></div>
     						</div>
     					</div>
     				</div>
     			</div>
     		</div>
-
-
-
-
-
 
     		<div className="footer-four position-relative z-1">
     			<div className="container container-large">
@@ -449,7 +425,7 @@ export default function TemplatePage() {
     									</a>
     								</div> 
 
-    								<p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>
+    								<p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, Estados Unidos</p>
     								<a href="#" className="email tran3s mb-60 md-mb-30">hello@homerealestate.com</a>
     								<ul className="style-none d-flex align-items-center social-icon">
     									<li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
@@ -460,15 +436,15 @@ export default function TemplatePage() {
     						</div>
     						<div className="col-lg-3 col-sm-4 ms-auto mb-30">
     							<div className="footer-nav ps-xl-5">
-    								<h5 className="footer-title">Links</h5>
+    								<h5 className="footer-title">Enlaces</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/">Home</a></li>
-    									<li><a href="/dashboard/membership" target="_blank" rel="noopener noreferrer">Membership</a></li>
-    									<li><a href="/about_us_01">About Company</a></li>
+    									<li><a href="/">Inicio</a></li>
+    									<li><a href="/dashboard/membership" target="_blank" rel="noopener noreferrer">Membresía</a></li>
+    									<li><a href="/about_us_01">Sobre la Empresa</a></li>
     									<li><a href="/blog_01">Blog</a></li>
-    									<li><a href="/blog_02">Explore Careers</a></li>
-    									<li><a href="/pricing_02">Pricing</a></li>
-    									<li><a href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Dashboard</a></li>
+    									<li><a href="/blog_02">Explorar Carreras</a></li>
+    									<li><a href="/pricing_02">Precios</a></li>
+    									<li><a href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Panel</a></li>
     								</ul>
     							</div>
     						</div>
@@ -476,23 +452,23 @@ export default function TemplatePage() {
     							<div className="footer-nav">
     								<h5 className="footer-title">Legal</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/faq">Terms & conditions</a></li>
-    									<li><a href="/faq">Cookie</a></li>
-    									<li><a href="/faq">Privacy policy</a></li>
-    									<li><a href="/faq">Faq’s</a></li>
+    									<li><a href="/faq">Términos y condiciones</a></li>
+    									<li><a href="/faq">Cookies</a></li>
+    									<li><a href="/faq">Política de privacidad</a></li>
+    									<li><a href="/faq">Preguntas Frecuentes</a></li>
     								</ul>
     							</div>
     						</div>
     						<div className="col-lg-2 col-sm-4 mb-30">
     							<div className="footer-nav">
-    								<h5 className="footer-title">New Listing</h5>
+    								<h5 className="footer-title">Nuevos Anuncios</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/listing_01">​Buy Apartments</a></li>
-    									<li><a href="/listing_02">Buy Condos</a></li>
-    									<li><a href="/listing_03">Rent Houses</a></li>
-    									<li><a href="/listing_04">Rent Industrial</a></li>
-    									<li><a href="/listing_05">Buy Villas</a></li>
-    									<li><a href="/listing_06">Rent Office</a></li>
+    									<li><a href="/listing_01">​Comprar Apartamentos</a></li>
+    									<li><a href="/listing_02">Comprar Condominios</a></li>
+    									<li><a href="/listing_03">Alquilar Casas</a></li>
+    									<li><a href="/listing_04">Alquilar Industrial</a></li>
+    									<li><a href="/listing_05">Comprar Villas</a></li>
+    									<li><a href="/listing_06">Alquilar Oficina</a></li>
     								</ul>
     							</div>
     						</div>
@@ -506,9 +482,6 @@ export default function TemplatePage() {
     			<img src="/images/lazy.svg" data-src="/images/assets/ils_06.svg" alt="" className="lazy-img shapes shape_01" />
     		</div> 
 
-
-
-
             <div className="modal fade" id="loginModal" tabIndex="-1" aria-hidden="true">
                 <div className="modal-dialog modal-fullscreen modal-dialog-centered">
                     <div className="container">
@@ -517,30 +490,30 @@ export default function TemplatePage() {
     						<div className="form-wrapper m-auto">
     							<ul className="nav nav-tabs w-100" role="tablist">
     								<li className="nav-item" role="presentation">
-    									<button className="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Login</button>
+    									<button className="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Iniciar Sesión</button>
     								</li>
     								<li className="nav-item" role="presentation">
-    									<button className="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Signup</button>
+    									<button className="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Registrarse</button>
     								</li>
     							</ul>
     							<div className="tab-content mt-30">
     								<div className="tab-pane show active" role="tabpanel" id="fc1">
     									<div className="text-center mb-20">
-    										<h2>Welcome Back!</h2>
-    										<p className="fs-20 color-dark">Still don't have an account? <a href="#">Sign up</a></p>
+    										<h2>¡Bienvenido de Nuevo!</h2>
+    										<p className="fs-20 color-dark">¿Aún no tienes una cuenta? <a href="#">Regístrate</a></p>
     									</div>
     									<form action="#">
     										<div className="row">
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
     													<label>Email*</label>
-    													<input type="email" placeholder="Youremail@gmail.com" />
+    													<input type="email" placeholder="Tuemail@gmail.com" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-20">
-    													<label>Password*</label>
-    													<input type="password" placeholder="Enter Password" className="pass_log_id" />
+    													<label>Contraseña*</label>
+    													<input type="password" placeholder="Ingresa la Contraseña" className="pass_log_id" />
     													<span className="placeholder_icon"><span className="passVicon"><img src="/images/icon/icon_68.svg" alt="" /></span></span>
     												</div>
     											</div>
@@ -548,13 +521,13 @@ export default function TemplatePage() {
     												<div className="agreement-checkbox d-flex justify-content-between align-items-center">
     													<div>
     														<input type="checkbox" id="remember" />
-    														<label htmlFor="remember">Keep me logged in</label>
+    														<label htmlFor="remember">Mantenerme conectado</label>
     													</div>
-    													<a href="#">Forget Password?</a>
+    													<a href="#">¿Olvidaste la Contraseña?</a>
     												</div> 
     											</div>
     											<div className="col-12">
-    												<button className="btn-two w-100 text-uppercase d-block mt-20">Login</button>
+    												<button className="btn-two w-100 text-uppercase d-block mt-20">Iniciar Sesión</button>
     											</div>
     										</div>
     									</form>
@@ -562,14 +535,14 @@ export default function TemplatePage() {
 
     								<div className="tab-pane" role="tabpanel" id="fc2">
     									<div className="text-center mb-20">
-    										<h2>Register</h2>
-    										<p className="fs-20 color-dark">Already have an account? <a href="#">Login</a></p>
+    										<h2>Registrarse</h2>
+    										<p className="fs-20 color-dark">¿Ya tienes una cuenta? <a href="#">Iniciar Sesión</a></p>
     									</div>
     									<form action="#">
     										<div className="row">
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Name*</label>
+    													<label>Nombre*</label>
     													<input type="text" placeholder="Zubayer Hasan" />
     												</div>
     											</div>
@@ -581,8 +554,8 @@ export default function TemplatePage() {
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-20">
-    													<label>Password*</label>
-    													<input type="password" placeholder="Enter Password" className="pass_log_id" />
+    													<label>Contraseña*</label>
+    													<input type="password" placeholder="Ingresa la Contraseña" className="pass_log_id" />
     													<span className="placeholder_icon"><span className="passVicon"><img src="/images/icon/icon_68.svg" alt="" /></span></span>
     												</div>
     											</div>
@@ -590,12 +563,12 @@ export default function TemplatePage() {
     												<div className="agreement-checkbox d-flex justify-content-between align-items-center">
     													<div>
     														<input type="checkbox" id="remember2" />
-    														<label htmlFor="remember2">By hitting the "Register" button, you agree to the <a href="#">Terms conditions</a> & <a href="#">Privacy Policy</a></label>
+    														<label htmlFor="remember2">Al hacer clic en el botón "Registrarse", aceptas los <a href="#">Términos y condiciones</a> y la <a href="#">Política de privacidad</a></label>
     													</div>
     												</div> 
     											</div>
     											<div className="col-12">
-    												<button className="btn-two w-100 text-uppercase d-block mt-20">Sign Up</button>
+    												<button className="btn-two w-100 text-uppercase d-block mt-20">Registrarse</button>
     											</div>
     										</div>
     									</form>
@@ -605,20 +578,20 @@ export default function TemplatePage() {
 
     							<div className="d-flex align-items-center mt-30 mb-10">
     								<div className="line"></div>
-    								<span className="pe-3 ps-3 fs-6">OR</span>
+    								<span className="pe-3 ps-3 fs-6">O</span>
     								<div className="line"></div>
     							</div>
     							<div className="row">
     								<div className="col-sm-6">
     									<a href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
     										<img src="/images/icon/google.png" alt="" />
-    										<span className="ps-3">Signup with Google</span>
+    										<span className="ps-3">Registrarse con Google</span>
     									</a>
     								</div>
     								<div className="col-sm-6">
     									<a href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
     										<img src="/images/icon/facebook.png" alt="" />
-    										<span className="ps-3">Signup with Facebook</span>
+    										<span className="ps-3">Registrarse con Facebook</span>
     									</a>
     								</div>
     							</div>
@@ -630,41 +603,9 @@ export default function TemplatePage() {
                 </div>
             </div>
 
-
-
     		<button className="scroll-top">
     			<i className="bi bi-arrow-up-short"></i>
     		</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     	</div>
     </TemplatePageShell>
