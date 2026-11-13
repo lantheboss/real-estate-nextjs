@@ -3,9 +3,9 @@
 import { TemplatePageShell } from "@/components/template-page-shell";
 
 export const metadata = {
-  title: "Home Real Estate Next.js Template & Dashboard",
-  description: "Home Real Estate is a modern Next.js template designed for real estate agencies.",
-  keywords: ["Real estate","Property sale","Property buy"],
+  title: "Plantilla Inmobiliaria Home Real Estate Next.js y Panel de Control",
+  description: "Home Real Estate es una plantilla moderna de Next.js diseñada para agencias inmobiliarias.",
+  keywords: ["Bienes raíces","Venta de propiedades","Compra de propiedades"],
 };
 
 const scripts = [
@@ -46,47 +46,47 @@ export default function TemplatePage() {
     					<ul className="style-none">
     						<li className="plr"><a href="/dashboard/dashboard-index" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_1.svg" alt="" />
-    							<span>Dashboard</span>
+    							<span>Panel de Control</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/message" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_2.svg" alt="" />
-    							<span>Message</span>
+    							<span>Mensajes</span>
     						</a></li>
     						<li className="bottom-line pt-30 lg-pt-20 mb-40 lg-mb-30"></li>
-    						<li><div className="nav-title">Profile</div></li>
+    						<li><div className="nav-title">Perfil</div></li>
     						<li className="plr"><a href="/dashboard/profile" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_3.svg" alt="" />
-    							<span>Profile</span>
+    							<span>Perfil</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/account-settings" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_4.svg" alt="" />
-    							<span>Account Settings</span>
+    							<span>Configuración de Cuenta</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/membership" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_5.svg" alt="" />
-    							<span>Membership</span>
+    							<span>Membresía</span>
     						</a></li>
     						<li className="bottom-line pt-30 lg-pt-20 mb-40 lg-mb-30"></li>
-    						<li><div className="nav-title">Listing</div></li>
+    						<li><div className="nav-title">Propiedades</div></li>
     						<li className="plr"><a href="/dashboard/properties-list" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_6.svg" alt="" />
-    							<span>My Properties</span>
+    							<span>Mis Propiedades</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/add-property" className="d-flex w-100 align-items-center active">
     							<img src="/dashboard/images/icon/icon_7_active.svg" alt="" />
-    							<span>Add New Property</span>
+    							<span>Añadir Propiedad</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/favourites" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_8.svg" alt="" />
-    							<span>Favourites</span>
+    							<span>Favoritos</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/saved-search" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_9.svg" alt="" />
-    							<span>Saved Search</span>
+    							<span>Búsquedas Guardadas</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/review" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_10.svg" alt="" />
-    							<span>Reviews</span>
+    							<span>Reseñas</span>
     						</a></li>
     					</ul>
     				</nav>
@@ -96,14 +96,14 @@ export default function TemplatePage() {
     					<div className="progress-line position-relative">
     						<div className="inner-line" style={{ width: "80%" }}></div>
     					</div>
-    					<p>Profile Complete</p>
+    					<p>Perfil Completado</p>
     				</div>
 
 
     				<div className="plr">
     					<a href="#" className="d-flex w-100 align-items-center logout-btn">
     						<div className="icon tran3s d-flex align-items-center justify-content-center rounded-circle"><img src="/dashboard/images/icon/icon_41.svg" alt="" /></div>
-    						<span>Logout</span>
+    						<span>Cerrar Sesión</span>
     					</a>
     				</div>
     			</div>
@@ -116,12 +116,12 @@ export default function TemplatePage() {
 
     				<header className="dashboard-header">
     					<div className="d-flex align-items-center justify-content-end">
-    						<h4 className="m0 d-none d-lg-block">Add New Property</h4>
+    						<h4 className="m0 d-none d-lg-block">Añadir Propiedad</h4>
     						<button className="dash-mobile-nav-toggler d-block d-md-none me-auto">
     							<span></span>
     						</button>
     						<form action="#" className="search-form ms-auto">
-    							<input type="text" placeholder="Search here.." />
+    							<input type="text" placeholder="Buscar aquí..." />
     							<button><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_43.svg" alt="" className="lazy-img m-auto" /></button>
     						</form>
     						<div className="profile-notification position-relative dropdown-center ms-3 ms-md-5 me-4">
@@ -131,27 +131,27 @@ export default function TemplatePage() {
     							</button>
     							<ul className="dropdown-menu" aria-labelledby="notification-dropdown">
     								<li>
-    									<h4>Notification</h4>
+    									<h4>Notificaciones</h4>
     									<ul className="style-none notify-list">
     										<li className="d-flex align-items-center unread">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_36.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>You have 3 new mails</h6>
-    												<span className="time">3 hours ago</span>
+    												<h6>Tienes 3 correos nuevos</h6>
+    												<span className="time">Hace 3 horas</span>
     											</div>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_37.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>Your listing post has been approved</h6>
-    												<span className="time">1 day ago</span>
+    												<h6>Tu publicación ha sido aprobada</h6>
+    												<span className="time">Hace 1 día</span>
     											</div>
     										</li>
     										<li className="d-flex align-items-center unread">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_38.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>Your meeting is cancelled</h6>
-    												<span className="time">3 days ago</span>
+    												<h6>Tu reunión ha sido cancelada</h6>
+    												<span className="time">Hace 3 días</span>
     											</div>
     										</li>
     									</ul>
@@ -159,7 +159,7 @@ export default function TemplatePage() {
     							</ul>
     						</div>
     						<div className="d-none d-md-block me-3">
-    							<a href="/dashboard/add-property" className="btn-two"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></a>
+    							<a href="/dashboard/add-property" className="btn-two"><span>Añadir Propiedad</span> <i className="fa-thin fa-arrow-up-right"></i></a>
     						</div>
     						<div className="user-data position-relative">
     							<button className="user-avatar online position-relative rounded-circle dropdown-toggle" type="button" id="profile-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
@@ -169,13 +169,13 @@ export default function TemplatePage() {
     							<div className="user-name-data">
     								<ul className="dropdown-menu" aria-labelledby="profile-dropdown">
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/profile"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_23.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Profile</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/profile"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_23.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Perfil</span></a>
     									</li>
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/account-settings"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_24.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Account Settings</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/account-settings"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_24.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Configuración de Cuenta</span></a>
     									</li>
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_25.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Delete Account</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_25.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Eliminar Cuenta</span></a>
     									</li>
     								</ul>
     							</div>
@@ -185,29 +185,29 @@ export default function TemplatePage() {
     				</header>
 
 
-    				<h2 className="main-title d-block d-lg-none">Add New Property</h2>
+    				<h2 className="main-title d-block d-lg-none">Añadir Propiedad</h2>
 
     				<div className="bg-white card-box border-20">
-                        <h4 className="dash-title-three">Overview</h4>
+                        <h4 className="dash-title-three">Resumen</h4>
                         <div className="dash-input-wrapper mb-30">
-                            <label htmlFor="">Property Title*</label>
-                            <input type="text" placeholder="Your Property Name" />
+                            <label htmlFor="">Título de la Propiedad*</label>
+                            <input type="text" placeholder="Nombre de tu Propiedad" />
                         </div>
 
                         <div className="dash-input-wrapper mb-30">
-                            <label htmlFor="">Description*</label>
-                            <textarea className="size-lg" placeholder="Write about property..."></textarea>
+                            <label htmlFor="">Descripción*</label>
+                            <textarea className="size-lg" placeholder="Escribe sobre la propiedad..."></textarea>
                         </div>
 
                         <div className="row align-items-end">
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Category*</label>
+                                    <label htmlFor="">Categoría*</label>
                                     <select className="nice-select">
-    									<option value="1">Apartments</option>
-    									<option value="2">Condos</option>
-    									<option value="3">Houses</option>
-    									<option value="4">Industrial</option>
+    									<option value="1">Apartamentos</option>
+    									<option value="2">Condominios</option>
+    									<option value="3">Casas</option>
+    									<option value="4">Industriales</option>
     									<option value="6">Villas</option>
     								</select>
                                 </div>
@@ -215,27 +215,27 @@ export default function TemplatePage() {
                             </div>
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Listed in*</label>
+                                    <label htmlFor="">Listado en*</label>
                                     <select className="nice-select">
-    									<option>All Listing</option>
-    									<option>Buy</option>
-                                        <option>Sell</option>
-                                        <option>Rent</option>
+    									<option>Todas las Propiedades</option>
+    									<option>Comprar</option>
+                                        <option>Vender</option>
+                                        <option>Alquilar</option>
     								</select>
                                 </div>
 
                             </div>
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-    								<label htmlFor="">Price*</label>
-                                    <input type="text" placeholder="Your Price" />
+    								<label htmlFor="">Precio*</label>
+                                    <input type="text" placeholder="Tu Precio" />
                                 </div>
 
                             </div>
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-    								<label htmlFor="">Yearly Tax Rate*</label>
-                                    <input type="text" placeholder="Tax Rate" />
+    								<label htmlFor="">Tasa de Impuesto Anual*</label>
+                                    <input type="text" placeholder="Tasa de Impuesto" />
                                 </div>
 
                             </div>
@@ -243,18 +243,18 @@ export default function TemplatePage() {
                     </div>
 
     				<div className="bg-white card-box border-20 mt-40">
-    					<h4 className="dash-title-three">Listing Details</h4>
+    					<h4 className="dash-title-three">Detalles del Anuncio</h4>
     					<div className="row align-items-end">
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Size in ft*</label>
-                                    <input type="text" placeholder="Ex: 3,210 sqft" />
+                                    <label htmlFor="">Tamaño en m²*</label>
+                                    <input type="text" placeholder="Ej: 3,210 m²" />
                                 </div>
 
                             </div>
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Bedrooms*</label>
+                                    <label htmlFor="">Habitaciones*</label>
                                     <select className="nice-select">
     									<option value="0">0</option>
                                         <option value="1">1</option>
@@ -266,7 +266,7 @@ export default function TemplatePage() {
                             </div>
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Bathrooms*</label>
+                                    <label htmlFor="">Baños*</label>
                                     <select className="nice-select">
     									<option value="0">0</option>
                                         <option value="1">1</option>
@@ -278,7 +278,7 @@ export default function TemplatePage() {
                             </div>
     						<div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Kitchens*</label>
+                                    <label htmlFor="">Cocinas*</label>
                                     <select className="nice-select">
     									<option value="0">0</option>
                                         <option value="1">1</option>
@@ -290,7 +290,7 @@ export default function TemplatePage() {
                             </div>
     						<div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Garages</label>
+                                    <label htmlFor="">Garajes</label>
                                     <select className="nice-select">
     									<option value="0">0</option>
                                         <option value="1">1</option>
@@ -302,23 +302,23 @@ export default function TemplatePage() {
                             </div>
     						<div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Garage Size</label>
-                                    <input type="text" placeholder="Ex: 1,230 sqft" />
+                                    <label htmlFor="">Tamaño del Garaje</label>
+                                    <input type="text" placeholder="Ej: 1,230 m²" />
                                 </div>
 
                             </div>
     						<div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Year Built*</label>
-                                    <input type="text" placeholder="Type Year" />
+                                    <label htmlFor="">Año de Construcción*</label>
+                                    <input type="text" placeholder="Escribe el Año" />
                                 </div>
 
                             </div>
                             <div className="col-md-6">
                                 <div className="dash-input-wrapper mb-30">
-                                    <label htmlFor="">Floors No*</label>
+                                    <label htmlFor="">Número de Pisos*</label>
                                     <select className="nice-select">
-    									<option value="0">Ground</option>
+    									<option value="0">Planta Baja</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -328,8 +328,8 @@ export default function TemplatePage() {
                             </div>
     						<div className="col-12">
     							<div className="dash-input-wrapper">
-    								<label htmlFor="">Description*</label>
-    								<textarea className="size-lg" placeholder="Write about property..."></textarea>
+    								<label htmlFor="">Descripción*</label>
+    								<textarea className="size-lg" placeholder="Escribe sobre la propiedad..."></textarea>
     							</div>
 
     						</div>
@@ -338,79 +338,79 @@ export default function TemplatePage() {
 
 
     				<div className="bg-white card-box border-20 mt-40">
-    					<h4 className="dash-title-three">Photo & Video Attachment</h4>
+    					<h4 className="dash-title-three">Adjuntar Foto y Video</h4>
                         <div className="dash-input-wrapper mb-20">
-                            <label htmlFor="">File Attachment*</label>
+                            <label htmlFor="">Archivo Adjunto*</label>
 
                             <div className="attached-file d-flex align-items-center justify-content-between mb-15">
-                                <span>PorpertyImage_01.jpg</span>
+                                <span>ImagenPropiedad_01.jpg</span>
                                 <a href="#" className="remove-btn"><i className="bi bi-x"></i></a>
                             </div>
     						<div className="attached-file d-flex align-items-center justify-content-between mb-15">
-                                <span>PorpertyImage_02.jpg</span>
+                                <span>ImagenPropiedad_02.jpg</span>
                                 <a href="#" className="remove-btn"><i className="bi bi-x"></i></a>
                             </div>
                         </div>
 
                         <div className="dash-btn-one d-inline-block position-relative me-3">
                             <i className="bi bi-plus"></i>
-                            Upload File
+                            Subir Archivo
                             <input type="file" id="uploadCV" name="uploadCV" placeholder="" />
                         </div>
-                        <small>Upload file .jpg,  .png,  .mp4</small>
+                        <small>Sube archivos .jpg, .png, .mp4</small>
     				</div>
 
 
     				<div className="bg-white card-box border-20 mt-40">
-    					<h4 className="dash-title-three m0 pb-5">Select Amenities</h4>
+    					<h4 className="dash-title-three m0 pb-5">Seleccionar Comodidades</h4>
     					<ul className="style-none d-flex flex-wrap filter-input">
     						<li>
     							<input type="checkbox" name="Amenities" value="01" />
-    							<label>A/C & Heating</label>
+    							<label>A/C y Calefacción</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="02" placeholder="" />
-    							<label>Garages</label>
+    							<label>Garajes</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="03" />
-    							<label>Swimming Pool</label>
+    							<label>Piscina</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="04" />
-    							<label>Parking</label>
+    							<label>Estacionamiento</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="05" />
-    							<label>Lake View</label>
+    							<label>Vista al Lago</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="06" />
-    							<label>Garden</label>
+    							<label>Jardín</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="07" />
-    							<label>Disabled Access</label>
+    							<label>Acceso para Discapacitados</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="08" />
-    							<label>Pet Friendly</label>
+    							<label>Apto para Mascotas</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="09" />
-    							<label>Ceiling Height</label>
+    							<label>Altura del Techo</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="10" />
-    							<label>Outdoor Shower</label>
+    							<label>Ducha Exterior</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="11" />
-    							<label>Refrigerator</label>
+    							<label>Refrigerador</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="12" />
-    							<label>Fireplace</label>
+    							<label>Chimenea</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="13" />
@@ -418,81 +418,81 @@ export default function TemplatePage() {
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="14" />
-    							<label>TV Cable</label>
+    							<label>TV por Cable</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="15" />
-    							<label>Barbeque</label>
+    							<label>Parrilla</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="16" />
-    							<label>Laundry</label>
+    							<label>Lavandería</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="17" />
-    							<label>Dryer</label>
+    							<label>Secadora</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="18" />
-    							<label>Lawn</label>
+    							<label>Césped</label>
     						</li>
     						<li>
     							<input type="checkbox" name="Amenities" value="19" />
-    							<label>Elevator</label>
+    							<label>Ascensor</label>
     						</li>
     					</ul>
     				</div>
 
 
     				<div className="bg-white card-box border-20 mt-40">
-    					<h4 className="dash-title-three">Address & Location</h4>
+    					<h4 className="dash-title-three">Dirección y Ubicación</h4>
     					<div className="row">
     						<div className="col-12">
     							<div className="dash-input-wrapper mb-25">
-    								<label htmlFor="">Address*</label>
+    								<label htmlFor="">Dirección*</label>
     								<input type="text" placeholder="145/A, Ranchview" />
     							</div>
 
     						</div>
     						<div className="col-lg-4">
     							<div className="dash-input-wrapper mb-25">
-    								<label htmlFor="">Country*</label>
+    								<label htmlFor="">País*</label>
     								<select className="nice-select">
-    									<option value="0">Select Country</option>
-    									<option>Afghanistan</option>
+    									<option value="0">Seleccionar País</option>
+    									<option>Afghanistán</option>
     									<option>Albania</option>
-    									<option>Algeria</option>
+    									<option>Argelia</option>
     									<option>Andorra</option>
     									<option>Angola</option>
-    									<option>Antigua and Barbuda</option>
+    									<option>Antigua y Barbuda</option>
     									<option>Argentina</option>
     									<option>Armenia</option>
     									<option>Australia</option>
     									<option>Austria</option>
-    									<option>Azerbaijan</option>
+    									<option>Azerbaiyán</option>
     									<option>Bahamas</option>
-    									<option>Bahrain</option>
-    									<option>Bangladesh</option>
+    									<option>Baréin</option>
+    									<option>Bangladés</option>
     									<option>Barbados</option>
-    									<option>Belarus</option>
-    									<option>Belgium</option>
-    									<option>Belize</option>
-    									<option>Benin</option>
-    									<option>Bhutan</option>
+    									<option>Bielorrusia</option>
+    									<option>Bélgica</option>
+    									<option>Belice</option>
+    									<option>Benín</option>
+    									<option>Bután</option>
     								</select>
     							</div>
 
     						</div>
     						<div className="col-lg-4">
     							<div className="dash-input-wrapper mb-25">
-    								<label htmlFor="">City*</label>
+    								<label htmlFor="">Ciudad*</label>
     								<select className="nice-select">
-    									<option value="0">Select City</option>
+    									<option value="0">Seleccionar Ciudad</option>
     									<option>Dhaka</option>
-    									<option>Tokyo</option>
+    									<option>Tokio</option>
     									<option>Delhi</option>
-    									<option>Shanghai</option>
-    									<option>Mumbai</option>
+    									<option>Shanghái</option>
+    									<option>Bombay</option>
     									<option>Bangalore</option>
     								</select>
     							</div>
@@ -500,14 +500,14 @@ export default function TemplatePage() {
     						</div>
     						<div className="col-lg-4">
     							<div className="dash-input-wrapper mb-25">
-    								<label htmlFor="">State*</label>
+    								<label htmlFor="">Estado*</label>
     								<select className="nice-select">
-    									<option value="0">Select State</option>
+    									<option value="0">Seleccionar Estado</option>
     									<option>Dhaka</option>
-    									<option>Tokyo</option>
+    									<option>Tokio</option>
     									<option>Delhi</option>
-    									<option>Shanghai</option>
-    									<option>Mumbai</option>
+    									<option>Shanghái</option>
+    									<option>Bombay</option>
     									<option>Bangalore</option>
     								</select>
     							</div>
@@ -515,7 +515,7 @@ export default function TemplatePage() {
     						</div>
     						<div className="col-12">
     							<div className="dash-input-wrapper mb-25">
-    								<label htmlFor="">Map Location*</label>
+    								<label htmlFor="">Ubicación en el Mapa*</label>
     								<div className="position-relative">
     									<input type="text" placeholder="XC23+6XC, Moiran, N105" />
     									<button className="location-pin tran3s"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_16.svg" alt="" className="lazy-img m-auto" /></button>
@@ -532,8 +532,8 @@ export default function TemplatePage() {
     				</div>
 
     				<div className="button-group d-inline-flex align-items-center mt-30">
-    					<a href="#" className="dash-btn-two tran3s me-3">Submit Property</a>
-    					<a href="#" className="dash-cancel-btn tran3s">Cancel</a>
+    					<a href="#" className="dash-btn-two tran3s me-3">Enviar Propiedad</a>
+    					<a href="#" className="dash-cancel-btn tran3s">Cancelar</a>
     				</div>				
     			</div>
     		</div>
@@ -547,11 +547,11 @@ export default function TemplatePage() {
                         <div className="remove-account-popup text-center modal-content">
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     						<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_22.svg" alt="" className="lazy-img m-auto" />
-    						<h2>Are you sure?</h2>
-    						<p>Are you sure to delete your account? All data will be lost.</p>
+    						<h2>¿Estás seguro?</h2>
+    						<p>¿Estás seguro de que quieres eliminar tu cuenta? Todos los datos se perderán.</p>
     						<div className="button-group d-inline-flex justify-content-center align-items-center pt-15">
-    							<a href="#" className="confirm-btn fw-500 tran3s me-3">Yes</a>
-    							<button type="button" className="btn-close fw-500 ms-3" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+    							<a href="#" className="confirm-btn fw-500 tran3s me-3">Sí</a>
+    							<button type="button" className="btn-close fw-500 ms-3" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
     						</div>
                         </div>
 
@@ -564,34 +564,6 @@ export default function TemplatePage() {
     		<button className="scroll-top">
     			<i className="bi bi-arrow-up-short"></i>
     		</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     	</div>
     </TemplatePageShell>

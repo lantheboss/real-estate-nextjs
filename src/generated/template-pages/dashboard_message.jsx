@@ -3,9 +3,9 @@
 import { TemplatePageShell } from "@/components/template-page-shell";
 
 export const metadata = {
-  title: "Home Real Estate Next.js Template & Dashboard",
-  description: "Home Real Estate is a modern Next.js template designed for real estate agencies.",
-  keywords: ["Real estate","Property sale","Property buy"],
+  title: "Plantilla Inmobiliaria Home Real Estate Next.js y Panel de Control",
+  description: "Home Real Estate es una plantilla moderna de Next.js diseñada para agencias inmobiliarias.",
+  keywords: ["Bienes raíces","Venta de propiedades","Compra de propiedades"],
 };
 
 const scripts = [
@@ -46,47 +46,47 @@ export default function TemplatePage() {
     					<ul className="style-none">
     						<li className="plr"><a href="/dashboard/dashboard-index" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_1.svg" alt="" />
-    							<span>Dashboard</span>
+    							<span>Panel de Control</span>
     						</a></li>
     						<li className="plr"><a href="#" className="d-flex w-100 align-items-center active">
     							<img src="/dashboard/images/icon/icon_2_active.svg" alt="" />
-    							<span>Message</span>
+    							<span>Mensajes</span>
     						</a></li>
     						<li className="bottom-line pt-30 lg-pt-20 mb-40 lg-mb-30"></li>
-    						<li><div className="nav-title">Profile</div></li>
+    						<li><div className="nav-title">Perfil</div></li>
     						<li className="plr"><a href="/dashboard/profile" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_3.svg" alt="" />
-    							<span>Profile</span>
+    							<span>Perfil</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/account-settings" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_4.svg" alt="" />
-    							<span>Account Settings</span>
+    							<span>Configuración de Cuenta</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/membership" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_5.svg" alt="" />
-    							<span>Membership</span>
+    							<span>Membresía</span>
     						</a></li>
     						<li className="bottom-line pt-30 lg-pt-20 mb-40 lg-mb-30"></li>
-    						<li><div className="nav-title">Listing</div></li>
+    						<li><div className="nav-title">Propiedades</div></li>
     						<li className="plr"><a href="/dashboard/properties-list" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_6.svg" alt="" />
-    							<span>My Properties</span>
+    							<span>Mis Propiedades</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/add-property" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_7.svg" alt="" />
-    							<span>Add New Property</span>
+    							<span>Añadir Propiedad</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/favourites" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_8.svg" alt="" />
-    							<span>Favourites</span>
+    							<span>Favoritos</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/saved-search" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_9.svg" alt="" />
-    							<span>Saved Search</span>
+    							<span>Búsquedas Guardadas</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/review" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_10.svg" alt="" />
-    							<span>Reviews</span>
+    							<span>Reseñas</span>
     						</a></li>
     					</ul>
     				</nav>
@@ -96,14 +96,14 @@ export default function TemplatePage() {
     					<div className="progress-line position-relative">
     						<div className="inner-line" style={{ width: "80%" }}></div>
     					</div>
-    					<p>Profile Complete</p>
+    					<p>Perfil Completado</p>
     				</div>
 
 
     				<div className="plr">
     					<a href="#" className="d-flex w-100 align-items-center logout-btn">
     						<div className="icon tran3s d-flex align-items-center justify-content-center rounded-circle"><img src="/dashboard/images/icon/icon_41.svg" alt="" /></div>
-    						<span>Logout</span>
+    						<span>Cerrar Sesión</span>
     					</a>
     				</div>
     			</div>
@@ -116,12 +116,12 @@ export default function TemplatePage() {
 
     				<header className="dashboard-header">
     					<div className="d-flex align-items-center justify-content-end">
-    						<h4 className="m0 d-none d-lg-block">Message</h4>
+    						<h4 className="m0 d-none d-lg-block">Mensajes</h4>
     						<button className="dash-mobile-nav-toggler d-block d-md-none me-auto">
     							<span></span>
     						</button>
     						<form action="#" className="search-form ms-auto">
-    							<input type="text" placeholder="Search here.." />
+    							<input type="text" placeholder="Buscar aquí..." />
     							<button><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_43.svg" alt="" className="lazy-img m-auto" /></button>
     						</form>
     						<div className="profile-notification position-relative dropdown-center ms-3 ms-md-5 me-4">
@@ -131,27 +131,27 @@ export default function TemplatePage() {
     							</button>
     							<ul className="dropdown-menu" aria-labelledby="notification-dropdown">
     								<li>
-    									<h4>Notification</h4>
+    									<h4>Notificaciones</h4>
     									<ul className="style-none notify-list">
     										<li className="d-flex align-items-center unread">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_36.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>You have 3 new mails</h6>
-    												<span className="time">3 hours ago</span>
+    												<h6>Tienes 3 correos nuevos</h6>
+    												<span className="time">Hace 3 horas</span>
     											</div>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_37.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>Your listing post has been approved</h6>
-    												<span className="time">1 day ago</span>
+    												<h6>Tu publicación ha sido aprobada</h6>
+    												<span className="time">Hace 1 día</span>
     											</div>
     										</li>
     										<li className="d-flex align-items-center unread">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_38.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>Your meeting is cancelled</h6>
-    												<span className="time">3 days ago</span>
+    												<h6>Tu reunión ha sido cancelada</h6>
+    												<span className="time">Hace 3 días</span>
     											</div>
     										</li>
     									</ul>
@@ -159,7 +159,7 @@ export default function TemplatePage() {
     							</ul>
     						</div>
     						<div className="d-none d-md-block me-3">
-    							<a href="/dashboard/add-property" className="btn-two"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></a>
+    							<a href="/dashboard/add-property" className="btn-two"><span>Añadir Propiedad</span> <i className="fa-thin fa-arrow-up-right"></i></a>
     						</div>
     						<div className="user-data position-relative">
     							<button className="user-avatar online position-relative rounded-circle dropdown-toggle" type="button" id="profile-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
@@ -169,13 +169,13 @@ export default function TemplatePage() {
     							<div className="user-name-data">
     								<ul className="dropdown-menu" aria-labelledby="profile-dropdown">
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/profile"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_23.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Profile</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/profile"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_23.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Perfil</span></a>
     									</li>
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/account-settings"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_24.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Account Settings</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/account-settings"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_24.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Configuración de Cuenta</span></a>
     									</li>
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_25.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Delete Account</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_25.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Eliminar Cuenta</span></a>
     									</li>
     								</ul>
     							</div>
@@ -191,10 +191,10 @@ export default function TemplatePage() {
     							<div className="new-email-header position-relative">
     								<div className="btn-group">
     									<a data-bs-toggle="collapse" href="#CC-input" role="button" aria-expanded="false" aria-controls="collapseExample">Cc</a>
-    									<a data-bs-toggle="collapse" href="#BCC-input" role="button" aria-expanded="false" aria-controls="collapseExample">Bcc</a>
+    									<a data-bs-toggle="collapse" href="#BCC-input" role="button" aria-expanded="false" aria-controls="collapseExample">Cco</a>
     								</div>
     								<div className="input-group d-flex align-items-center">
-    									<div className="text-center" style={{ width: "60px" }}>To</div>
+    									<div className="text-center" style={{ width: "60px" }}>Para</div>
     									<input type="email" className="flex-fill" placeholder="payoneer@inquiry.com" />
     								</div>
     								<div className="collapse" id="CC-input">
@@ -205,15 +205,15 @@ export default function TemplatePage() {
     								</div>
     								<div className="collapse" id="BCC-input">
     									<div className="input-group d-flex align-items-center">
-    										<div className="text-center" style={{ width: "60px" }}>Bcc</div>
+    										<div className="text-center" style={{ width: "60px" }}>Cco</div>
     										<input type="email" className="flex-fill" placeholder="payoneer@inquiry.com" />
     									</div>
     								</div>
     							</div>
 
     							<div className="compose-body">
-    								<textarea>Hi, Mary Cooper! 
-    Thanks for your invitation for the account manager position for you company. I Will back to you soon with all the require documents.</textarea>
+    								<textarea>Hola, Mary Cooper! 
+    Gracias por tu invitación para el puesto de gerente de cuentas en tu empresa. Me pondré en contacto contigo pronto con todos los documentos requeridos.</textarea>
     							</div>
 
 
@@ -232,7 +232,7 @@ export default function TemplatePage() {
 
     								<div className="d-flex align-items-center">
     									<a href="#" className="delete-mail me-3"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_35.svg" alt="" className="lazy-img" /></a>
-    									<a href="#" className="reply-btn tran3s">Reply</a>
+    									<a href="#" className="reply-btn tran3s">Responder</a>
     								</div>
     							</div>
 
@@ -242,7 +242,7 @@ export default function TemplatePage() {
     					</div>
                         <div className="col-lg-4">
                             <div className="d-flex align-items-center justify-content-between">
-    							<h2 className="main-title d-block d-lg-none m0">Messages</h2>
+    							<h2 className="main-title d-block d-lg-none m0">Mensajes</h2>
                                 <a className="new-message-compose rounded-circle" data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasScrolling">+</a>
                             </div>
                         </div>
@@ -251,7 +251,7 @@ export default function TemplatePage() {
                                 <a href="javascript:void()" className="prev-msg"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_26.svg" alt="" className="lazy-img" /></a>
                                 <div className="d-flex align-items-center">
     								<a href="#"><i className="bi bi-chevron-left"></i></a>
-    								<span>1-5 of 120</span>
+    								<span>1-5 de 120</span>
     								<a href="#"><i className="bi bi-chevron-right"></i></a>
                                 </div>
                                 <a href="javascript:void()" className="next-msg"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_27.svg" alt="" className="lazy-img" /></a>
@@ -267,29 +267,29 @@ export default function TemplatePage() {
     								<div className="message-sidebar pt-20">
     									<div className="ps-3 pe-3 ps-xxl-4 pe-xxl-4">
     										<div className="d-flex align-items-center justify-content-between">
-    											<div className="page-title fw-500">Inbox</div>
+    											<div className="page-title fw-500">Bandeja de Entrada</div>
     											<div className="action-dots float-end">
     												<button className="action-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     													<span></span>
     												</button>
     												<ul className="dropdown-menu dropdown-menu-end">
-    												<li><a className="dropdown-item" href="#">Sent</a></li>
-    												<li><a className="dropdown-item" href="#">Important</a></li>
-    												<li><a className="dropdown-item" href="#">Draft</a></li>
-    												<li><a className="dropdown-item" href="#">Trash</a></li>
+    												<li><a className="dropdown-item" href="#">Enviados</a></li>
+    												<li><a className="dropdown-item" href="#">Importantes</a></li>
+    												<li><a className="dropdown-item" href="#">Borradores</a></li>
+    												<li><a className="dropdown-item" href="#">Papelera</a></li>
     												</ul>
     											</div>
     										</div>
     										<form action="#" className="search-form mt-20 mb-20">
-    											<input type="text" placeholder="Search contacts" />
+    											<input type="text" placeholder="Buscar contactos" />
     											<button><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_43.svg" alt="" className="lazy-img m-auto" /></button>
     										</form>
 
     										<div className="message_filter d-flex align-items-center justify-content-between mb-20" id="module_btns">
-    											<button className="filter_btn active">All</button>
-    											<button className="filter_btn"><span style={{ background: "#FF4545" }}></span> Read</button>
-    											<button className="filter_btn"><span style={{ background: "#3BDA84" }}></span> Unread</button>
-    											<button className="filter_btn"><span style={{ background: "#50C0FF" }}></span> Primary</button>
+    											<button className="filter_btn active">Todos</button>
+    											<button className="filter_btn"><span style={{ background: "#FF4545" }}></span> Leídos</button>
+    											<button className="filter_btn"><span style={{ background: "#3BDA84" }}></span> No leídos</button>
+    											<button className="filter_btn"><span style={{ background: "#50C0FF" }}></span> Primarios</button>
     										</div>
     									</div>
     									<div className="email-read-panel">
@@ -297,14 +297,14 @@ export default function TemplatePage() {
     											<div className="email-short-preview position-relative">
     												<div className="d-flex align-items-center justify-content-between">
     													<div className="sender-name">Jenny Rio.</div>
-    													<div className="date">Aug 22</div>
+    													<div className="date">22 Ago</div>
     												</div>
-    												<div className="mail-sub">Work inquiry from google.</div>
-    												<div className="mail-text">Hello, This is Jenny from google. We’r the largest online platform offer...</div>
+    												<div className="mail-sub">Consulta de trabajo de google.</div>
+    												<div className="mail-text">Hola, esta es Jenny de google. Somos la plataforma online más grande que ofrece...</div>
     												<div className="attached-file-preview d-flex align-items-center mt-15">
     													<div className="file d-flex align-items-center me-2">
     														<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_28.svg" alt="" className="lazy-img me-2" />
-    														<span>details.pdf</span>
+    														<span>detalles.pdf</span>
     													</div>
     												</div>
 
@@ -317,18 +317,18 @@ export default function TemplatePage() {
     											<div className="email-short-preview position-relative">
     												<div className="d-flex align-items-center justify-content-between">
     													<div className="sender-name">Hasan Islam.</div>
-    													<div className="date">May 22</div>
+    													<div className="date">22 May</div>
     												</div>
-    												<div className="mail-sub">Account Manager</div>
-    												<div className="mail-text">Hello, Greeting from Uber. Hope you doing great. I am approcing to you for..</div>
+    												<div className="mail-sub">Gerente de Cuentas</div>
+    												<div className="mail-text">Hola, saludos de Uber. Espero que estés bien. Me dirijo a ti para...</div>
     												<div className="attached-file-preview d-flex align-items-center mt-15">
     													<div className="file d-flex align-items-center me-2">
     														<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_28.svg" alt="" className="lazy-img me-2" />
-    														<span>details.pdf</span>
+    														<span>detalles.pdf</span>
     													</div>
     													<div className="file d-flex align-items-center me-2">
     														<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_28.svg" alt="" className="lazy-img me-2" />
-    														<span>form.pdf</span>
+    														<span>formulario.pdf</span>
     													</div>
     												</div>
 
@@ -341,10 +341,10 @@ export default function TemplatePage() {
     											<div className="email-short-preview position-relative">
     												<div className="d-flex align-items-center justify-content-between">
     													<div className="sender-name">Jannatul Ferdaus.</div>
-    													<div className="date">Jun 22</div>
+    													<div className="date">22 Jun</div>
     												</div>
-    												<div className="mail-sub">Product Designer Opportunities</div>
-    												<div className="mail-text">Hello, This is Jannat from HuntX. We offer business solution to our client..</div>
+    												<div className="mail-sub">Oportunidades de Diseñador de Productos</div>
+    												<div className="mail-text">Hola, esta es Jannat de HuntX. Ofrecemos soluciones de negocio a nuestro cliente...</div>
     											</div>
 
     										</div>
@@ -357,8 +357,8 @@ export default function TemplatePage() {
     													<div className="sender-name">Jakie Chan</div>
     													<div className="date">NOV 22</div>
     												</div>
-    												<div className="mail-sub">Hunting Marketing Specialist</div>
-    												<div className="mail-text">Hello, We’r the well known Real Estate Inc provide best interior/exterior solut...</div>
+    												<div className="mail-sub">Buscando Especialista en Marketing</div>
+    												<div className="mail-text">Hola, somos la conocida Real Estate Inc que ofrece las mejores soluciones de interior/exterior...</div>
     											</div>
 
     										</div>
@@ -370,8 +370,8 @@ export default function TemplatePage() {
     													<div className="sender-name">Jakie Chan</div>
     													<div className="date">NOV 22</div>
     												</div>
-    												<div className="mail-sub">Hunting Marketing Specialist</div>
-    												<div className="mail-text">Hello, We’r the well known Real Estate Inc provide best interior/exterior solut...</div>
+    												<div className="mail-sub">Buscando Especialista en Marketing</div>
+    												<div className="mail-text">Hola, somos la conocida Real Estate Inc que ofrece las mejores soluciones de interior/exterior...</div>
     											</div>
 
     										</div>
@@ -383,8 +383,8 @@ export default function TemplatePage() {
     													<div className="sender-name">Jakie Chan</div>
     													<div className="date">NOV 22</div>
     												</div>
-    												<div className="mail-sub">Hunting Marketing Specialist</div>
-    												<div className="mail-text">Hello, We’r the well known Real Estate Inc provide best interior/exterior solut...</div>
+    												<div className="mail-sub">Buscando Especialista en Marketing</div>
+    												<div className="mail-text">Hola, somos la conocida Real Estate Inc que ofrece las mejores soluciones de interior/exterior...</div>
     											</div>
 
     										</div>
@@ -406,7 +406,7 @@ export default function TemplatePage() {
     											</div>
     										</div>
     										<div className="email-info">
-    											<div className="time">4:45AM (3 hours ago)</div>
+    											<div className="time">4:45AM (Hace 3 horas)</div>
     											<div className="d-flex align-items-center justify-content-end">
     												<button className="delete-email"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_29.svg" alt="" className="lazy-img" /></button>
     												<button className="reply-email ms-3 me-3"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_30.svg" alt="" className="lazy-img" /></button>
@@ -415,10 +415,10 @@ export default function TemplatePage() {
     														<span></span>
     													</button>
     													<ul className="dropdown-menu dropdown-menu-end">
-    													  <li><a className="dropdown-item" href="#">Reply</a></li>
-    													  <li><a className="dropdown-item" href="#">Fowrward</a></li>
-    													  <li><a className="dropdown-item" href="#">Block</a></li>
-    													  <li><a className="dropdown-item" href="#">Delete</a></li>
+    													  <li><a className="dropdown-item" href="#">Responder</a></li>
+    													  <li><a className="dropdown-item" href="#">Reenviar</a></li>
+    													  <li><a className="dropdown-item" href="#">Bloquear</a></li>
+    													  <li><a className="dropdown-item" href="#">Eliminar</a></li>
     													</ul>
     												</div>
     											</div>
@@ -428,15 +428,15 @@ export default function TemplatePage() {
 
     									<div className="email-body divider">
     										<div className="ps-4 pe-4 ps-xxl-5 pe-xxl-5">
-    											<h2>Payment Verification</h2>
-    											<p>Hello, Greeting from Uber. Hope you doing great. I am approaching to you for as our company need a great & talented account manager. </p>
-    											<p>What we need from you to start:</p>
+    											<h2>Verificación de Pago</h2>
+    											<p>Hola, saludos de Uber. Espero que estés bien. Me dirijo a ti porque nuestra empresa necesita un gerente de cuentas talentoso y excelente. </p>
+    											<p>Lo que necesitamos de ti para comenzar:</p>
     											<ul className="style-none mb-30">
-    												<li>- Your CV</li>
-    												<li>- Verified Gov ID</li>
+    												<li>- Tu CV</li>
+    												<li>- Identificación oficial verificada</li>
     											</ul>
-    											<p>After that we need to redesign our landing page because the current one doesn't carry any information. If you have any question don’t hesitate to contact us.</p>
-    											<p>Our Telegram <a href="#" className="fw-500">@rainbow</a> <br />Thank you!</p>
+    											<p>Después de eso, necesitamos rediseñar nuestra página de destino porque la actual no contiene ninguna información. Si tienes alguna pregunta, no dudes en contactarnos.</p>
+    											<p>Nuestro Telegram <a href="#" className="fw-500">@rainbow</a> <br />¡Gracias!</p>
     										</div>
     									</div>
 
@@ -445,21 +445,21 @@ export default function TemplatePage() {
     										<div className="ps-4 pe-4 ps-xxl-5 pe-xxl-5">
     											<div className="attachments mb-30">
     												<div className="d-flex justify-content-between mb-5">
-    													<h6 className="m0">2 Attachment</h6>
-    													<a href="#" className="all-download">Download All</a>
+    													<h6 className="m0">2 Archivos Adjuntos</h6>
+    													<a href="#" className="all-download">Descargar Todo</a>
     												</div>
     												<div className="d-flex">
     													<a href="#" className="file tran3s d-flex align-items-center mt-10" download>
     														<div className="icon rounded-circle d-flex align-items-center justify-content-center"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_31.svg" alt="" className="lazy-img" /></div>
     														<div className="ps-2">
-    															<div className="file-name">project-details.pdf</div>
+    															<div className="file-name">detalles-proyecto.pdf</div>
     															<div className="file-size">2.3mb</div>
     														</div>
     													</a>
     													<a href="#" className="file tran3s d-flex align-items-center mt-10" download>
     														<div className="icon rounded-circle d-flex align-items-center justify-content-center"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_31.svg" alt="" className="lazy-img" /></div>
     														<div className="ps-2">
-    															<div className="file-name">form.pdf</div>
+    															<div className="file-name">formulario.pdf</div>
     															<div className="file-size">1.3mb</div>
     														</div>
     													</a>
@@ -470,10 +470,10 @@ export default function TemplatePage() {
     												<div className="new-email-header position-relative">
     													<div className="btn-group">
     														<a data-bs-toggle="collapse" href="#CC-input" role="button" aria-expanded="false" aria-controls="collapseExample">Cc</a>
-    														<a data-bs-toggle="collapse" href="#BCC-input" role="button" aria-expanded="false" aria-controls="collapseExample">Bcc</a>
+    														<a data-bs-toggle="collapse" href="#BCC-input" role="button" aria-expanded="false" aria-controls="collapseExample">Cco</a>
     													</div>
     													<div className="input-group d-flex align-items-center">
-    														<div className="text-center" style={{ width: "60px" }}>To</div>
+    														<div className="text-center" style={{ width: "60px" }}>Para</div>
     														<input type="email" className="flex-fill" placeholder="rainbowsales@inquiry.com" />
     													</div>
     													<div className="collapse" id="CC-input">
@@ -484,16 +484,16 @@ export default function TemplatePage() {
     													</div>
     													<div className="collapse" id="BCC-input">
     														<div className="input-group d-flex align-items-center">
-    															<div className="text-center" style={{ width: "60px" }}>Bcc</div>
+    															<div className="text-center" style={{ width: "60px" }}>Cco</div>
     															<input type="email" className="flex-fill" placeholder="mojobdltd@inquiry.com" />
     														</div>
     													</div>
     												</div>
 
     												<div className="compose-body">
-    													<textarea>Hi, Mary Cooper! 
+    													<textarea>Hola, Mary Cooper! 
 
-    Thanks for your invitation for the account manager position for you company. I Will back to you soon with all the require documents.</textarea>
+    Gracias por tu invitación para el puesto de gerente de cuentas en tu empresa. Me pondré en contacto contigo pronto con todos los documentos requeridos.</textarea>
     												</div>
 
 
@@ -512,7 +512,7 @@ export default function TemplatePage() {
 
     													<div className="d-flex align-items-center">
     														<a href="#" className="delete-mail me-3"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_35.svg" alt="" className="lazy-img" /></a>
-    														<a href="#" className="reply-btn tran3s">Reply</a>
+    														<a href="#" className="reply-btn tran3s">Responder</a>
     													</div>
     												</div>
 
@@ -542,11 +542,11 @@ export default function TemplatePage() {
                         <div className="remove-account-popup text-center modal-content">
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     						<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_22.svg" alt="" className="lazy-img m-auto" />
-    						<h2>Are you sure?</h2>
-    						<p>Are you sure to delete your account? All data will be lost.</p>
+    						<h2>¿Estás seguro?</h2>
+    						<p>¿Estás seguro de que quieres eliminar tu cuenta? Todos los datos se perderán.</p>
     						<div className="button-group d-inline-flex justify-content-center align-items-center pt-15">
-    							<a href="#" className="confirm-btn fw-500 tran3s me-3">Yes</a>
-    							<button type="button" className="btn-close fw-500 ms-3" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+    							<a href="#" className="confirm-btn fw-500 tran3s me-3">Sí</a>
+    							<button type="button" className="btn-close fw-500 ms-3" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
     						</div>
                         </div>
 
@@ -559,34 +559,6 @@ export default function TemplatePage() {
     		<button className="scroll-top">
     			<i className="bi bi-arrow-up-short"></i>
     		</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     	</div>
     </TemplatePageShell>

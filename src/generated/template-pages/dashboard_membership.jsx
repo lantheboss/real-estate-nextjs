@@ -3,9 +3,9 @@
 import { TemplatePageShell } from "@/components/template-page-shell";
 
 export const metadata = {
-  title: "Home Real Estate Next.js Template & Dashboard",
-  description: "Home Real Estate is a modern Next.js template designed for real estate agencies.",
-  keywords: ["Real estate","Property sale","Property buy"],
+  title: "Plantilla Inmobiliaria Home Real Estate Next.js y Panel de Control",
+  description: "Home Real Estate es una plantilla moderna de Next.js diseñada para agencias inmobiliarias.",
+  keywords: ["Bienes raíces","Venta de propiedades","Compra de propiedades"],
 };
 
 const scripts = [
@@ -46,47 +46,47 @@ export default function TemplatePage() {
     					<ul className="style-none">
     						<li className="plr"><a href="/dashboard/dashboard-index" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_1.svg" alt="" />
-    							<span>Dashboard</span>
+    							<span>Panel de Control</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/message" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_2.svg" alt="" />
-    							<span>Message</span>
+    							<span>Mensajes</span>
     						</a></li>
     						<li className="bottom-line pt-30 lg-pt-20 mb-40 lg-mb-30"></li>
-    						<li><div className="nav-title">Profile</div></li>
+    						<li><div className="nav-title">Perfil</div></li>
     						<li className="plr"><a href="/dashboard/profile" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_3.svg" alt="" />
-    							<span>Profile</span>
+    							<span>Perfil</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/account-settings" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_4.svg" alt="" />
-    							<span>Account Settings</span>
+    							<span>Configuración de Cuenta</span>
     						</a></li>
     						<li className="plr"><a href="#" className="d-flex w-100 align-items-center active">
     							<img src="/dashboard/images/icon/icon_5_active.svg" alt="" />
-    							<span>Membership</span>
+    							<span>Membresía</span>
     						</a></li>
     						<li className="bottom-line pt-30 lg-pt-20 mb-40 lg-mb-30"></li>
-    						<li><div className="nav-title">Listing</div></li>
+    						<li><div className="nav-title">Propiedades</div></li>
     						<li className="plr"><a href="/dashboard/properties-list" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_6.svg" alt="" />
-    							<span>My Properties</span>
+    							<span>Mis Propiedades</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/add-property" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_7.svg" alt="" />
-    							<span>Add New Property</span>
+    							<span>Añadir Propiedad</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/favourites" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_8.svg" alt="" />
-    							<span>Favourites</span>
+    							<span>Favoritos</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/saved-search" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_9.svg" alt="" />
-    							<span>Saved Search</span>
+    							<span>Búsquedas Guardadas</span>
     						</a></li>
     						<li className="plr"><a href="/dashboard/review" className="d-flex w-100 align-items-center">
     							<img src="/dashboard/images/icon/icon_10.svg" alt="" />
-    							<span>Reviews</span>
+    							<span>Reseñas</span>
     						</a></li>
     					</ul>
     				</nav>
@@ -96,14 +96,14 @@ export default function TemplatePage() {
     					<div className="progress-line position-relative">
     						<div className="inner-line" style={{ width: "80%" }}></div>
     					</div>
-    					<p>Profile Complete</p>
+    					<p>Perfil Completado</p>
     				</div>
 
 
     				<div className="plr">
     					<a href="#" className="d-flex w-100 align-items-center logout-btn">
     						<div className="icon tran3s d-flex align-items-center justify-content-center rounded-circle"><img src="/dashboard/images/icon/icon_41.svg" alt="" /></div>
-    						<span>Logout</span>
+    						<span>Cerrar Sesión</span>
     					</a>
     				</div>
     			</div>
@@ -116,12 +116,12 @@ export default function TemplatePage() {
 
     				<header className="dashboard-header">
     					<div className="d-flex align-items-center justify-content-end">
-    						<h4 className="m0 d-none d-lg-block">Membership</h4>
+    						<h4 className="m0 d-none d-lg-block">Membresía</h4>
     						<button className="dash-mobile-nav-toggler d-block d-md-none me-auto">
     							<span></span>
     						</button>
     						<form action="#" className="search-form ms-auto">
-    							<input type="text" placeholder="Search here.." />
+    							<input type="text" placeholder="Buscar aquí..." />
     							<button><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_43.svg" alt="" className="lazy-img m-auto" /></button>
     						</form>
     						<div className="profile-notification position-relative dropdown-center ms-3 ms-md-5 me-4">
@@ -131,27 +131,27 @@ export default function TemplatePage() {
     							</button>
     							<ul className="dropdown-menu" aria-labelledby="notification-dropdown">
     								<li>
-    									<h4>Notification</h4>
+    									<h4>Notificaciones</h4>
     									<ul className="style-none notify-list">
     										<li className="d-flex align-items-center unread">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_36.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>You have 3 new mails</h6>
-    												<span className="time">3 hours ago</span>
+    												<h6>Tienes 3 correos nuevos</h6>
+    												<span className="time">Hace 3 horas</span>
     											</div>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_37.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>Your listing post has been approved</h6>
-    												<span className="time">1 day ago</span>
+    												<h6>Tu publicación ha sido aprobada</h6>
+    												<span className="time">Hace 1 día</span>
     											</div>
     										</li>
     										<li className="d-flex align-items-center unread">
     											<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_38.svg" alt="" className="lazy-img icon" />
     											<div className="flex-fill ps-2">
-    												<h6>Your meeting is cancelled</h6>
-    												<span className="time">3 days ago</span>
+    												<h6>Tu reunión ha sido cancelada</h6>
+    												<span className="time">Hace 3 días</span>
     											</div>
     										</li>
     									</ul>
@@ -159,7 +159,7 @@ export default function TemplatePage() {
     							</ul>
     						</div>
     						<div className="d-none d-md-block me-3">
-    							<a href="/dashboard/add-property" className="btn-two"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></a>
+    							<a href="/dashboard/add-property" className="btn-two"><span>Añadir Propiedad</span> <i className="fa-thin fa-arrow-up-right"></i></a>
     						</div>
     						<div className="user-data position-relative">
     							<button className="user-avatar online position-relative rounded-circle dropdown-toggle" type="button" id="profile-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
@@ -169,13 +169,13 @@ export default function TemplatePage() {
     							<div className="user-name-data">
     								<ul className="dropdown-menu" aria-labelledby="profile-dropdown">
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/profile"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_23.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Profile</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/profile"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_23.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Perfil</span></a>
     									</li>
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/account-settings"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_24.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Account Settings</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="/dashboard/account-settings"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_24.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Configuración de Cuenta</span></a>
     									</li>
     									<li>
-    										<a className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_25.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Delete Account</span></a>
+    										<a className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal"><img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_25.svg" alt="" className="lazy-img" /><span className="ms-2 ps-1">Eliminar Cuenta</span></a>
     									</li>
     								</ul>
     							</div>
@@ -185,14 +185,14 @@ export default function TemplatePage() {
     				</header>
 
 
-    				<h2 className="main-title d-block d-lg-none">Membership</h2>
+    				<h2 className="main-title d-block d-lg-none">Membresía</h2>
 
                     <div className="membership-plan-wrapper mb-20">
                         <div className="row gx-0">
                             <div className="col-xxl-7 col-lg-6 d-flex flex-column">
                                 <div className="column w-100 h-100">
-                                    <h4>Current Plan (Standard)</h4>
-                                    <p>Unlimited access to our legal document library and online rental application tool, billed monthly.</p>
+                                    <h4>Plan Actual (Estándar)</h4>
+                                    <p>Acceso ilimitado a nuestra biblioteca de documentos legales y herramienta de solicitud de alquiler en línea, facturado mensualmente.</p>
                                 </div>
                             </div>
                             <div className="col-xxl-5 col-lg-6 d-flex flex-column">
@@ -200,9 +200,9 @@ export default function TemplatePage() {
                                     <div className="d-flex">
                                         <h3 className="price m0">$29</h3>
                                         <div className="ps-4 flex-fill">
-                                            <h6>Monthly Plan</h6>
-                                            <span className="text1 d-block">Your subscription renews <span className="fw-500">July 12th, 2023</span></span>
-                                            <a href="#" className="cancel-plan tran3s">Cancel Current Plan</a>
+                                            <h6>Plan Mensual</h6>
+                                            <span className="text1 d-block">Tu suscripción se renueva el <span className="fw-500">12 de julio de 2023</span></span>
+                                            <a href="#" className="cancel-plan tran3s">Cancelar Plan Actual</a>
                                         </div>
                                     </div>
                                 </div>
@@ -217,57 +217,57 @@ export default function TemplatePage() {
     							<div className="col-xl-4 col-lg-6">
     								<div className="pr-column-wrapper bg-white rounded-5 border-0 mt-30">
     									<div className="pr-header text-center mb-55">
-    										<div className="plan fw-500 text-uppercase color-dark">FREE PLAN</div>
+    										<div className="plan fw-500 text-uppercase color-dark">PLAN GRATIS</div>
     										<strong className="price fw-500">0</strong>
-    										<p className="fs-24">per user/month</p>
+    										<p className="fs-24">por usuario/mes</p>
     									</div>
 
     									<ul className="style-none text-center">
-    										<li>60-day chat history</li>
-    										<li>Basic widget customization</li>
-    										<li className="disable">Ticketing system</li>
-    										<li className="disable">Data security</li>
+    										<li>Historial de chat de 60 días</li>
+    										<li>Personalización básica de widgets</li>
+    										<li className="disable">Sistema de tickets</li>
+    										<li className="disable">Seguridad de datos</li>
     									</ul>
     									<div className="pr-footer text-center mt-60">
-    										<a href="#" className="btn-twelve w-100 sm">Choose Plan</a>
+    										<a href="#" className="btn-twelve w-100 sm">Elegir Plan</a>
     									</div>
     								</div>
     							</div>
     							<div className="col-xl-4 col-lg-6">
     								<div className="pr-column-wrapper bg-white rounded-5 active mt-30">
     									<div className="pr-header text-center mb-55">
-    										<div className="plan fw-500 text-uppercase color-dark">Standard</div>
+    										<div className="plan fw-500 text-uppercase color-dark">Estándar</div>
     										<strong className="price fw-500">$12</strong>
-    										<p className="fs-24">per user/month</p>
+    										<p className="fs-24">por usuario/mes</p>
     									</div>
 
     									<ul className="style-none text-center">
-    										<li>60-day chat history</li>
-    										<li>Basic widget customization</li>
-    										<li>Ticketing system</li>
-    										<li className="disable">Data security</li>
+    										<li>Historial de chat de 60 días</li>
+    										<li>Personalización básica de widgets</li>
+    										<li>Sistema de tickets</li>
+    										<li className="disable">Seguridad de datos</li>
     									</ul>
     									<div className="pr-footer text-center mt-60">
-    										<a href="#" className="btn-twelve w-100 sm">Current Plan</a>
+    										<a href="#" className="btn-twelve w-100 sm">Plan Actual</a>
     									</div>
     								</div>
     							</div>
     							<div className="col-xl-4 col-lg-6">
     								<div className="pr-column-wrapper bg-white rounded-5 border-0 mt-30">
     									<div className="pr-header text-center mb-55">
-    										<div className="plan fw-500 text-uppercase color-dark">BUSINESS</div>
+    										<div className="plan fw-500 text-uppercase color-dark">EMPRESA</div>
     										<strong className="price fw-500">$39</strong>
-    										<p className="fs-24">per user/month</p>
+    										<p className="fs-24">por usuario/mes</p>
     									</div>
 
     									<ul className="style-none text-center">
-    										<li>60-day chat history</li>
-    										<li>Basic widget customization</li>
-    										<li>Ticketing system</li>
-    										<li>Data security</li>
+    										<li>Historial de chat de 60 días</li>
+    										<li>Personalización básica de widgets</li>
+    										<li>Sistema de tickets</li>
+    										<li>Seguridad de datos</li>
     									</ul>
     									<div className="pr-footer text-center mt-60">
-    										<a href="#" className="btn-twelve w-100 sm">Choose Plan</a>
+    										<a href="#" className="btn-twelve w-100 sm">Elegir Plan</a>
     									</div>
     								</div>
     							</div>
@@ -286,11 +286,11 @@ export default function TemplatePage() {
                         <div className="remove-account-popup text-center modal-content">
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     						<img src="/images/lazy.svg" data-src="/dashboard/images/icon/icon_22.svg" alt="" className="lazy-img m-auto" />
-    						<h2>Are you sure?</h2>
-    						<p>Are you sure to delete your account? All data will be lost.</p>
+    						<h2>¿Estás seguro?</h2>
+    						<p>¿Estás seguro de que quieres eliminar tu cuenta? Todos los datos se perderán.</p>
     						<div className="button-group d-inline-flex justify-content-center align-items-center pt-15">
-    							<a href="#" className="confirm-btn fw-500 tran3s me-3">Yes</a>
-    							<button type="button" className="btn-close fw-500 ms-3" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+    							<a href="#" className="confirm-btn fw-500 tran3s me-3">Sí</a>
+    							<button type="button" className="btn-close fw-500 ms-3" data-bs-dismiss="modal" aria-label="Close">Cancelar</button>
     						</div>
                         </div>
 
@@ -303,34 +303,6 @@ export default function TemplatePage() {
     		<button className="scroll-top">
     			<i className="bi bi-arrow-up-short"></i>
     		</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     	</div>
     </TemplatePageShell>

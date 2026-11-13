@@ -3,9 +3,9 @@
 import { TemplatePageShell } from "@/components/template-page-shell";
 
 export const metadata = {
-  title: "Home Real Estate Next.js Template & Dashboard",
-  description: "Home Real Estate is a modern Next.js template designed for real estate agencies.",
-  keywords: ["Real estate","Property sale","Property buy"],
+  title: "Plantilla Inmobiliaria Home Real Estate Next.js y Panel de Control",
+  description: "Home Real Estate es una plantilla moderna de Next.js diseñada para agencias inmobiliarias.",
+  keywords: ["Bienes raíces","Venta de propiedades","Compra de propiedades"],
 };
 
 const scripts = [
@@ -47,20 +47,20 @@ export default function TemplatePage() {
                 <div className="wrapper mt-60">
     				<div className="d-flex flex-column h-100">
     					<div className="property-block">
-    						<h4 className="title pb-25">Featured Listing </h4>
+    						<h4 className="title pb-25">Propiedades Destacadas </h4>
     						<div className="row">
     							<div className="col-12">
     								<div className="listing-card-one shadow-none style-two mb-40">
     									<div className="img-gallery">
     										<div className="position-relative overflow-hidden">
-    											<div className="tag bg-white text-dark fw-500">FOR RENT</div>
+    											<div className="tag bg-white text-dark fw-500">EN ALQUILER</div>
     											<img src="/images/listing/img_69.jpg" className="w-100" alt="..." />
 
     											<div className="img-slider-btn">
     												03 <i className="fa-regular fa-image"></i>
-    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img1" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img1" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img1" data-caption="Blueberry villa"></a>
+    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img1" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img1" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img1" data-caption="Villa Blueberry"></a>
     											</div>
     										</div>
     									</div>
@@ -68,7 +68,7 @@ export default function TemplatePage() {
     									<div className="property-info d-flex justify-content-between align-items-end pt-30">
     										<div>
     											<strong className="price fw-500 color-dark fs-3">$2,210/ <sub>m</sub></strong>
-    											<div className="address pt-5 m0">6391 Elgin St. Celina</div>
+    											<div className="address pt-5 m0">Calle Elgin 6391, Celina</div>
     										</div>
     										<a href="#" className="btn-four mb-5"><i className="bi bi-arrow-up-right"></i></a>
     									</div>
@@ -80,14 +80,14 @@ export default function TemplatePage() {
     								<div className="listing-card-one shadow-none style-two mb-40">
     									<div className="img-gallery">
     										<div className="position-relative overflow-hidden">
-    											<div className="tag bg-white text-dark fw-500">FOR RENT</div>
+    											<div className="tag bg-white text-dark fw-500">EN ALQUILER</div>
     											<img src="/images/listing/img_70.jpg" className="w-100" alt="..." />
 
     											<div className="img-slider-btn">
     												03 <i className="fa-regular fa-image"></i>
-    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img2" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img2" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img2" data-caption="Blueberry villa"></a>
+    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img2" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img2" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img2" data-caption="Villa Blueberry"></a>
     											</div>
     										</div>
     									</div>
@@ -95,7 +95,7 @@ export default function TemplatePage() {
     									<div className="property-info d-flex justify-content-between align-items-end pt-30">
     										<div>
     											<strong className="price fw-500 color-dark fs-3">$2,210/ <sub>m</sub></strong>
-    											<div className="address pt-5 m0">6391 Elgin St. Celina</div>
+    											<div className="address pt-5 m0">Calle Elgin 6391, Celina</div>
     										</div>
     										<a href="#" className="btn-four mb-5"><i className="bi bi-arrow-up-right"></i></a>
     									</div>
@@ -107,14 +107,14 @@ export default function TemplatePage() {
     								<div className="listing-card-one shadow-none style-two mb-40">
     									<div className="img-gallery">
     										<div className="position-relative overflow-hidden">
-    											<div className="tag bg-white text-dark fw-500">FOR SELL</div>
+    											<div className="tag bg-white text-dark fw-500">EN VENTA</div>
     											<img src="/images/listing/img_71.jpg" className="w-100" alt="..." />
 
     											<div className="img-slider-btn">
     												03 <i className="fa-regular fa-image"></i>
-    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img3" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img3" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img3" data-caption="Blueberry villa"></a>
+    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img3" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img3" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img3" data-caption="Villa Blueberry"></a>
     											</div>
     										</div>
     									</div>
@@ -122,7 +122,7 @@ export default function TemplatePage() {
     									<div className="property-info d-flex justify-content-between align-items-end pt-30">
     										<div>
     											<strong className="price fw-500 color-dark fs-3">$1,23,710</strong>
-    											<div className="address pt-5 m0">6391 Elgin St. Celina</div>
+    											<div className="address pt-5 m0">Calle Elgin 6391, Celina</div>
     										</div>
     										<a href="#" className="btn-four mb-5"><i className="bi bi-arrow-up-right"></i></a>
     									</div>
@@ -134,14 +134,14 @@ export default function TemplatePage() {
     								<div className="listing-card-one shadow-none style-two mb-40">
     									<div className="img-gallery">
     										<div className="position-relative overflow-hidden">
-    											<div className="tag bg-white text-dark fw-500">FOR SELL</div>
+    											<div className="tag bg-white text-dark fw-500">EN VENTA</div>
     											<img src="/images/listing/img_72.jpg" className="w-100" alt="..." />
 
     											<div className="img-slider-btn">
     												03 <i className="fa-regular fa-image"></i>
-    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img4" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img4" data-caption="Blueberry villa"></a>
-    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img4" data-caption="Blueberry villa"></a>
+    												<a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img4" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img4" data-caption="Villa Blueberry"></a>
+    												<a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img4" data-caption="Villa Blueberry"></a>
     											</div>
     										</div>
     									</div>
@@ -149,7 +149,7 @@ export default function TemplatePage() {
     									<div className="property-info d-flex justify-content-between align-items-end pt-30">
     										<div>
     											<strong className="price fw-500 color-dark fs-3">$78,420</strong>
-    											<div className="address pt-5 m0">6391 Elgin St. Celina</div>
+    											<div className="address pt-5 m0">Calle Elgin 6391, Celina</div>
     										</div>
     										<a href="#" className="btn-four mb-5"><i className="bi bi-arrow-up-right"></i></a>
     									</div>
@@ -160,9 +160,9 @@ export default function TemplatePage() {
     						</div>
     					</div>
     					<div className="address-block mt-50">
-    						<h4 className="title pb-15">Our Address</h4>
-    						<p>Chowrastar Mirpur- 1210, Sangu <br />River, Dhaka</p>
-    						<p>Urgent issue? call us at <br /><a href="tel:310.841.5500">310.841.5500</a></p>
+    						<h4 className="title pb-15">Nuestra Dirección</h4>
+    						<p>Chowrastar Mirpur- 1210, Río <br />Sangu, Dhaka</p>
+    						<p>¿Problema urgente? Llámanos al <br /><a href="tel:310.841.5500">310.841.5500</a></p>
     					</div>
     					<ul className="style-none d-flex flex-wrap w-100 justify-content-between align-items-center social-icon pt-25 mt-auto">
     						<li><a href="#"><i className="fa-brands fa-whatsapp"></i></a></li>
@@ -191,16 +191,16 @@ export default function TemplatePage() {
     							<ul className="d-flex align-items-center style-none">
     								<li className="d-flex align-items-center login-btn-one">
                                         <i className="fa-regular fa-lock"></i> 
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="fw-500 tran3s">Login <span className="d-none d-sm-inline-block">/ Sign up</span></a>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="fw-500 tran3s">Iniciar Sesión <span className="d-none d-sm-inline-block">/ Registrarse</span></a>
                                     </li>
     								<li className="d-none d-md-inline-block ms-3 ms-xl-4 me-xl-4">
-                                        <a href="/dashboard/add-property" className="btn-five md rounded-0" target="_blank" rel="noopener noreferrer"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></a>
+                                        <a href="/dashboard/add-property" className="btn-five md rounded-0" target="_blank" rel="noopener noreferrer"><span>Añadir Propiedad</span> <i className="fa-thin fa-arrow-up-right"></i></a>
                                     </li>
                                     <li className="d-none d-xl-block"><button className="sidenavbtn rounded-circle tran3s" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideNav" aria-controls="sideNav"><i className="fa-sharp fa-light fa-bars-filter"></i></button></li>
     							</ul>
     						</div>
                             <div className="order-lg-2 d-none d-xxl-block">
-                                <p className="m0 email-text ps-5 pe-5">Our Email <a href="#" className="tran3s fw-500 ms-2">hello@homerealestate.com</a></p>
+                                <p className="m0 email-text ps-5 pe-5">Nuestro Correo <a href="#" className="tran3s fw-500 ms-2">hola@homerealestate.com</a></p>
                             </div>
     						<nav className="navbar navbar-expand-lg p0 ms-lg-5 order-lg-3">
     							<button className="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
@@ -212,68 +212,68 @@ export default function TemplatePage() {
     								<ul className="navbar-nav align-items-lg-center">
     									<li className="d-block d-lg-none"><div className="logo"><a href="/" className="d-block"><img src="/images/logo/logo.svg" alt="" /></a></div></li>
     									<li className="nav-item dashboard-menu">
-    										<a className="nav-link" href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Dashboard</a>
+    										<a className="nav-link" href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Panel de Control</a>
     									</li>
     									<li className="nav-item dropdown">
     										<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-    											data-bs-auto-close="outside" aria-expanded="false">Home
+    											data-bs-auto-close="outside" aria-expanded="false">Inicio
     										</a>
     										<ul className="dropdown-menu">
-    											<li><a href="/" className="dropdown-item"><span>Home 01</span></a></li>
-    											<li><a href="/index-2" className="dropdown-item"><span>Home 02</span></a></li>
-    											<li><a href="/index-3" className="dropdown-item"><span>Home 03</span></a></li>
-    											<li><a href="/index-4" className="dropdown-item"><span>Home 04</span></a></li>
-    											<li><a href="/index-5" className="dropdown-item"><span>Home 05</span></a></li>
-    											<li><a href="/index-6" className="dropdown-item"><span>Home 06</span></a></li>
-    											<li><a href="/index-7" className="dropdown-item"><span>Home 07</span></a></li>
+    											<li><a href="/" className="dropdown-item"><span>Inicio 01</span></a></li>
+    											<li><a href="/index-2" className="dropdown-item"><span>Inicio 02</span></a></li>
+    											<li><a href="/index-3" className="dropdown-item"><span>Inicio 03</span></a></li>
+    											<li><a href="/index-4" className="dropdown-item"><span>Inicio 04</span></a></li>
+    											<li><a href="/index-5" className="dropdown-item"><span>Inicio 05</span></a></li>
+    											<li><a href="/index-6" className="dropdown-item"><span>Inicio 06</span></a></li>
+    											<li><a href="/index-7" className="dropdown-item"><span>Inicio 07</span></a></li>
     										</ul>
     									</li>
     									<li className="nav-item dropdown mega-dropdown-sm">
-    							        	<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Listing
+    							        	<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Propiedades
     										</a>
     						                <ul className="dropdown-menu">
     							                <li className="row gx-1">
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Listing Type</h6>
+    														<h6 className="mega-menu-title">Tipo de Anuncio</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_01" className="dropdown-item"><span>Grid Sidebar-1</span></a></li>
-    															<li><a href="/listing_05" className="dropdown-item"><span>Grid Sidebar-2</span></a></li>
-    															<li><a href="/listing_02" className="dropdown-item"><span>List Sidebar-1</span></a></li>
-    															<li><a href="/listing_06" className="dropdown-item"><span>List Sidebar-2</span></a></li>
-    															<li><a href="/listing_03" className="dropdown-item"><span>Grid Top Filter-1</span></a></li>
-    															<li><a href="/listing_07" className="dropdown-item"><span>Grid Top Filter-2</span></a></li>
-    															<li><a href="/listing_04" className="dropdown-item"><span>List Top Filter-1</span></a></li>
-    															<li><a href="/listing_08" className="dropdown-item"><span>List Top Filter-2</span></a></li>
-    															<li><a href="/listing_09" className="dropdown-item"><span>Grid Banner Filter-1</span></a></li>
+    															<li><a href="/listing_01" className="dropdown-item"><span>Cuadrícula Barra Lateral-1</span></a></li>
+    															<li><a href="/listing_05" className="dropdown-item"><span>Cuadrícula Barra Lateral-2</span></a></li>
+    															<li><a href="/listing_02" className="dropdown-item"><span>Lista Barra Lateral-1</span></a></li>
+    															<li><a href="/listing_06" className="dropdown-item"><span>Lista Barra Lateral-2</span></a></li>
+    															<li><a href="/listing_03" className="dropdown-item"><span>Cuadrícula Filtro Superior-1</span></a></li>
+    															<li><a href="/listing_07" className="dropdown-item"><span>Cuadrícula Filtro Superior-2</span></a></li>
+    															<li><a href="/listing_04" className="dropdown-item"><span>Lista Filtro Superior-1</span></a></li>
+    															<li><a href="/listing_08" className="dropdown-item"><span>Lista Filtro Superior-2</span></a></li>
+    															<li><a href="/listing_09" className="dropdown-item"><span>Cuadrícula Banner Filtro-1</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Listing Type</h6>
+    														<h6 className="mega-menu-title">Tipo de Anuncio</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_11" className="dropdown-item"><span>Grid Banner Filter-2</span></a></li>
-    															<li><a href="/listing_10" className="dropdown-item"><span>List Banner Filter-1</span></a></li>
-    															<li><a href="/listing_12" className="dropdown-item"><span>List Banner Filter-2</span></a></li>
-    															<li><a href="/listing_13" className="dropdown-item"><span>Grid Fullwidth</span></a></li>
-    															<li><a href="/listing_14" className="dropdown-item"><span>Grid Fullwidth Map-1</span></a></li>
-    															<li><a href="/listing_16" className="dropdown-item"><span>Grid Fullwidth Map-2</span></a></li>
-    															<li><a href="/listing_15" className="dropdown-item"><span>List Fullwidth Map-1</span></a></li>
-    															<li><a href="/listing_17" className="dropdown-item"><span>List Fullwidth Map-2</span></a></li>
+    															<li><a href="/listing_11" className="dropdown-item"><span>Cuadrícula Banner Filtro-2</span></a></li>
+    															<li><a href="/listing_10" className="dropdown-item"><span>Lista Banner Filtro-1</span></a></li>
+    															<li><a href="/listing_12" className="dropdown-item"><span>Lista Banner Filtro-2</span></a></li>
+    															<li><a href="/listing_13" className="dropdown-item"><span>Cuadrícula Ancho Completo</span></a></li>
+    															<li><a href="/listing_14" className="dropdown-item"><span>Cuadrícula Ancho Completo Mapa-1</span></a></li>
+    															<li><a href="/listing_16" className="dropdown-item"><span>Cuadrícula Ancho Completo Mapa-2</span></a></li>
+    															<li><a href="/listing_15" className="dropdown-item"><span>Lista Ancho Completo Mapa-1</span></a></li>
+    															<li><a href="/listing_17" className="dropdown-item"><span>Lista Ancho Completo Mapa-2</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Single Listing</h6>
+    														<h6 className="mega-menu-title">Anuncio Individual</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_details_01" className="dropdown-item"><span>Listing Details-1</span></a></li>
-    															<li><a href="/listing_details_02" className="dropdown-item"><span>Listing Details-2</span></a></li>
-    															<li><a href="/listing_details_03" className="dropdown-item"><span>Listing Details-3</span></a></li>
-    															<li><a href="/listing_details_04" className="dropdown-item"><span>Listing Details-4</span></a></li>
-    															<li><a href="/listing_details_05" className="dropdown-item"><span>Listing Details-5</span></a></li>
-    															<li><a href="/listing_details_06" className="dropdown-item"><span>Listing Details-6</span></a></li>
+    															<li><a href="/listing_details_01" className="dropdown-item"><span>Detalles-1</span></a></li>
+    															<li><a href="/listing_details_02" className="dropdown-item"><span>Detalles-2</span></a></li>
+    															<li><a href="/listing_details_03" className="dropdown-item"><span>Detalles-3</span></a></li>
+    															<li><a href="/listing_details_04" className="dropdown-item"><span>Detalles-4</span></a></li>
+    															<li><a href="/listing_details_05" className="dropdown-item"><span>Detalles-5</span></a></li>
+    															<li><a href="/listing_details_06" className="dropdown-item"><span>Detalles-6</span></a></li>
     														</ul>
     													</div> 
     												</div>
@@ -282,48 +282,48 @@ export default function TemplatePage() {
     						            </li>
     									<li className="nav-item dropdown mega-dropdown-sm">
     										<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-    											data-bs-auto-close="outside" aria-expanded="false">Pages
+    											data-bs-auto-close="outside" aria-expanded="false">Páginas
     										</a>
     										<ul className="dropdown-menu">
     							                <li className="row gx-1">
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Essential</h6>
+    														<h6 className="mega-menu-title">Esenciales</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/about_us_01" className="dropdown-item"><span>About us -1</span></a></li>
-    															<li><a href="/about_us_02" className="dropdown-item"><span>About us -2</span></a></li>
-    															<li><a href="/agency" className="dropdown-item"><span>Agency</span></a></li>
-    															<li><a href="/agency_details" className="dropdown-item"><span>Agency Details</span></a></li>
-    															<li><a href="/agent" className="dropdown-item"><span>Agent</span></a></li>
-    															<li><a href="/agent_details" className="dropdown-item"><span>Agent Details</span></a></li>
+    															<li><a href="/about_us_01" className="dropdown-item"><span>Sobre nosotros -1</span></a></li>
+    															<li><a href="/about_us_02" className="dropdown-item"><span>Sobre nosotros -2</span></a></li>
+    															<li><a href="/agency" className="dropdown-item"><span>Agencia</span></a></li>
+    															<li><a href="/agency_details" className="dropdown-item"><span>Detalles de Agencia</span></a></li>
+    															<li><a href="/agent" className="dropdown-item"><span>Agente</span></a></li>
+    															<li><a href="/agent_details" className="dropdown-item"><span>Detalles de Agente</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Features</h6>
+    														<h6 className="mega-menu-title">Características</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/project_01" className="dropdown-item"><span>Project -1</span></a></li>
-    															<li><a href="/project_02" className="dropdown-item"><span>Project -2</span></a></li>
-    															<li><a href="/project_03" className="dropdown-item"><span>Project -3</span></a></li>
-    															<li><a href="/project_04" className="dropdown-item"><span>Project -4</span></a></li>
-    															<li><a href="/project_details_01" className="dropdown-item"><span>Project Details</span></a></li>
-    															<li><a href="/service_01" className="dropdown-item"><span>Services -1</span></a></li>
-    															<li><a href="/service_02" className="dropdown-item"><span>Services -2</span></a></li>
-    															<li><a href="/service_details" className="dropdown-item"><span>Service Details</span></a></li>
+    															<li><a href="/project_01" className="dropdown-item"><span>Proyecto -1</span></a></li>
+    															<li><a href="/project_02" className="dropdown-item"><span>Proyecto -2</span></a></li>
+    															<li><a href="/project_03" className="dropdown-item"><span>Proyecto -3</span></a></li>
+    															<li><a href="/project_04" className="dropdown-item"><span>Proyecto -4</span></a></li>
+    															<li><a href="/project_details_01" className="dropdown-item"><span>Detalles del Proyecto</span></a></li>
+    															<li><a href="/service_01" className="dropdown-item"><span>Servicios -1</span></a></li>
+    															<li><a href="/service_02" className="dropdown-item"><span>Servicios -2</span></a></li>
+    															<li><a href="/service_details" className="dropdown-item"><span>Detalles del Servicio</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Others</h6>
+    														<h6 className="mega-menu-title">Otros</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/compare" className="dropdown-item"><span>Property Compare</span></a></li>
-    															<li><a href="/pricing_01" className="dropdown-item"><span>Pricing -1</span></a></li>
-    															<li><a href="/pricing_02" className="dropdown-item"><span>Pricing -2</span></a></li>
-    															<li><a href="/contact" className="dropdown-item"><span>Contact Us</span></a></li>
-    															<li><a href="/faq" className="dropdown-item"><span>FAQ's</span></a></li>
-    															<li><a href="/404" className="dropdown-item"><span>404-Error</span></a></li>
+    															<li><a href="/compare" className="dropdown-item"><span>Comparar Propiedades</span></a></li>
+    															<li><a href="/pricing_01" className="dropdown-item"><span>Precios -1</span></a></li>
+    															<li><a href="/pricing_02" className="dropdown-item"><span>Precios -2</span></a></li>
+    															<li><a href="/contact" className="dropdown-item"><span>Contáctanos</span></a></li>
+    															<li><a href="/faq" className="dropdown-item"><span>Preguntas Frecuentes</span></a></li>
+    															<li><a href="/404" className="dropdown-item"><span>Error 404</span></a></li>
     														</ul>
     													</div> 
     												</div>
@@ -335,14 +335,14 @@ export default function TemplatePage() {
     											data-bs-auto-close="outside" aria-expanded="false">Blog
     										</a>
     										<ul className="dropdown-menu">
-    											<li><a href="/blog_01" className="dropdown-item"><span>Blog Grid</span></a></li>
-    											<li><a href="/blog_02" className="dropdown-item"><span>Blog List</span></a></li>
-    											<li><a href="/blog_03" className="dropdown-item"><span>Blog 2 column</span></a></li>
-    											<li><a href="/blog_details" className="dropdown-item"><span>Blog Details</span></a></li>
+    											<li><a href="/blog_01" className="dropdown-item"><span>Cuadrícula de Blog</span></a></li>
+    											<li><a href="/blog_02" className="dropdown-item"><span>Lista de Blog</span></a></li>
+    											<li><a href="/blog_03" className="dropdown-item"><span>Blog 2 columnas</span></a></li>
+    											<li><a href="/blog_details" className="dropdown-item"><span>Detalles del Blog</span></a></li>
     										</ul>
     									</li>
     									<li className="d-md-none ps-2 pe-2 mt-20">
-    										<a href="/dashboard/add-property" className="btn-five md w-100 rounded-0" target="_blank" rel="noopener noreferrer"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></a>
+    										<a href="/dashboard/add-property" className="btn-five md w-100 rounded-0" target="_blank" rel="noopener noreferrer"><span>Añadir Propiedad</span> <i className="fa-thin fa-arrow-up-right"></i></a>
     									</li>
     								</ul>
     							</div>
@@ -362,16 +362,16 @@ export default function TemplatePage() {
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="position-relative z-1">
-                                    <h1 className="hero-heading font-garamond wow fadeInUp mb-50">Don’t Trust us, Trust Our Client.</h1>
+                                    <h1 className="hero-heading font-garamond wow fadeInUp mb-50">No confíes en nosotros, confía en nuestros Clientes.</h1>
                                     <img src="/images/lazy.svg" data-src="/images/shape/shape_54.svg" alt="" className="lazy-img shape_01 shapes d-none d-lg-block" />
                                     <div className="row">
                                         <div className="col-xl-7 col-lg-12 col-md-7">
-                                            <p className="fs-24 color-dark m0 lg-pb-20 wow fadeInUp" data-wow-delay="0.1s">Over 745,000 listings, apartments, lots & plots available now</p>
+                                            <p className="fs-24 color-dark m0 lg-pb-20 wow fadeInUp" data-wow-delay="0.1s">Más de 745,000 anuncios, apartamentos, lotes y terrenos disponibles ahora</p>
                                         </div>
                                         <div className="col-xl-5 col-lg-12 col-md-5">
                                             <div className="d-flex flex-column justify-content-center align-items-start">
                                                 <img src="/images/lazy.svg" data-src="/images/assets/screen_06.png" alt="" className="lazy-img" />
-                                                <p className="m0 pt-10 rating"><span className="fw-500 color-dark">13k rating</span> (4.7 Rating)</p>
+                                                <p className="m0 pt-10 rating"><span className="fw-500 color-dark">13k valoraciones</span> (4.7 Puntuación)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -383,8 +383,8 @@ export default function TemplatePage() {
                                 <div className="search-wrapper-one layout-one mt-60 lg-mt-40 position-relative">
                                     <nav className="search-filter-nav-one d-flex">
                                         <div className="nav nav-tabs border-0" role="tablist">
-                                            <button className="nav-link active" id="buy-tab" data-bs-toggle="tab" data-bs-target="#buy" type="button" role="tab" aria-controls="buy" aria-selected="true">Buy</button>
-                                            <button className="nav-link" id="rent-tab" data-bs-toggle="tab" data-bs-target="#rent" type="button" role="tab" aria-controls="rent" aria-selected="false">Rent</button>
+                                            <button className="nav-link active" id="buy-tab" data-bs-toggle="tab" data-bs-target="#buy" type="button" role="tab" aria-controls="buy" aria-selected="true">Comprar</button>
+                                            <button className="nav-link" id="rent-tab" data-bs-toggle="tab" data-bs-target="#rent" type="button" role="tab" aria-controls="rent" aria-selected="false">Alquilar</button>
                                         </div>
                                     </nav>
                                     <div className="bg-wrapper p0 border-0 rounded-0">
@@ -394,35 +394,35 @@ export default function TemplatePage() {
                                                     <div className="row gx-0 align-items-center">
                                                         <div className="col-lg-3">
                                                             <div className="input-box-one border-left">
-                                                                <div className="label">I’m looking to...</div>
+                                                                <div className="label">Busco...</div>
                                                                 <select className="nice-select fw-normal">
-                                                                    <option value="1">Buy Apartments</option>
-                                                                    <option value="2">Buy Condos</option>
-                                                                    <option value="3">Buy Houses</option>
-                                                                    <option value="4">Buy Industrial</option>
-                                                                    <option value="6">Buy Villas</option>
+                                                                    <option value="1">Comprar Apartamentos</option>
+                                                                    <option value="2">Comprar Condominios</option>
+                                                                    <option value="3">Comprar Casas</option>
+                                                                    <option value="4">Comprar Industriales</option>
+                                                                    <option value="6">Comprar Villas</option>
                                                                 </select>
                                                             </div>
 
                                                         </div>
                                                         <div className="col-lg-4">
                                                             <div className="input-box-one border-left">
-                                                                <div className="label">Location</div>
+                                                                <div className="label">Ubicación</div>
                                                                 <select className="nice-select location fw-normal">
                                                                     <option value="1">Dhanmondi, Dhaka</option>
-                                                                    <option value="2">Acapulco, Mexico</option>
-                                                                    <option value="3">Berlin, Germany</option>
-                                                                    <option value="4">Cannes, France</option>
+                                                                    <option value="2">Acapulco, México</option>
+                                                                    <option value="3">Berlín, Alemania</option>
+                                                                    <option value="4">Cannes, Francia</option>
                                                                     <option value="5">Delhi, India</option>
-                                                                    <option value="6">Giza, Egypt </option>
-                                                                    <option value="7">Havana, Cuba</option>
+                                                                    <option value="6">Giza, Egipto </option>
+                                                                    <option value="7">La Habana, Cuba</option>
                                                                 </select>
                                                             </div>
 
                                                         </div>
                                                         <div className="col-xl-3 col-lg-4">
                                                             <div className="input-box-one">
-                                                                <div className="label">Price Range</div>
+                                                                <div className="label">Rango de Precio</div>
                                                                 <select className="nice-select fw-normal">
                                                                     <option value="1">$10,000 - $200,000</option>
                                                                     <option value="2">$200,000 - $300,000</option>
@@ -445,35 +445,35 @@ export default function TemplatePage() {
                                                     <div className="row gx-0 align-items-center">
                                                         <div className="col-lg-3">
                                                             <div className="input-box-one border-left">
-                                                                <div className="label">I’m looking to...</div>
+                                                                <div className="label">Busco...</div>
                                                                 <select className="nice-select fw-normal">
-                                                                    <option value="1">Rent Apartments</option>
-                                                                    <option value="2">Rent Condos</option>
-                                                                    <option value="3">Rent Houses</option>
-                                                                    <option value="4">Rent Industrial</option>
-                                                                    <option value="6">Rent Villas</option>
+                                                                    <option value="1">Alquilar Apartamentos</option>
+                                                                    <option value="2">Alquilar Condominios</option>
+                                                                    <option value="3">Alquilar Casas</option>
+                                                                    <option value="4">Alquilar Industriales</option>
+                                                                    <option value="6">Alquilar Villas</option>
                                                                 </select>
                                                             </div>
 
                                                         </div>
                                                         <div className="col-lg-4">
                                                             <div className="input-box-one border-left">
-                                                                <div className="label">Location</div>
+                                                                <div className="label">Ubicación</div>
                                                                 <select className="nice-select location fw-normal">
                                                                     <option value="1">Dhanmondi, Dhaka</option>
-                                                                    <option value="2">Acapulco, Mexico</option>
-                                                                    <option value="3">Berlin, Germany</option>
-                                                                    <option value="4">Cannes, France</option>
+                                                                    <option value="2">Acapulco, México</option>
+                                                                    <option value="3">Berlín, Alemania</option>
+                                                                    <option value="4">Cannes, Francia</option>
                                                                     <option value="5">Delhi, India</option>
-                                                                    <option value="6">Giza, Egypt </option>
-                                                                    <option value="7">Havana, Cuba</option>
+                                                                    <option value="6">Giza, Egipto </option>
+                                                                    <option value="7">La Habana, Cuba</option>
                                                                 </select>
                                                             </div>
 
                                                         </div>
                                                         <div className="col-xl-3 col-lg-4">
                                                             <div className="input-box-one">
-                                                                <div className="label">Price Range</div>
+                                                                <div className="label">Rango de Precio</div>
                                                                 <select className="nice-select fw-normal">
                                                                     <option value="1">$10,000 - $200,000</option>
                                                                     <option value="2">$200,000 - $300,000</option>
@@ -516,15 +516,15 @@ export default function TemplatePage() {
     				<div className="row">
     					<div className="col-lg-5">
     						<div className="title-one md-mb-40">
-                                <h3>1,230+ Companies Trust by us.</h3>
+                                <h3>Más de 1,230 empresas confían en nosotros.</h3>
                             </div>
 
     					</div>
     					<div className="col-xxl-6 col-lg-7 ms-auto">
-    						<p className="fs-24 lh-lg mb-30 color-dark">Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.  745,000 apartments & home for sell, rent & mortgage.</p>
+    						<p className="fs-24 lh-lg mb-30 color-dark">Tu principal defensor inmobiliario, transformando casas en sueños. Confía en nosotros para guiarte a casa con experiencia. 745,000 apartamentos y casas en venta, alquiler e hipoteca.</p>
                             <div className="d-inline-flex flex-wrap align-items-center">
-                                <a href="/about_us_02" className="btn-five md rounded-0 mt-20 me-5"><span>More Details</span></a>
-                                <a href="/contact" className="btn-three mt-20"><span>Request a Callback</span> <i className="fa-light fa-arrow-right-long"></i></a>
+                                <a href="/about_us_02" className="btn-five md rounded-0 mt-20 me-5"><span>Más Detalles</span></a>
+                                <a href="/contact" className="btn-three mt-20"><span>Solicitar una Llamada</span> <i className="fa-light fa-arrow-right-long"></i></a>
                             </div>
     					</div>
     				</div>
@@ -560,8 +560,8 @@ export default function TemplatePage() {
     			<div className="container container-large">
     				<div className="position-relative">
     					<div className="title-one mb-25 lg-mb-10 wow fadeInUp">
-    						<h3>Popular Listings</h3>
-    						<p className="fs-22">Explore latest and featured properties for sale, rent & mortgage.</p>
+    						<h3>Propiedades Populares</h3>
+    						<p className="fs-22">Explora las últimas propiedades en venta, alquiler e hipoteca.</p>
     					</div>
 
 
@@ -570,7 +570,7 @@ export default function TemplatePage() {
     							<div className="listing-card-one style-two shadow-none h-100 w-100">
     								<div className="img-gallery">
     									<div className="position-relative overflow-hidden">
-    										<div className="tag fw-500">FOR RENT</div>
+    										<div className="tag fw-500">EN ALQUILER</div>
     										<div id="carousel1" className="carousel slide">
     											<div className="carousel-indicators">
     												<button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -593,20 +593,20 @@ export default function TemplatePage() {
     								</div>
 
     								<div className="property-info pt-20">
-    									<a href="/listing_details_04" className="title tran3s">Blueberry villa</a>
-    									<div className="address">Mirpur 10, Stadium dhaka 1208</div>
+    									<a href="/listing_details_04" className="title tran3s">Villa Blueberry</a>
+    									<div className="address">Mirpur 10, Estadio Dhaka 1208</div>
     									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between pb-15 pt-5">
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_32.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">1370</span> sqft</span>
+    											<span className="fs-16"><span className="color-dark">1370</span> m²</span>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_33.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">03</span> bed</span>
+    											<span className="fs-16"><span className="color-dark">03</span> hab</span>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_34.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">02</span> bath</span>
+    											<span className="fs-16"><span className="color-dark">02</span> baños</span>
     										</li>
     									</ul>
     									<div className="pl-footer top-border bottom-border d-flex align-items-center justify-content-between">
@@ -622,7 +622,7 @@ export default function TemplatePage() {
     							<div className="listing-card-one style-two shadow-none h-100 w-100">
     								<div className="img-gallery">
     									<div className="position-relative overflow-hidden">
-    										<div className="tag fw-500">FOR SELL</div>
+    										<div className="tag fw-500">EN VENTA</div>
     										<div id="carousel2" className="carousel slide">
     											<div className="carousel-indicators">
     												<button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -645,20 +645,20 @@ export default function TemplatePage() {
     								</div>
 
     								<div className="property-info pt-20">
-    									<a href="/listing_details_04" className="title tran3s">White House villa</a>
+    									<a href="/listing_details_04" className="title tran3s">Villa White House</a>
     									<div className="address">Muza link road, ca, usa</div>
     									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between pb-15 pt-5">
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_32.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">1270</span> sqft</span>
+    											<span className="fs-16"><span className="color-dark">1270</span> m²</span>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_33.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">02</span> bed</span>
+    											<span className="fs-16"><span className="color-dark">02</span> hab</span>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_34.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">02</span> bath</span>
+    											<span className="fs-16"><span className="color-dark">02</span> baños</span>
     										</li>
     									</ul>
     									<div className="pl-footer top-border bottom-border d-flex align-items-center justify-content-between">
@@ -674,7 +674,7 @@ export default function TemplatePage() {
     							<div className="listing-card-one style-two shadow-none h-100 w-100">
     								<div className="img-gallery">
     									<div className="position-relative overflow-hidden">
-    										<div className="tag fw-500">FOR SELL</div>
+    										<div className="tag fw-500">EN VENTA</div>
     										<div id="carousel3" className="carousel slide">
     											<div className="carousel-indicators">
     												<button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -697,20 +697,20 @@ export default function TemplatePage() {
     								</div>
 
     								<div className="property-info pt-20">
-    									<a href="/listing_details_04" className="title tran3s">Luxury villa in Dal lake.</a>
-    									<div className="address">Mirpur 10, Stadium</div>
+    									<a href="/listing_details_04" className="title tran3s">Villa de lujo en el lago Dal.</a>
+    									<div className="address">Mirpur 10, Estadio</div>
     									<ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between pb-15 pt-5">
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_32.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">1270</span> sqft</span>
+    											<span className="fs-16"><span className="color-dark">1270</span> m²</span>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_33.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16"><span className="color-dark">02</span> bed</span>
+    											<span className="fs-16"><span className="color-dark">02</span> hab</span>
     										</li>
     										<li className="d-flex align-items-center">
     											<img src="/images/lazy.svg" data-src="/images/icon/icon_34.svg" alt="" className="lazy-img icon me-2" />
-    											<span className="fs-16">02 bath</span>
+    											<span className="fs-16">02 baños</span>
     										</li>
     									</ul>
     									<div className="pl-footer top-border bottom-border d-flex align-items-center justify-content-between">
@@ -725,7 +725,7 @@ export default function TemplatePage() {
     					</div>
 
     					<div className="section-btn text-center md-mt-60">
-    						<a href="/listing_03" className="btn-eight"><span>Explore All</span> <i className="bi bi-arrow-up-right"></i></a>
+    						<a href="/listing_03" className="btn-eight"><span>Explorar Todo</span> <i className="bi bi-arrow-up-right"></i></a>
     					</div>
     				</div>
     			</div>
@@ -739,7 +739,7 @@ export default function TemplatePage() {
     			<div className="container container-large">
                     <div className="position-relative">
                         <div className="title-one text-center text-lg-start mb-60 xl-mb-40 lg-mb-20 wow fadeInUp">
-    						<h3>Popular Cities</h3>
+    						<h3>Ciudades Populares</h3>
     					</div>
 
 
@@ -747,33 +747,33 @@ export default function TemplatePage() {
                             <div className="location-card-three text-center wow fadeInUp">
                                 <div className="image-bg position-relative z-1 rounded-circle overflow-hidden mb-30" style={{ backgroundImage: "url(images/media/img_38.jpg)" }}><a href="/listing_04" className="stretched-link"></a></div>
                                 <a href="/listing_04" className="title"><h5>California</h5></a>
-                                <p>1,230 Listing</p>
+                                <p>1,230 Anuncios</p>
                             </div>
 
 
     						<div className="location-card-three text-center wow fadeInUp" data-wow-delay="0.1s">
                                 <div className="image-bg position-relative z-1 rounded-circle overflow-hidden mb-30" style={{ backgroundImage: "url(images/media/img_39.jpg)" }}><a href="/listing_04" className="stretched-link"></a></div>
                                 <a href="/listing_04" className="title"><h5>Miami</h5></a>
-                                <p>1,140 Listing</p>
+                                <p>1,140 Anuncios</p>
                             </div>
 
 
                             <div className="location-card-three text-center wow fadeInUp" data-wow-delay="0.2s">
                                 <div className="image-bg position-relative z-1 rounded-circle overflow-hidden mb-30" style={{ backgroundImage: "url(images/media/img_40.jpg)" }}><a href="/listing_04" className="stretched-link"></a></div>
-                                <a href="/listing_04" className="title"><h5>New York</h5></a>
-                                <p>1,740 Listing</p>
+                                <a href="/listing_04" className="title"><h5>Nueva York</h5></a>
+                                <p>1,740 Anuncios</p>
                             </div>
 
 
                             <div className="location-card-three text-center wow fadeInUp" data-wow-delay="0.3s">
                                 <div className="image-bg position-relative z-1 rounded-circle overflow-hidden mb-30" style={{ backgroundImage: "url(images/media/img_41.jpg)" }}><a href="/listing_04" className="stretched-link"></a></div>
                                 <a href="/listing_04" className="title"><h5>Washington DC</h5></a>
-                                <p>720 Listing</p>
+                                <p>720 Anuncios</p>
                             </div>
 
     					</div>
                         <div className="section-btn text-center md-mt-50">
-                            <a href="/listing_04" className="btn-eight"><span>Explore All</span> <i className="bi bi-arrow-up-right"></i></a>
+                            <a href="/listing_04" className="btn-eight"><span>Explorar Todo</span> <i className="bi bi-arrow-up-right"></i></a>
                         </div>
 
                     </div>
@@ -789,8 +789,8 @@ export default function TemplatePage() {
     				<div className="position-relative">
     					<div className="row">
     						<div className="title-one text-center mb-50 lg-mb-20 wow fadeInUp">
-    							<h3>Buy, Rend & Sell</h3>
-    							<p className="fs-22">Over 745K listings of apartments, lots, plots - available today.</p>
+    							<h3>Comprar, Alquilar y Vender</h3>
+    							<p className="fs-22">Más de 745K anuncios de apartamentos, lotes y terrenos disponibles hoy.</p>
     						</div>
 
     					</div>
@@ -799,27 +799,27 @@ export default function TemplatePage() {
     						<div className="col-lg-4 col-md-6 mt-30 d-flex wow fadeInUp">
     							<div className="card-style-six d-inline-flex flex-column align-items-start tran3s h-100 w-100">
     								<div className="icon d-flex align-items-center justify-content-center rounded-circle tran3s"><img src="/images/lazy.svg" data-src="/images/icon/icon_35.svg" alt="" className="lazy-img" /></div>
-    								<h5 className="mt-35 mb-20">Buy a home</h5>
-    								<p className="mb-40">Explore Home Real Estate’s 2 million+ homes and uncover your ideal living space.</p>
-    								<a href="/listing_08" className="btn-twelve rounded-0 sm mt-auto">Buy Home</a>
+    								<h5 className="mt-35 mb-20">Comprar una casa</h5>
+    								<p className="mb-40">Explora los más de 2 millones de hogares de Home Real Estate y descubre tu espacio ideal para vivir.</p>
+    								<a href="/listing_08" className="btn-twelve rounded-0 sm mt-auto">Comprar Casa</a>
     							</div>
 
     						</div>
     						<div className="col-lg-4 col-md-6 mt-30 d-flex wow fadeInUp" data-wow-delay="0.1s">
     							<div className="card-style-six d-inline-flex flex-column align-items-start tran3s h-100 w-100">
     								<div className="icon d-flex align-items-center justify-content-center rounded-circle tran3s"><img src="/images/lazy.svg" data-src="/images/icon/icon_36.svg" alt="" className="lazy-img" /></div>
-    								<h5 className="mt-35 mb-20">Rent a home</h5>
-    								<p className="mb-40">Discover a rental you'll love on Home Real Estate, thanks to 35+ filters.</p>
-    								<a href="/listing_08" className="btn-twelve rounded-0 sm mt-auto">Rent Home</a>
+    								<h5 className="mt-35 mb-20">Alquilar una casa</h5>
+    								<p className="mb-40">Descubre un alquiler que te encantará en Home Real Estate, gracias a más de 35 filtros.</p>
+    								<a href="/listing_08" className="btn-twelve rounded-0 sm mt-auto">Alquilar Casa</a>
     							</div>
 
     						</div>
     						<div className="col-lg-4 col-md-6 mt-30 d-flex wow fadeInUp" data-wow-delay="0.2s">
     							<div className="card-style-six d-inline-flex flex-column align-items-start tran3s h-100 w-100">
     								<div className="icon d-flex align-items-center justify-content-center rounded-circle tran3s"><img src="/images/lazy.svg" data-src="/images/icon/icon_37.svg" alt="" className="lazy-img" /></div>
-    								<h5 className="mt-35 mb-20">Sell Home</h5>
-    								<p className="mb-40">List, sell, thrive – with our top-notch real estate agency. It’s super easy.</p>
-    								<a href="/listing_08" className="btn-twelve rounded-0 sm mt-auto">Sell Home</a>
+    								<h5 className="mt-35 mb-20">Vender Casa</h5>
+    								<p className="mb-40">Publica, vende y prospera con nuestra excelente agencia inmobiliaria. Es muy fácil.</p>
+    								<a href="/listing_08" className="btn-twelve rounded-0 sm mt-auto">Vender Casa</a>
     							</div>
 
     						</div>
@@ -840,12 +840,12 @@ export default function TemplatePage() {
     					<div className="col-lg-6 ms-auto order-lg-last wow fadeInRight">
     						<div className="pb-50 ps-xxl-5 position-relative z-1">
     							<div className="feedback-block-two">
-    								<blockquote className="font-garamond">"Extraordinary <span>service!</span>  Quick solutions. Highly recommended."</blockquote>
+    								<blockquote className="font-garamond">"¡Servicio <span>extraordinario!</span> Soluciones rápidas. Muy recomendado."</blockquote>
     								<div className="d-flex align-items-center mt-75 md-mt-50">
     									<img src="/images/media/img_03.jpg" alt="" className="rounded-circle avatar" />
     									<div className="ps-4">
     										<h6 className="fs-22 mb-5">James Bond.</h6>
-    										<span className="opacity-75">CEO & Head of Home Real Estate</span>
+    										<span className="opacity-75">CEO y Director de Home Real Estate</span>
     									</div>
     								</div>
     							</div>
@@ -855,14 +855,14 @@ export default function TemplatePage() {
     									<div className="col-sm-6">
     										<div className="counter-block-two dark mt-30">
     											<div className="main-count sm font-garamond fw-500"><span className="counter">1200</span>+</div>
-    											<p className="fs-20 m0">Project handover</p>
+    											<p className="fs-20 m0">Proyectos entregados</p>
     										</div>
 
     									</div>
     									<div className="col-sm-6">
     										<div className="counter-block-two dark mt-30">
     											<div className="main-count sm font-garamond fw-500"><span className="counter">1.9</span>mil+</div>
-    											<p className="fs-20 m0">Happy customers</p>
+    											<p className="fs-20 m0">Clientes felices</p>
     										</div>
 
     									</div>
@@ -893,19 +893,19 @@ export default function TemplatePage() {
     				<div className="row">
     					<div className="col-xxl-5 col-lg-6 wow fadeInLeft">
     						<div className="title-one mb-45 lg-mb-30">
-    							<h3 className="text-white">Exclusive Monthly Deal for you.</h3>
-    							<p className="fs-24 text-white pe-xl-5 me-xxl-5">Don't miss out on this personalized monthly exclusive offer for you.</p>
+    							<h3 className="text-white">Oferta Mensual Exclusiva para ti.</h3>
+    							<p className="fs-24 text-white pe-xl-5 me-xxl-5">No te pierdas esta oferta mensual exclusiva y personalizada para ti.</p>
     						</div>
 
-    						<a href="/listing_details_02" className="btn-six rounded-0">More Details</a>
+    						<a href="/listing_details_02" className="btn-six rounded-0">Más Detalles</a>
     					</div>
     					<div className="col-lg-6 ms-auto wow fadeInRight">
     						<div className="property-item md-mt-60 rounded-0 position-relative z-1">
     							<div className="row gx-0">
     								<div className="col-md-5 d-flex">
     									<div className="gutter border-right w-100 h-100">
-    										<div className="tag mb-20">FOR SELL</div>
-    										<h4 className="mb-70 sm-mb-40">Luxury Duplex orkit villa.</h4>
+    										<div className="tag mb-20">EN VENTA</div>
+    										<h4 className="mb-70 sm-mb-40">Villa de lujo dúplex orkit.</h4>
     										<ul className="style-none d-flex action-icons">
     											<li><a href="#"><i className="fa-light fa-heart"></i></a></li>
     											<li><a href="#"><i className="fa-light fa-bookmark"></i></a></li>
@@ -916,20 +916,20 @@ export default function TemplatePage() {
     								</div>
     								<div className="col-md-7 d-flex">
     									<div className="gutter w-100 h-100">
-    										<p>Mirpur 10, National Stadium, 1210, Dhaka, BD</p>
+    										<p>Mirpur 10, Estadio Nacional, 1210, Dhaka, BD</p>
     										<h2 className="price text-center">$28,100.00</h2>
     										<ul className="style-none d-flex feature">
     											<li>
     												<strong className="d-block color-dark fw-500 fs-20">2137</strong>
-    												<span className="fs-16">sqft</span>
+    												<span className="fs-16">m²</span>
     											</li>
     											<li className="text-center">
     												<strong className="d-block color-dark fw-500 fs-20">03</strong>
-    												<span className="fs-16">bed</span>
+    												<span className="fs-16">hab</span>
     											</li>
     											<li className="text-end">
     												<strong className="d-block color-dark fw-500 fs-20">02</strong>
-    												<span className="fs-16">bath</span>
+    												<span className="fs-16">baños</span>
     											</li>
     										</ul>
     									</div>
@@ -937,7 +937,7 @@ export default function TemplatePage() {
     								</div>
     							</div>
     							<div className="button-group gutter d-flex justify-content-between align-items-center">
-    								<a href="/listing_details_02" className="btn-three"><span>Check Full Details</span></a>
+    								<a href="/listing_details_02" className="btn-three"><span>Ver Detalles Completos</span></a>
     								<a href="/listing_details_02" className="btn-four rounded-circle"><i className="bi bi-arrow-up-right"></i></a>
     							</div>
     						</div>
@@ -956,8 +956,8 @@ export default function TemplatePage() {
     			<div className="container container-large">
     				<div className="position-relative">
     					<div className="title-one mb-85 lg-mb-50 wow fadeInLeft">
-    						<h3>Our Agents</h3>
-    						<p className="fs-22 mt-xs">Lorem  is placeholder text commonly used  graphic </p>
+    						<h3>Nuestros Agentes</h3>
+    						<p className="fs-22 mt-xs">Descubre a nuestro equipo de profesionales inmobiliarios dedicados a ti.</p>
     					</div>
 
 
@@ -970,7 +970,7 @@ export default function TemplatePage() {
     									</div>
     									<div className="text-center">
     										<h6>Mark Filo</h6>
-    										<a href="#" className="stretched-link">CEO & Founder</a>
+    										<a href="#" className="stretched-link">CEO y Fundador</a>
     									</div>
     								</div>
 
@@ -982,7 +982,7 @@ export default function TemplatePage() {
     									</div>
     									<div className="text-center">
     										<h6>Chris Matial</h6>
-    										<a href="#" className="stretched-link">Retailer</a>
+    										<a href="#" className="stretched-link">Minorista</a>
     									</div>
     								</div>
 
@@ -994,7 +994,7 @@ export default function TemplatePage() {
     									</div>
     									<div className="text-center">
     										<h6>Jubayer Al Hasan</h6>
-    										<a href="#" className="stretched-link">Marketing Expert</a>
+    										<a href="#" className="stretched-link">Experto en Marketing</a>
     									</div>
 
     								</div>
@@ -1007,7 +1007,7 @@ export default function TemplatePage() {
     									</div>
     									<div className="text-center">
     										<h6>Jannatul Ferdaus</h6>
-    										<a href="#" className="stretched-link">Broker</a>
+    										<a href="#" className="stretched-link">Corredora</a>
     									</div>
     								</div>
 
@@ -1019,7 +1019,7 @@ export default function TemplatePage() {
     									</div>
     									<div className="text-center">
     										<h6>Chris Matial</h6>
-    										<a href="#" className="stretched-link">Broker</a>
+    										<a href="#" className="stretched-link">Corredor</a>
     									</div>
     								</div>
 
@@ -1029,7 +1029,7 @@ export default function TemplatePage() {
 
 
     					<div className="section-btn text-center md-mt-60">
-    						<a href="/agent" className="btn-eight"><span>Meet Entire Team</span></a>
+    						<a href="/agent" className="btn-eight"><span>Conoce a Todo el Equipo</span></a>
     					</div>
     				</div>
     			</div>
@@ -1042,8 +1042,8 @@ export default function TemplatePage() {
     		<div className="feedback-section-six bg-pink-two position-relative z-1 mt-170 xl-mt-120 pt-110 xl-pt-80 pb-100 xl-pb-80">
     			<div className="container container-large">
     				<div className="title-one text-center mb-80 xl-mb-50 md-mb-30">
-    					<h3>Client Feedback</h3>
-    					<p className="fs-20 mt-xs">Client satisfaction speaks louder than our words. Hear from them.</p>
+    					<h3>Feedback de Clientes</h3>
+    					<p className="fs-20 mt-xs">La satisfacción del cliente habla más fuerte que nuestras palabras. Escúchalos.</p>
     				</div>
 
     				<div className="feedback-slider-three">
@@ -1059,9 +1059,9 @@ export default function TemplatePage() {
     								</ul>
     								<img src="/images/icon/icon_29.svg" alt="" className="icon" />
     							</div>
-    							<blockquote>Game-changer! Boosted efficiency, simplified tasks, and saved time. Highly recommended!</blockquote>
+    							<blockquote>¡Cambio de juego! Aumentó la eficiencia, simplificó las tareas y ahorró tiempo. ¡Muy recomendado!</blockquote>
     							<div className="d-flex align-items-center justify-content-between">
-    								<h6 className="fs-20 m0">Rashed Kabir, <span className="fw-normal opacity-50">Claifornia</span></h6>
+    								<h6 className="fs-20 m0">Rashed Kabir, <span className="fw-normal opacity-50">California</span></h6>
     								<img src="/images/media/img_01.jpg" alt="" className="rounded-circle avatar" />
     							</div>
     						</div>
@@ -1079,9 +1079,9 @@ export default function TemplatePage() {
     								</ul>
     								<img src="/images/icon/icon_29.svg" alt="" className="icon" />
     							</div>
-    							<blockquote>Found our dream home. Great Business with them. simplified tasks, and saved time. Thank You</blockquote>
+    							<blockquote>Encontramos la casa de nuestros sueños. Excelente negocio con ellos. Simplificó las tareas y ahorró tiempo. Gracias.</blockquote>
     							<div className="d-flex align-items-center justify-content-between">
-    								<h6 className="fs-20 m0">Jannat Ferdu, <span className="fw-normal opacity-50">Claifornia</span></h6>
+    								<h6 className="fs-20 m0">Jannat Ferdu, <span className="fw-normal opacity-50">California</span></h6>
     								<img src="/images/media/img_02.jpg" alt="" className="rounded-circle avatar" />
     							</div>
     						</div>
@@ -1099,9 +1099,9 @@ export default function TemplatePage() {
     								</ul>
     								<img src="/images/icon/icon_29.svg" alt="" className="icon" />
     							</div>
-    							<blockquote>Efficient and friendly service, guided us perfectly. Satisfied with our new home. Thank you!</blockquote>
+    							<blockquote>Servicio eficiente y amable, nos guiaron perfectamente. Satisfechos con nuestro nuevo hogar. ¡Gracias!</blockquote>
     							<div className="d-flex align-items-center justify-content-between">
-    								<h6 className="fs-20 m0">Jubayer Hasan, <span className="fw-normal opacity-50">Claifornia</span></h6>
+    								<h6 className="fs-20 m0">Jubayer Hasan, <span className="fw-normal opacity-50">California</span></h6>
     								<img src="/images/media/img_03.jpg" alt="" className="rounded-circle avatar" />
     							</div>
     						</div>
@@ -1124,8 +1124,8 @@ export default function TemplatePage() {
     						<div className="d-xl-flex align-items-center">
     							<div className="icon rounded-circle d-flex align-items-center justify-content-center"><img src="/images/lazy.svg" data-src="/images/icon/icon_39.svg" alt="" className="lazy-img" /></div>
     							<div className="text">
-    								<p className="fs-22">We’r always happy to help.</p>
-    								<a href="#" className="tran3s">hello@homerealestate.com</a>
+    								<p className="fs-22">Siempre estamos felices de ayudar.</p>
+    								<a href="#" className="tran3s">hola@homerealestate.com</a>
     							</div>
 
     						</div>
@@ -1135,7 +1135,7 @@ export default function TemplatePage() {
     						<div className="d-xl-flex align-items-center">
     							<div className="icon rounded-circle d-flex align-items-center justify-content-center"><img src="/images/lazy.svg" data-src="/images/icon/icon_39.svg" alt="" className="lazy-img" /></div>
     							<div className="text">
-    								<p className="fs-22">Our hotline number</p>
+    								<p className="fs-22">Nuestro número de atención</p>
     								<a href="#" className="tran3s">+757 699 4478,</a>
     								<a href="#" className="tran3s">&nbsp; +991 377 9731</a>
     							</div>
@@ -1147,7 +1147,7 @@ export default function TemplatePage() {
     						<div className="d-xl-flex align-items-center">
     							<div className="icon rounded-circle d-flex align-items-center justify-content-center"><img src="/images/lazy.svg" data-src="/images/icon/icon_39.svg" alt="" className="lazy-img" /></div>
     							<div className="text">
-    								<p className="fs-22">Live chat</p>
+    								<p className="fs-22">Chat en vivo</p>
     								<a href="#" className="tran3s">www.homerealestate.com/live-chat</a>
     							</div>
 
@@ -1168,17 +1168,17 @@ export default function TemplatePage() {
     				<div className="row align-items-center">
     					<div className="col-lg-6">
     						<div className="title-one text-center text-lg-start md-mb-40 pe-xl-5">
-    							<h3 className="text-white m0">Start your Journey As a Retailer.</h3>
+    							<h3 className="text-white m0">Comienza tu Viaje Como Agente Inmobiliario.</h3>
     						</div>
 
     					</div>
     					<div className="col-lg-6">
     						<div className="form-wrapper me-auto ms-auto me-lg-0">
     							<form action="#">
-    								<input type="email" placeholder="Email address" className="rounded-0" />
-    								<button className="rounded-0">Get Started</button>
+    								<input type="email" placeholder="Correo electrónico" className="rounded-0" />
+    								<button className="rounded-0">Comenzar</button>
     							</form>
-    							<div className="fs-16 mt-10 text-white">Already a Agent? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in.</a></div>
+    							<div className="fs-16 mt-10 text-white">¿Ya eres un Agente? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Inicia sesión.</a></div>
     						</div>
     					</div>
     				</div>
@@ -1202,8 +1202,8 @@ export default function TemplatePage() {
     									</a>
     								</div> 
 
-    								<p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>
-    								<a href="#" className="email tran3s mb-60 md-mb-30">hello@homerealestate.com</a>
+    								<p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, Estados Unidos</p>
+    								<a href="#" className="email tran3s mb-60 md-mb-30">hola@homerealestate.com</a>
     								<ul className="style-none d-flex align-items-center social-icon">
     									<li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
     									<li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
@@ -1213,15 +1213,15 @@ export default function TemplatePage() {
     						</div>
     						<div className="col-lg-3 col-sm-4 ms-auto mb-30">
     							<div className="footer-nav ps-xl-5">
-    								<h5 className="footer-title">Links</h5>
+    								<h5 className="footer-title">Enlaces</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/">Home</a></li>
-    									<li><a href="/dashboard/membership" target="_blank" rel="noopener noreferrer">Membership</a></li>
-    									<li><a href="/about_us_01">About Company</a></li>
+    									<li><a href="/">Inicio</a></li>
+    									<li><a href="/dashboard/membership" target="_blank" rel="noopener noreferrer">Membresía</a></li>
+    									<li><a href="/about_us_01">Sobre la Empresa</a></li>
     									<li><a href="/blog_01">Blog</a></li>
-    									<li><a href="/blog_02">Explore Careers</a></li>
-    									<li><a href="/pricing_02">Pricing</a></li>
-    									<li><a href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Dashboard</a></li>
+    									<li><a href="/blog_02">Explorar Empleos</a></li>
+    									<li><a href="/pricing_02">Precios</a></li>
+    									<li><a href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Panel de Control</a></li>
     								</ul>
     							</div>
     						</div>
@@ -1229,23 +1229,23 @@ export default function TemplatePage() {
     							<div className="footer-nav">
     								<h5 className="footer-title">Legal</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/faq">Terms & conditions</a></li>
-    									<li><a href="/faq">Cookie</a></li>
-    									<li><a href="/faq">Privacy policy</a></li>
-    									<li><a href="/faq">Faq’s</a></li>
+    									<li><a href="/faq">Términos y condiciones</a></li>
+    									<li><a href="/faq">Cookies</a></li>
+    									<li><a href="/faq">Política de privacidad</a></li>
+    									<li><a href="/faq">Preguntas frecuentes</a></li>
     								</ul>
     							</div>
     						</div>
     						<div className="col-lg-2 col-sm-4 mb-30">
     							<div className="footer-nav">
-    								<h5 className="footer-title">New Listing</h5>
+    								<h5 className="footer-title">Nuevas Propiedades</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/listing_01">​Buy Apartments</a></li>
-    									<li><a href="/listing_02">Buy Condos</a></li>
-    									<li><a href="/listing_03">Rent Houses</a></li>
-    									<li><a href="/listing_04">Rent Industrial</a></li>
-    									<li><a href="/listing_05">Buy Villas</a></li>
-    									<li><a href="/listing_06">Rent Office</a></li>
+    									<li><a href="/listing_01">​Comprar Apartamentos</a></li>
+    									<li><a href="/listing_02">Comprar Condominios</a></li>
+    									<li><a href="/listing_03">Alquilar Casas</a></li>
+    									<li><a href="/listing_04">Alquilar Industriales</a></li>
+    									<li><a href="/listing_05">Comprar Villas</a></li>
+    									<li><a href="/listing_06">Alquilar Oficinas</a></li>
     								</ul>
     							</div>
     						</div>
@@ -1270,30 +1270,30 @@ export default function TemplatePage() {
     						<div className="form-wrapper m-auto">
     							<ul className="nav nav-tabs w-100" role="tablist">
     								<li className="nav-item" role="presentation">
-    									<button className="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Login</button>
+    									<button className="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Iniciar Sesión</button>
     								</li>
     								<li className="nav-item" role="presentation">
-    									<button className="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Signup</button>
+    									<button className="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Registrarse</button>
     								</li>
     							</ul>
     							<div className="tab-content mt-30">
     								<div className="tab-pane show active" role="tabpanel" id="fc1">
     									<div className="text-center mb-20">
-    										<h2>Welcome Back!</h2>
-    										<p className="fs-20 color-dark">Still don't have an account? <a href="#">Sign up</a></p>
+    										<h2>¡Bienvenido de nuevo!</h2>
+    										<p className="fs-20 color-dark">¿Aún no tienes una cuenta? <a href="#">Regístrate</a></p>
     									</div>
     									<form action="#">
     										<div className="row">
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Email*</label>
-    													<input type="email" placeholder="Youremail@gmail.com" />
+    													<label>Correo electrónico*</label>
+    													<input type="email" placeholder="tucorreo@gmail.com" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-20">
-    													<label>Password*</label>
-    													<input type="password" placeholder="Enter Password" className="pass_log_id" />
+    													<label>Contraseña*</label>
+    													<input type="password" placeholder="Ingresa tu contraseña" className="pass_log_id" />
     													<span className="placeholder_icon"><span className="passVicon"><img src="/images/icon/icon_68.svg" alt="" /></span></span>
     												</div>
     											</div>
@@ -1301,13 +1301,13 @@ export default function TemplatePage() {
     												<div className="agreement-checkbox d-flex justify-content-between align-items-center">
     													<div>
     														<input type="checkbox" id="remember" />
-    														<label htmlFor="remember">Keep me logged in</label>
+    														<label htmlFor="remember">Mantener sesión iniciada</label>
     													</div>
-    													<a href="#">Forget Password?</a>
+    													<a href="#">¿Olvidaste tu contraseña?</a>
     												</div> 
     											</div>
     											<div className="col-12">
-    												<button className="btn-two w-100 text-uppercase d-block mt-20">Login</button>
+    												<button className="btn-two w-100 text-uppercase d-block mt-20">Iniciar Sesión</button>
     											</div>
     										</div>
     									</form>
@@ -1315,27 +1315,27 @@ export default function TemplatePage() {
 
     								<div className="tab-pane" role="tabpanel" id="fc2">
     									<div className="text-center mb-20">
-    										<h2>Register</h2>
-    										<p className="fs-20 color-dark">Already have an account? <a href="#">Login</a></p>
+    										<h2>Registro</h2>
+    										<p className="fs-20 color-dark">¿Ya tienes una cuenta? <a href="#">Iniciar Sesión</a></p>
     									</div>
     									<form action="#">
     										<div className="row">
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Name*</label>
-    													<input type="text" placeholder="Zubayer Hasan" />
+    													<label>Nombre*</label>
+    													<input type="text" placeholder="Tu Nombre Completo" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Email*</label>
-    													<input type="email" placeholder="zubayerhasan@gmail.com" />
+    													<label>Correo electrónico*</label>
+    													<input type="email" placeholder="tucorreo@gmail.com" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-20">
-    													<label>Password*</label>
-    													<input type="password" placeholder="Enter Password" className="pass_log_id" />
+    													<label>Contraseña*</label>
+    													<input type="password" placeholder="Ingresa tu contraseña" className="pass_log_id" />
     													<span className="placeholder_icon"><span className="passVicon"><img src="/images/icon/icon_68.svg" alt="" /></span></span>
     												</div>
     											</div>
@@ -1343,12 +1343,12 @@ export default function TemplatePage() {
     												<div className="agreement-checkbox d-flex justify-content-between align-items-center">
     													<div>
     														<input type="checkbox" id="remember2" />
-    														<label htmlFor="remember2">By hitting the "Register" button, you agree to the <a href="#">Terms conditions</a> & <a href="#">Privacy Policy</a></label>
+    														<label htmlFor="remember2">Al hacer clic en "Registrarse", aceptas los <a href="#">Términos y condiciones</a> y la <a href="#">Política de Privacidad</a></label>
     													</div>
     												</div> 
     											</div>
     											<div className="col-12">
-    												<button className="btn-two w-100 text-uppercase d-block mt-20">Sign Up</button>
+    												<button className="btn-two w-100 text-uppercase d-block mt-20">Registrarse</button>
     											</div>
     										</div>
     									</form>
@@ -1358,20 +1358,20 @@ export default function TemplatePage() {
 
     							<div className="d-flex align-items-center mt-30 mb-10">
     								<div className="line"></div>
-    								<span className="pe-3 ps-3 fs-6">OR</span>
+    								<span className="pe-3 ps-3 fs-6">O</span>
     								<div className="line"></div>
     							</div>
     							<div className="row">
     								<div className="col-sm-6">
     									<a href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
     										<img src="/images/icon/google.png" alt="" />
-    										<span className="ps-3">Signup with Google</span>
+    										<span className="ps-3">Registrarse con Google</span>
     									</a>
     								</div>
     								<div className="col-sm-6">
     									<a href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
     										<img src="/images/icon/facebook.png" alt="" />
-    										<span className="ps-3">Signup with Facebook</span>
+    										<span className="ps-3">Registrarse con Facebook</span>
     									</a>
     								</div>
     							</div>
@@ -1387,34 +1387,6 @@ export default function TemplatePage() {
     		<button className="scroll-top">
     			<i className="bi bi-arrow-up-short"></i>
     		</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     	</div>
     </TemplatePageShell>
