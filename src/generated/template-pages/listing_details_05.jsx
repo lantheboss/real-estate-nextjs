@@ -3,9 +3,9 @@
 import { TemplatePageShell } from "@/components/template-page-shell";
 
 export const metadata = {
-  title: "Home Real Estate Next.js Template & Dashboard",
-  description: "Home Real Estate is a modern Next.js template designed for real estate agencies.",
-  keywords: ["Real estate","Property sale","Property buy"],
+  title: "Plantilla y Panel de Control de Home Real Estate para Next.js",
+  description: "Home Real Estate es una plantilla moderna de Next.js diseñada para agencias inmobiliarias.",
+  keywords: ["Bienes raíces","Venta de propiedades","Compra de propiedades"],
 };
 
 const scripts = [
@@ -42,7 +42,7 @@ export default function TemplatePage() {
                 <div className="modal-dialog modal-fullscreen modal-dialog-centered">
                     <div className="modal-content d-flex justify-content-center">
                         <form action="#">
-                            <input type="text" placeholder="Buy Apartments, Rent Condos, Sell Houses" />
+                            <input type="text" placeholder="Comprar Apartamentos, Alquilar Condominios, Vender Casas" />
                             <button><i className="fa-light fa-arrow-right-long"></i></button>
                         </form>
                     </div>
@@ -65,7 +65,7 @@ export default function TemplatePage() {
     						<div className="right-widget ms-auto me-3 me-lg-0 order-lg-3">
     							<ul className="d-flex align-items-center style-none">
     								<li className="d-none d-md-inline-block me-4">
-                                        <a href="/dashboard/add-property" className="btn-ten rounded-0" target="_blank" rel="noopener noreferrer"><span>Add Listing</span> <i className="bi bi-arrow-up-right"></i></a>
+                                        <a href="/dashboard/add-property" className="btn-ten rounded-0" target="_blank" rel="noopener noreferrer"><span>Añadir Anuncio</span> <i className="bi bi-arrow-up-right"></i></a>
                                     </li>
     								<li>
                                         <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="login-btn-two rounded-circle tran3s d-flex align-items-center justify-content-center"><i className="fa-regular fa-lock"></i></a>
@@ -85,68 +85,68 @@ export default function TemplatePage() {
     								<ul className="navbar-nav align-items-lg-center">
     									<li className="d-block d-lg-none"><div className="logo"><a href="/" className="d-block"><img src="/images/logo/logo.svg" alt="" /></a></div></li>
     									<li className="nav-item dashboard-menu">
-    										<a className="nav-link" href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Dashboard</a>
+    										<a className="nav-link" href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Panel de Control</a>
     									</li>
     									<li className="nav-item dropdown">
     										<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-    											data-bs-auto-close="outside" aria-expanded="false">Home
+    											data-bs-auto-close="outside" aria-expanded="false">Inicio
     										</a>
     										<ul className="dropdown-menu">
-    											<li><a href="/" className="dropdown-item"><span>Home 01</span></a></li>
-    											<li><a href="/index-2" className="dropdown-item"><span>Home 02</span></a></li>
-    											<li><a href="/index-3" className="dropdown-item"><span>Home 03</span></a></li>
-    											<li><a href="/index-4" className="dropdown-item"><span>Home 04</span></a></li>
-    											<li><a href="/index-5" className="dropdown-item"><span>Home 05</span></a></li>
-    											<li><a href="/index-6" className="dropdown-item"><span>Home 06</span></a></li>
-    											<li><a href="/index-7" className="dropdown-item"><span>Home 07</span></a></li>
+    											<li><a href="/" className="dropdown-item"><span>Inicio 01</span></a></li>
+    											<li><a href="/index-2" className="dropdown-item"><span>Inicio 02</span></a></li>
+    											<li><a href="/index-3" className="dropdown-item"><span>Inicio 03</span></a></li>
+    											<li><a href="/index-4" className="dropdown-item"><span>Inicio 04</span></a></li>
+    											<li><a href="/index-5" className="dropdown-item"><span>Inicio 05</span></a></li>
+    											<li><a href="/index-6" className="dropdown-item"><span>Inicio 06</span></a></li>
+    											<li><a href="/index-7" className="dropdown-item"><span>Inicio 07</span></a></li>
     										</ul>
     									</li>
     									<li className="nav-item dropdown mega-dropdown-sm">
-    							        	<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Listing
+    							        	<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Anuncios
     										</a>
     						                <ul className="dropdown-menu">
     							                <li className="row gx-1">
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Listing Type</h6>
+    														<h6 className="mega-menu-title">Tipo de Anuncio</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_01" className="dropdown-item"><span>Grid Sidebar-1</span></a></li>
-    															<li><a href="/listing_05" className="dropdown-item"><span>Grid Sidebar-2</span></a></li>
-    															<li><a href="/listing_02" className="dropdown-item"><span>List Sidebar-1</span></a></li>
-    															<li><a href="/listing_06" className="dropdown-item"><span>List Sidebar-2</span></a></li>
-    															<li><a href="/listing_03" className="dropdown-item"><span>Grid Top Filter-1</span></a></li>
-    															<li><a href="/listing_07" className="dropdown-item"><span>Grid Top Filter-2</span></a></li>
-    															<li><a href="/listing_04" className="dropdown-item"><span>List Top Filter-1</span></a></li>
-    															<li><a href="/listing_08" className="dropdown-item"><span>List Top Filter-2</span></a></li>
-    															<li><a href="/listing_09" className="dropdown-item"><span>Grid Banner Filter-1</span></a></li>
+    															<li><a href="/listing_01" className="dropdown-item"><span>Cuadrícula con Barra Lateral-1</span></a></li>
+    															<li><a href="/listing_05" className="dropdown-item"><span>Cuadrícula con Barra Lateral-2</span></a></li>
+    															<li><a href="/listing_02" className="dropdown-item"><span>Lista con Barra Lateral-1</span></a></li>
+    															<li><a href="/listing_06" className="dropdown-item"><span>Lista con Barra Lateral-2</span></a></li>
+    															<li><a href="/listing_03" className="dropdown-item"><span>Cuadrícula con Filtro Superior-1</span></a></li>
+    															<li><a href="/listing_07" className="dropdown-item"><span>Cuadrícula con Filtro Superior-2</span></a></li>
+    															<li><a href="/listing_04" className="dropdown-item"><span>Lista con Filtro Superior-1</span></a></li>
+    															<li><a href="/listing_08" className="dropdown-item"><span>Lista con Filtro Superior-2</span></a></li>
+    															<li><a href="/listing_09" className="dropdown-item"><span>Cuadrícula con Filtro de Banner-1</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Listing Type</h6>
+    														<h6 className="mega-menu-title">Tipo de Anuncio</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_11" className="dropdown-item"><span>Grid Banner Filter-2</span></a></li>
-    															<li><a href="/listing_10" className="dropdown-item"><span>List Banner Filter-1</span></a></li>
-    															<li><a href="/listing_12" className="dropdown-item"><span>List Banner Filter-2</span></a></li>
-    															<li><a href="/listing_13" className="dropdown-item"><span>Grid Fullwidth</span></a></li>
-    															<li><a href="/listing_14" className="dropdown-item"><span>Grid Fullwidth Map-1</span></a></li>
-    															<li><a href="/listing_16" className="dropdown-item"><span>Grid Fullwidth Map-2</span></a></li>
-    															<li><a href="/listing_15" className="dropdown-item"><span>List Fullwidth Map-1</span></a></li>
-    															<li><a href="/listing_17" className="dropdown-item"><span>List Fullwidth Map-2</span></a></li>
+    															<li><a href="/listing_11" className="dropdown-item"><span>Cuadrícula con Filtro de Banner-2</span></a></li>
+    															<li><a href="/listing_10" className="dropdown-item"><span>Lista con Filtro de Banner-1</span></a></li>
+    															<li><a href="/listing_12" className="dropdown-item"><span>Lista con Filtro de Banner-2</span></a></li>
+    															<li><a href="/listing_13" className="dropdown-item"><span>Cuadrícula a Ancho Completo</span></a></li>
+    															<li><a href="/listing_14" className="dropdown-item"><span>Cuadrícula a Ancho Completo con Mapa-1</span></a></li>
+    															<li><a href="/listing_16" className="dropdown-item"><span>Cuadrícula a Ancho Completo con Mapa-2</span></a></li>
+    															<li><a href="/listing_15" className="dropdown-item"><span>Lista a Ancho Completo con Mapa-1</span></a></li>
+    															<li><a href="/listing_17" className="dropdown-item"><span>Lista a Ancho Completo con Mapa-2</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Single Listing</h6>
+    														<h6 className="mega-menu-title">Anuncio Individual</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/listing_details_01" className="dropdown-item"><span>Listing Details-1</span></a></li>
-    															<li><a href="/listing_details_02" className="dropdown-item"><span>Listing Details-2</span></a></li>
-    															<li><a href="/listing_details_03" className="dropdown-item"><span>Listing Details-3</span></a></li>
-    															<li><a href="/listing_details_04" className="dropdown-item"><span>Listing Details-4</span></a></li>
-    															<li><a href="/listing_details_05" className="dropdown-item"><span>Listing Details-5</span></a></li>
-    															<li><a href="/listing_details_06" className="dropdown-item"><span>Listing Details-6</span></a></li>
+    															<li><a href="/listing_details_01" className="dropdown-item"><span>Detalles del Anuncio-1</span></a></li>
+    															<li><a href="/listing_details_02" className="dropdown-item"><span>Detalles del Anuncio-2</span></a></li>
+    															<li><a href="/listing_details_03" className="dropdown-item"><span>Detalles del Anuncio-3</span></a></li>
+    															<li><a href="/listing_details_04" className="dropdown-item"><span>Detalles del Anuncio-4</span></a></li>
+    															<li><a href="/listing_details_05" className="dropdown-item"><span>Detalles del Anuncio-5</span></a></li>
+    															<li><a href="/listing_details_06" className="dropdown-item"><span>Detalles del Anuncio-6</span></a></li>
     														</ul>
     													</div> 
     												</div>
@@ -155,48 +155,48 @@ export default function TemplatePage() {
     						            </li>
     									<li className="nav-item dropdown mega-dropdown-sm">
     										<a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-    											data-bs-auto-close="outside" aria-expanded="false">Pages
+    											data-bs-auto-close="outside" aria-expanded="false">Páginas
     										</a>
     										<ul className="dropdown-menu">
     							                <li className="row gx-1">
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Essential</h6>
+    														<h6 className="mega-menu-title">Esenciales</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/about_us_01" className="dropdown-item"><span>About us -1</span></a></li>
-    															<li><a href="/about_us_02" className="dropdown-item"><span>About us -2</span></a></li>
-    															<li><a href="/agency" className="dropdown-item"><span>Agency</span></a></li>
-    															<li><a href="/agency_details" className="dropdown-item"><span>Agency Details</span></a></li>
-    															<li><a href="/agent" className="dropdown-item"><span>Agent</span></a></li>
-    															<li><a href="/agent_details" className="dropdown-item"><span>Agent Details</span></a></li>
+    															<li><a href="/about_us_01" className="dropdown-item"><span>Sobre nosotros -1</span></a></li>
+    															<li><a href="/about_us_02" className="dropdown-item"><span>Sobre nosotros -2</span></a></li>
+    															<li><a href="/agency" className="dropdown-item"><span>Agencia</span></a></li>
+    															<li><a href="/agency_details" className="dropdown-item"><span>Detalles de la Agencia</span></a></li>
+    															<li><a href="/agent" className="dropdown-item"><span>Agente</span></a></li>
+    															<li><a href="/agent_details" className="dropdown-item"><span>Detalles del Agente</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Features</h6>
+    														<h6 className="mega-menu-title">Características</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/project_01" className="dropdown-item"><span>Project -1</span></a></li>
-    															<li><a href="/project_02" className="dropdown-item"><span>Project -2</span></a></li>
-    															<li><a href="/project_03" className="dropdown-item"><span>Project -3</span></a></li>
-    															<li><a href="/project_04" className="dropdown-item"><span>Project -4</span></a></li>
-    															<li><a href="/project_details_01" className="dropdown-item"><span>Project Details</span></a></li>
-    															<li><a href="/service_01" className="dropdown-item"><span>Services -1</span></a></li>
-    															<li><a href="/service_02" className="dropdown-item"><span>Services -2</span></a></li>
-    															<li><a href="/service_details" className="dropdown-item"><span>Service Details</span></a></li>
+    															<li><a href="/project_01" className="dropdown-item"><span>Proyecto -1</span></a></li>
+    															<li><a href="/project_02" className="dropdown-item"><span>Proyecto -2</span></a></li>
+    															<li><a href="/project_03" className="dropdown-item"><span>Proyecto -3</span></a></li>
+    															<li><a href="/project_04" className="dropdown-item"><span>Proyecto -4</span></a></li>
+    															<li><a href="/project_details_01" className="dropdown-item"><span>Detalles del Proyecto</span></a></li>
+    															<li><a href="/service_01" className="dropdown-item"><span>Servicios -1</span></a></li>
+    															<li><a href="/service_02" className="dropdown-item"><span>Servicios -2</span></a></li>
+    															<li><a href="/service_details" className="dropdown-item"><span>Detalles del Servicio</span></a></li>
     														</ul>
     													</div> 
     												</div>
     												<div className="col-lg-4">
     													<div className="menu-column">
-    														<h6 className="mega-menu-title">Others</h6>
+    														<h6 className="mega-menu-title">Otros</h6>
     														<ul className="style-none mega-dropdown-list">
-    															<li><a href="/compare" className="dropdown-item"><span>Property Compare</span></a></li>
-    															<li><a href="/pricing_01" className="dropdown-item"><span>Pricing -1</span></a></li>
-    															<li><a href="/pricing_02" className="dropdown-item"><span>Pricing -2</span></a></li>
-    															<li><a href="/contact" className="dropdown-item"><span>Contact Us</span></a></li>
-    															<li><a href="/faq" className="dropdown-item"><span>FAQ's</span></a></li>
-    															<li><a href="/404" className="dropdown-item"><span>404-Error</span></a></li>
+    															<li><a href="/compare" className="dropdown-item"><span>Comparar Propiedades</span></a></li>
+    															<li><a href="/pricing_01" className="dropdown-item"><span>Precios -1</span></a></li>
+    															<li><a href="/pricing_02" className="dropdown-item"><span>Precios -2</span></a></li>
+    															<li><a href="/contact" className="dropdown-item"><span>Contáctanos</span></a></li>
+    															<li><a href="/faq" className="dropdown-item"><span>Preguntas Frecuentes</span></a></li>
+    															<li><a href="/404" className="dropdown-item"><span>Error 404</span></a></li>
     														</ul>
     													</div> 
     												</div>
@@ -208,14 +208,14 @@ export default function TemplatePage() {
     											data-bs-auto-close="outside" aria-expanded="false">Blog
     										</a>
     										<ul className="dropdown-menu">
-    											<li><a href="/blog_01" className="dropdown-item"><span>Blog Grid</span></a></li>
-    											<li><a href="/blog_02" className="dropdown-item"><span>Blog List</span></a></li>
-    											<li><a href="/blog_03" className="dropdown-item"><span>Blog 2 column</span></a></li>
-    											<li><a href="/blog_details" className="dropdown-item"><span>Blog Details</span></a></li>
+    											<li><a href="/blog_01" className="dropdown-item"><span>Blog en Cuadrícula</span></a></li>
+    											<li><a href="/blog_02" className="dropdown-item"><span>Blog en Lista</span></a></li>
+    											<li><a href="/blog_03" className="dropdown-item"><span>Blog 2 columnas</span></a></li>
+    											<li><a href="/blog_details" className="dropdown-item"><span>Detalles del Blog</span></a></li>
     										</ul>
     									</li>
     									<li className="d-md-none ps-2 pe-2 mt-20">
-    										<a href="/dashboard/add-property" className="btn-ten w-100 rounded-0" target="_blank" rel="noopener noreferrer"><span>Add Listing</span> <i className="bi bi-arrow-up-right"></i></a>
+    										<a href="/dashboard/add-property" className="btn-ten w-100 rounded-0" target="_blank" rel="noopener noreferrer"><span>Añadir Anuncio</span> <i className="bi bi-arrow-up-right"></i></a>
     									</li>
     								</ul>
     							</div>
@@ -236,10 +236,10 @@ export default function TemplatePage() {
                             <div className="position-relative h-100 w-100 sm-pb-20">
                                 <a href="/images/listing/img_61.jpg" className="media-bg h-100" data-fancybox style={{ backgroundImage: "url(images/listing/img_61.jpg)" }}></a>
                                 <div className="img-fancy-btn fw-500 fs-16 color-dark">
-                                    Sell all 37 Photos
-                                    <a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="mainImg" data-caption="Duplex orkit villa."></a>
-                                    <a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="mainImg" data-caption="Duplex orkit villa."></a>
-                                    <a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="mainImg" data-caption="Duplex orkit villa."></a>
+                                    Ver las 37 Fotos
+                                    <a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="mainImg" data-caption="Villa Duplex orkit."></a>
+                                    <a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="mainImg" data-caption="Villa Duplex orkit."></a>
+                                    <a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="mainImg" data-caption="Villa Duplex orkit."></a>
                                 </div>
                             </div>
                         </div>
@@ -267,18 +267,18 @@ export default function TemplatePage() {
     			<div className="container">
     				<div className="row">
                         <div className="col-lg-6">
-                            <h3 className="property-titlee">Luxury Apartments on California.</h3>
+                            <h3 className="property-titlee">Apartamentos de Lujo en California.</h3>
                             <div className="d-flex flex-wrap mt-10">
-                                <div className="list-type bg-white text-dark fw-500 text-uppercase mt-15 me-3">FOR SELL</div>
+                                <div className="list-type bg-white text-dark fw-500 text-uppercase mt-15 me-3">EN VENTA</div>
                                 <div className="address mt-15"><i className="bi bi-geo-alt"></i> 3891 Ranchview Dr. Richardson, California</div>
                             </div>
                         </div>
                         <div className="col-lg-6 text-lg-end">
                             <div className="d-inline-block md-mt-40">
-                                <div className="price color-dark fw-500">Price: $1,67,000</div>
-                                <div className="est-price fs-20 mt-25 mb-35 md-mb-30">Est. Payment <span className="fw-500 color-dark">$8,343/mo*</span></div>
+                                <div className="price color-dark fw-500">Precio: $1,67,000</div>
+                                <div className="est-price fs-20 mt-25 mb-35 md-mb-30">Pago Est. <span className="fw-500 color-dark">$8,343/mes*</span></div>
                                 <ul className="style-none d-flex align-items-center action-btns">
-                                    <li className="me-auto fw-500 color-dark"><i className="fa-sharp fa-regular fa-share-nodes me-2"></i> Share</li>
+                                    <li className="me-auto fw-500 color-dark"><i className="fa-sharp fa-regular fa-share-nodes me-2"></i> Compartir</li>
                                     <li><a href="#" className="d-flex align-items-center justify-content-center tran3s"><i className="fa-light fa-heart"></i></a></li>
                                     <li><a href="#" className="d-flex align-items-center justify-content-center tran3s"><i className="fa-light fa-bookmark"></i></a></li>
                                     <li><a href="#" className="d-flex align-items-center justify-content-center tran3s"><i className="fa-light fa-circle-plus"></i></a></li>
@@ -291,23 +291,23 @@ export default function TemplatePage() {
                             <ul className="style-none d-flex flex-wrap align-items-center justify-content-between">
                                 <li>
                                     <img src="/images/lazy.svg" data-src="/images/icon/icon_62.svg" alt="" className="lazy-img icon" />
-                                    <span className="fs-20 text-white">Sqft . 3,720</span>
+                                    <span className="fs-20 text-white">Pies² . 3,720</span>
                                 </li>
                                 <li>
                                     <img src="/images/lazy.svg" data-src="/images/icon/icon_63.svg" alt="" className="lazy-img icon" />
-                                    <span className="fs-20 text-white">Bed . 03</span>
+                                    <span className="fs-20 text-white">Hab . 03</span>
                                 </li>
                                 <li>
                                     <img src="/images/lazy.svg" data-src="/images/icon/icon_64.svg" alt="" className="lazy-img icon" />
-                                    <span className="fs-20 text-white">Bath . 2</span>
+                                    <span className="fs-20 text-white">Baños . 2</span>
                                 </li>
                                 <li>
                                     <img src="/images/lazy.svg" data-src="/images/icon/icon_65.svg" alt="" className="lazy-img icon" />
-                                    <span className="fs-20 text-white">Kitchen . 01</span>
+                                    <span className="fs-20 text-white">Cocina . 01</span>
                                 </li>
                                 <li>
                                     <img src="/images/lazy.svg" data-src="/images/icon/icon_66.svg" alt="" className="lazy-img icon" />
-                                    <span className="fs-20 text-white">Type . Apartment</span>
+                                    <span className="fs-20 text-white">Tipo . Apartamento</span>
                                 </li>
                             </ul>
                         </div>
@@ -321,37 +321,37 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneA" aria-expanded="false" aria-controls="collapseOneA">
-                                                Overview
+                                                Descripción General
                                             </button>
                                           </h2>
                                         <div id="collapseOneA" className="accordion-collapse collapse show">
                                             <div className="accordion-body">
-                                                <p className="fs-20 lh-lg m0">Risk management and compliance, when approached strategically, have the potential to go beyond mitigating threats and protecting a company’s operations &amp; reputation.They can actually generate value and create opportunities. </p>
+                                                <p className="fs-20 lh-lg m0">La gestión de riesgos y el cumplimiento, cuando se abordan estratégicamente, tienen el potencial de ir más allá de mitigar amenazas y proteger las operaciones y la reputación de una empresa. En realidad, pueden generar valor y crear oportunidades.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoA" aria-expanded="false" aria-controls="collapseTwoA">
-                                                Property Features
+                                                Características de la Propiedad
                                             </button>
                                         </h2>
                                         <div id="collapseTwoA" className="accordion-collapse collapse">
                                             <div className="accordion-body">
-                                                <p className="fs-20 lh-lg">Risk management and compliance, when approached strategically, have the potential to go beyond mitigating threats.</p>
-                                                <h5 className="pt-30 pb-25">Property Details</h5>
+                                                <p className="fs-20 lh-lg">La gestión de riesgos y el cumplimiento, cuando se abordan estratégicamente, tienen el potencial de ir más allá de mitigar amenazas.</p>
+                                                <h5 className="pt-30 pb-25">Detalles de la Propiedad</h5>
                                                 <div className="feature-list-two">
                                                     <ul className="style-none d-flex flex-wrap justify-content-between">
-                                                        <li><span>Bedrooms: </span> <span className="fw-500 color-dark">03</span></li>
-                                                        <li><span>Furnishing: </span> <span className="fw-500 color-dark">Semi furnished</span></li>
-                                                        <li><span>Bathrooms: </span> <span className="fw-500 color-dark">02</span></li>
-                                                        <li><span>Year Built: </span> <span className="fw-500 color-dark">2010</span></li>
-                                                        <li><span>Floor: </span> <span className="fw-500 color-dark">Ground</span></li>
-                                                        <li><span>Garage: </span> <span className="fw-500 color-dark">03</span></li>
-                                                        <li><span>Ceiling Height: </span> <span className="fw-500 color-dark">3.2m</span></li>
-                                                        <li><span>Property Type: </span> <span className="fw-500 color-dark">Apartment</span></li>
-                                                        <li><span>Renovation: </span> <span className="fw-500 color-dark">3.2m</span></li>
-                                                        <li><span>Status: </span> <span className="fw-500 color-dark">For Sale</span></li>
+                                                        <li><span>Dormitorios: </span> <span className="fw-500 color-dark">03</span></li>
+                                                        <li><span>Amueblado: </span> <span className="fw-500 color-dark">Semi amueblado</span></li>
+                                                        <li><span>Baños: </span> <span className="fw-500 color-dark">02</span></li>
+                                                        <li><span>Año de Construcción: </span> <span className="fw-500 color-dark">2010</span></li>
+                                                        <li><span>Piso: </span> <span className="fw-500 color-dark">Planta baja</span></li>
+                                                        <li><span>Garaje: </span> <span className="fw-500 color-dark">03</span></li>
+                                                        <li><span>Altura del Techo: </span> <span className="fw-500 color-dark">3.2m</span></li>
+                                                        <li><span>Tipo de Propiedad: </span> <span className="fw-500 color-dark">Apartamento</span></li>
+                                                        <li><span>Renovación: </span> <span className="fw-500 color-dark">3.2m</span></li>
+                                                        <li><span>Estado: </span> <span className="fw-500 color-dark">En Venta</span></li>
                                                     </ul>
                                                 </div>
 
@@ -361,24 +361,24 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeA" aria-expanded="true" aria-controls="collapseThreeA">
-                                                Amenities
+                                                Comodidades
                                             </button>
                                         </h2>
                                         <div id="collapseThreeA" className="accordion-collapse collapse">
                                             <div className="accordion-body">
-                                                <p className="fs-20 lh-lg pb-25">Risk management & compliance, when approached strategically, have the potential</p>
+                                                <p className="fs-20 lh-lg pb-25">La gestión de riesgos y el cumplimiento, cuando se abordan estratégicamente, tienen el potencial</p>
                                                 <ul className="style-none d-flex flex-wrap justify-content-between list-style-two">
-                                                    <li>A/C & Heating</li>
-                                                    <li>Garages</li>
-                                                    <li>Swimming Pool</li>
-                                                    <li>Parking</li>
-                                                    <li>Garden</li>
-                                                    <li>Disabled Access</li>
-                                                    <li>Pet Friendly</li>
-                                                    <li>Ceiling Height</li>
-                                                    <li>Refrigerator</li>
-                                                    <li>Fireplace</li>
-                                                    <li>Elevator</li>
+                                                    <li>Aire Acondicionado y Calefacción</li>
+                                                    <li>Garajes</li>
+                                                    <li>Piscina</li>
+                                                    <li>Estacionamiento</li>
+                                                    <li>Jardín</li>
+                                                    <li>Acceso para Discapacitados</li>
+                                                    <li>Admite Mascotas</li>
+                                                    <li>Altura del Techo</li>
+                                                    <li>Refrigerador</li>
+                                                    <li>Chimenea</li>
+                                                    <li>Ascensor</li>
                                                     <li>Wifi</li>
                                                 </ul>
 
@@ -388,7 +388,7 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourA" aria-expanded="true" aria-controls="collapseFourA">
-                                                Video Tour
+                                                Recorrido en Video
                                             </button>
                                         </h2>
                                         <div id="collapseFourA" className="accordion-collapse collapse">
@@ -408,7 +408,7 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveA" aria-expanded="true" aria-controls="collapseFiveA">
-                                                Floor Plans
+                                                Planos de Planta
                                             </button>
                                         </h2>
                                         <div id="collapseFiveA" className="accordion-collapse collapse">
@@ -428,9 +428,9 @@ export default function TemplatePage() {
                                                                  </div>
                                                             </div>
                                                             <div className="carousel-indicators position-static pt-25">
-                                                                <button type="button" data-bs-target="#floor-plan" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                                                                  <button type="button" data-bs-target="#floor-plan" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                                  <button type="button" data-bs-target="#floor-plan" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                                <button type="button" data-bs-target="#floor-plan" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                                                                  <button type="button" data-bs-target="#floor-plan" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                                                                  <button type="button" data-bs-target="#floor-plan" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -442,25 +442,25 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixA" aria-expanded="true" aria-controls="collapseSixA">
-                                                What’s Nearby
+                                                Qué hay cerca
                                             </button>
                                         </h2>
                                         <div id="collapseSixA" className="accordion-collapse collapse">
                                             <div className="accordion-body">
                                                 <div className="property-nearby">
-                                                    <p className="fs-20 lh-lg pb-30">Risk management and compliance, when approached strategically, have th potential to go beyond mitigating threats.</p>
+                                                    <p className="fs-20 lh-lg pb-30">La gestión de riesgos y el cumplimiento, cuando se abordan estratégicamente, tienen el potencial de ir más allá de mitigar amenazas.</p>
                                                     <ul className="style-none d-flex flex-wrap justify-content-between nearby-list-item">
-                                                        <li>School & Collage: <span className="fw-500 color-dark">0.9km</span></li>
-                                                        <li>Grocery Center: <span className="fw-500 color-dark">0.2km</span></li>
-                                                        <li>Metro Station:  <span className="fw-500 color-dark">0.7km</span></li>
-                                                        <li>Gym: <span className="fw-500 color-dark">2.3km</span></li>
-                                                        <li>University: <span className="fw-500 color-dark">2.7km</span></li>
+                                                        <li>Escuela y Universidad: <span className="fw-500 color-dark">0.9km</span></li>
+                                                        <li>Centro Comercial: <span className="fw-500 color-dark">0.2km</span></li>
+                                                        <li>Estación de Metro:  <span className="fw-500 color-dark">0.7km</span></li>
+                                                        <li>Gimnasio: <span className="fw-500 color-dark">2.3km</span></li>
+                                                        <li>Universidad: <span className="fw-500 color-dark">2.7km</span></li>
                                                         <li>Hospital: <span className="fw-500 color-dark">1.7km</span></li>
-                                                        <li>Shopping Mall: <span className="fw-500 color-dark">1.1m</span></li>
-                                                        <li>Police Station: <span className="fw-500 color-dark">1.2m</span></li>
-                                                        <li>Bus Station:  <span className="fw-500 color-dark"> 1.1m</span></li>
-                                                        <li>River: <span className="fw-500 color-dark">3.1km</span></li>
-                                                        <li>Market: <span className="fw-500 color-dark">3.4m</span></li>
+                                                        <li>Centro Comercial: <span className="fw-500 color-dark">1.1m</span></li>
+                                                        <li>Estación de Policía: <span className="fw-500 color-dark">1.2m</span></li>
+                                                        <li>Estación de Autobuses:  <span className="fw-500 color-dark"> 1.1m</span></li>
+                                                        <li>Río: <span className="fw-500 color-dark">3.1km</span></li>
+                                                        <li>Mercado: <span className="fw-500 color-dark">3.4m</span></li>
                                                     </ul>
 
                                                 </div>
@@ -471,7 +471,7 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSevenA" aria-expanded="true" aria-controls="collapseSevenA">
-                                                Similar Homes You May Like
+                                                Casas Similares que te Pueden Gustar
                                             </button>
                                         </h2>
                                         <div id="collapseSevenA" className="accordion-collapse collapse">
@@ -482,20 +482,20 @@ export default function TemplatePage() {
                                                             <div className="listing-card-one style-three border border-30 sm-mb-40">
                                                                 <div className="img-gallery p-15">
                                                                     <div className="position-relative border-20 overflow-hidden">
-                                                                        <div className="tag bg-white text-dark fw-500 border-20">FOR RENT</div>
+                                                                        <div className="tag bg-white text-dark fw-500 border-20">EN ALQUILER</div>
                                                                         <img src="/images/listing/img_13.jpg" className="w-100 border-20" alt="..." />
                                                                         <a href="/listing_details_04" className="btn-four inverse rounded-circle position-absolute"><i className="bi bi-arrow-up-right"></i></a>
                                                                         <div className="img-slider-btn">
                                                                             03 <i className="fa-regular fa-image"></i>
-                                                                            <a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img1" data-caption="Blueberry villa"></a>
-                                                                            <a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img1" data-caption="Blueberry villa"></a>
-                                                                            <a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img1" data-caption="Blueberry villa"></a>
+                                                                            <a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="img1" data-caption="Villa Blueberry"></a>
+                                                                            <a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="img1" data-caption="Villa Blueberry"></a>
+                                                                            <a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="img1" data-caption="Villa Blueberry"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div className="property-info pe-4 ps-4">
-                                                                    <a href="/listing_details_04" className="title tran3s">Blueberry villa.</a>
+                                                                    <a href="/listing_details_04" className="title tran3s">Villa Blueberry.</a>
                                                                     <div className="address m0 pb-5">Mirpur 10, Stadium dhaka</div>
                                                                     <div className="pl-footer m0 d-flex align-items-center justify-content-between">
                                                                         <strong className="price fw-500 color-dark">$34,900</strong>
@@ -514,20 +514,20 @@ export default function TemplatePage() {
                                                             <div className="listing-card-one style-three border border-30">
                                                                 <div className="img-gallery p-15">
                                                                     <div className="position-relative border-20 overflow-hidden">
-                                                                        <div className="tag bg-white text-dark fw-500 border-20">FOR SELL</div>
+                                                                        <div className="tag bg-white text-dark fw-500 border-20">EN VENTA</div>
                                                                         <img src="/images/listing/img_14.jpg" className="w-100 border-20" alt="..." />
                                                                         <a href="/listing_details_04" className="btn-four inverse rounded-circle position-absolute"><i className="bi bi-arrow-up-right"></i></a>
                                                                         <div className="img-slider-btn">
                                                                             03 <i className="fa-regular fa-image"></i>
-                                                                            <a href="/images/listing/img_large_04.jpg" className="d-block" data-fancybox="img2" data-caption="White House villa"></a>
-                                                                            <a href="/images/listing/img_large_05.jpg" className="d-block" data-fancybox="img2" data-caption="White House villa"></a>
-                                                                            <a href="/images/listing/img_large_06.jpg" className="d-block" data-fancybox="img2" data-caption="White House villa"></a>
+                                                                            <a href="/images/listing/img_large_04.jpg" className="d-block" data-fancybox="img2" data-caption="Villa White House"></a>
+                                                                            <a href="/images/listing/img_large_05.jpg" className="d-block" data-fancybox="img2" data-caption="Villa White House"></a>
+                                                                            <a href="/images/listing/img_large_06.jpg" className="d-block" data-fancybox="img2" data-caption="Villa White House"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div className="property-info pe-4 ps-4">
-                                                                    <a href="/listing_details_04" className="title tran3s">Blueberry villa.</a>
+                                                                    <a href="/listing_details_04" className="title tran3s">Villa Blueberry.</a>
                                                                     <div className="address m0 pb-5">California link road, ca, usa</div>
                                                                     <div className="pl-footer m0 d-flex align-items-center justify-content-between">
                                                                         <strong className="price fw-500 color-dark">$28,100</strong>
@@ -551,20 +551,20 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEightA" aria-expanded="true" aria-controls="collapseEightA">
-                                                Walk Score
+                                                Puntuación de Caminabilidad
                                             </button>
                                         </h2>
                                         <div id="collapseEightA" className="accordion-collapse collapse">
                                             <div className="accordion-body">
                                                 <div className="property-score">
-                                                    <p className="fs-20 lh-lg pb-30">Risk management and compliance, when approached strategically, have the potential</p>
+                                                    <p className="fs-20 lh-lg pb-30">La gestión de riesgos y el cumplimiento, cuando se abordan estratégicamente, tienen el potencial</p>
                                                     <div className="row">
                                                         <div className="col-md-6">
                                                             <div className="block d-flex align-items-center mb-50 sm-mb-30">
                                                                 <img src="/images/lazy.svg" data-src="/images/icon/icon_52.svg" alt="" className="lazy-img icon" />
                                                                 <div className="text">
-                                                                    <h6>Transit Score</h6>
-                                                                    <p className="fs-16 m0"><span className="color-dark">63</span>/100 (Moderate Distance Walkable)</p>
+                                                                    <h6>Puntuación de Tránsito</h6>
+                                                                    <p className="fs-16 m0"><span className="color-dark">63</span>/100 (Distancia Moderada Caminable)</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -572,8 +572,8 @@ export default function TemplatePage() {
                                                             <div className="block d-flex align-items-center mb-50 sm-mb-30">
                                                                 <img src="/images/lazy.svg" data-src="/images/icon/icon_53.svg" alt="" className="lazy-img icon" />
                                                                 <div className="text">
-                                                                    <h6>School Score</h6>
-                                                                    <p className="fs-16 m0"><span className="color-dark">70</span>/100 (Short Distance Walkable)</p>
+                                                                    <h6>Puntuación Escolar</h6>
+                                                                    <p className="fs-16 m0"><span className="color-dark">70</span>/100 (Distancia Corta Caminable)</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -581,8 +581,8 @@ export default function TemplatePage() {
                                                             <div className="block d-flex align-items-center mb-20 sm-mb-30">
                                                                 <img src="/images/lazy.svg" data-src="/images/icon/icon_54.svg" alt="" className="lazy-img icon" />
                                                                 <div className="text">
-                                                                    <h6>Medical Score</h6>
-                                                                    <p className="fs-16 m0"><span className="color-dark">77</span>/100 (Short Distance Walkable)</p>
+                                                                    <h6>Puntuación Médica</h6>
+                                                                    <p className="fs-16 m0"><span className="color-dark">77</span>/100 (Distancia Corta Caminable)</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -590,8 +590,8 @@ export default function TemplatePage() {
                                                             <div className="block d-flex align-items-center mb-20">
                                                                 <img src="/images/lazy.svg" data-src="/images/icon/icon_55.svg" alt="" className="lazy-img icon" />
                                                                 <div className="text">
-                                                                    <h6>Shopping Mall Score</h6>
-                                                                    <p className="fs-16 m0"><span className="color-dark">42</span>/100 (Long Distance Walkable)</p>
+                                                                    <h6>Puntuación de Centro Comercial</h6>
+                                                                    <p className="fs-16 m0"><span className="color-dark">42</span>/100 (Distancia Larga Caminable)</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -604,7 +604,7 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineA" aria-expanded="true" aria-controls="collapseNineA">
-                                                Mortgage Calculator
+                                                Calculadora de Hipoteca
                                             </button>
                                         </h2>
                                         <div id="collapseNineA" className="accordion-collapse collapse">
@@ -612,26 +612,26 @@ export default function TemplatePage() {
                                                 <div className="mortgage-calculator">
                                                     <form action="#">
                                                         <div className="input-box-three mb-25">
-                                                            <div className="label">Home Price*</div>
+                                                            <div className="label">Precio de la Vivienda*</div>
                                                             <input type="tel" placeholder="1,32,789" className="type-input rounded-0" />
                                                         </div>
 
                                                         <div className="input-box-three mb-25">
-                                                            <div className="label">Down Payment*</div>
+                                                            <div className="label">Pago Inicial*</div>
                                                             <input type="tel" placeholder="$" className="type-input rounded-0" />
                                                         </div>
 
                                                         <div className="input-box-three mb-25">
-                                                            <div className="label">Interest Rate*</div>
+                                                            <div className="label">Tasa de Interés*</div>
                                                             <input type="tel" placeholder="3.5%" className="type-input rounded-0" />
                                                         </div>
 
                                                         <div className="input-box-three mb-25">
-                                                            <div className="label">Loan Terms (Years)</div>
+                                                            <div className="label">Plazo del Préstamo (Años)</div>
                                                             <input type="tel" placeholder="24" className="type-input rounded-0" />
                                                         </div>
 
-                                                        <button className="btn-five text-uppercase sm rounded-0 w-100 mb-10">CALCULATE</button>
+                                                        <button className="btn-five text-uppercase sm rounded-0 w-100 mb-10">CALCULAR</button>
                                                     </form>
                                                 </div>
 
@@ -641,7 +641,7 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTenA" aria-expanded="true" aria-controls="collapseTenA">
-                                                Location
+                                                Ubicación
                                             </button>
                                         </h2>
                                         <div id="collapseTenA" className="accordion-collapse collapse">
@@ -662,7 +662,7 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseElevenA" aria-expanded="true" aria-controls="collapseElevenA">
-                                                Review about Glenridge
+                                                Reseñas sobre Glenridge
                                             </button>
                                         </h2>
                                         <div id="collapseElevenA" className="accordion-collapse collapse">
@@ -671,9 +671,9 @@ export default function TemplatePage() {
                                                     <div className="position-relative z-1">
                                                         <div className="d-flex justify-content-sm-end">
                                                             <select className="nice-select rounded-0">
-                                                                <option value="0">Newest</option>
-                                                                <option value="1">Best Seller</option>
-                                                                <option value="2">Best Match</option>
+                                                                <option value="0">Más recientes</option>
+                                                                <option value="1">Mejor valorados</option>
+                                                                <option value="2">Mejor coincidencia</option>
                                                             </select>
                                                         </div>
                                                         <div className="review-wrapper mb-35">
@@ -683,10 +683,10 @@ export default function TemplatePage() {
                                                                     <div className="d-sm-flex justify-content-between">
                                                                         <div>
                                                                             <h6 className="name">Zubayer Al Hasan</h6>
-                                                                            <div className="time fs-16">17 Aug, 23</div>
+                                                                            <div className="time fs-16">17 Ago, 23</div>
                                                                         </div>
                                                                         <ul className="rating style-none d-flex xs-mt-10">
-                                                                            <li><span className="fst-italic me-2">(4.7 Rating)</span> </li>
+                                                                            <li><span className="fst-italic me-2">(Calificación 4.7)</span> </li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
@@ -696,8 +696,8 @@ export default function TemplatePage() {
                                                                     </div>
                                                                     <p className="fs-20 mt-20 mb-30">Lorem ipsum dolor sit amet consectetur. Pellentesque sed nulla facili diam posuere aliquam suscipit quam.</p>
                                                                     <div className="d-flex review-help-btn">
-                                                                        <a href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i> <span>Helpful</span></a>
-                                                                        <a href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i> <span>Flag</span></a>
+                                                                        <a href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i> <span>Útil</span></a>
+                                                                        <a href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i> <span>Reportar</span></a>
                                                                     </div>
                                                                 </div>
 
@@ -713,7 +713,7 @@ export default function TemplatePage() {
                                                                             <div className="time fs-16">13 Jun, 23</div>
                                                                         </div>
                                                                         <ul className="rating style-none d-flex xs-mt-10">
-                                                                            <li><span className="fst-italic me-2">(4.9 Rating)</span> </li>
+                                                                            <li><span className="fst-italic me-2">(Calificación 4.9)</span> </li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
@@ -723,22 +723,22 @@ export default function TemplatePage() {
                                                                     </div>
                                                                     <p className="fs-20 mt-20 mb-30">Lorem ipsum dolor sit amet consectetur. Pellentesque sed nulla facili diam posuere aliquam suscipit quam.</p>
                                                                     <ul className="style-none d-flex flex-wrap review-gallery pb-30">
-                                                                        <li><a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="revImg" data-caption="Duplex orkit villa"><img src="/images/listing/img_48.jpg" alt="" /></a></li>
-                                                                        <li><a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="revImg" data-caption="Duplex orkit villa"><img src="/images/listing/img_49.jpg" alt="" /></a></li>
-                                                                        <li><a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="revImg" data-caption="Duplex orkit villa"><img src="/images/listing/img_50.jpg" alt="" /></a></li>
+                                                                        <li><a href="/images/listing/img_large_01.jpg" className="d-block" data-fancybox="revImg" data-caption="Villa Duplex orkit"><img src="/images/listing/img_48.jpg" alt="" /></a></li>
+                                                                        <li><a href="/images/listing/img_large_02.jpg" className="d-block" data-fancybox="revImg" data-caption="Villa Duplex orkit"><img src="/images/listing/img_49.jpg" alt="" /></a></li>
+                                                                        <li><a href="/images/listing/img_large_03.jpg" className="d-block" data-fancybox="revImg" data-caption="Villa Duplex orkit"><img src="/images/listing/img_50.jpg" alt="" /></a></li>
                                                                         <li>
                                                                             <div className="position-relative more-img">
                                                                                 <img src="/images/listing/img_50.jpg" alt="" />
                                                                                 <span>13+</span>
-                                                                                <a href="/images/listing/img_large_04.jpg" className="d-block" data-fancybox="revImg" data-caption="Duplex orkit villa."></a>
-                                                                                <a href="/images/listing/img_large_05.jpg" className="d-block" data-fancybox="revImg" data-caption="Duplex orkit villa."></a>
-                                                                                <a href="/images/listing/img_large_06.jpg" className="d-block" data-fancybox="revImg" data-caption="Duplex orkit villa."></a>
+                                                                                <a href="/images/listing/img_large_04.jpg" className="d-block" data-fancybox="revImg" data-caption="Villa Duplex orkit."></a>
+                                                                                <a href="/images/listing/img_large_05.jpg" className="d-block" data-fancybox="revImg" data-caption="Villa Duplex orkit."></a>
+                                                                                <a href="/images/listing/img_large_06.jpg" className="d-block" data-fancybox="revImg" data-caption="Villa Duplex orkit."></a>
                                                                             </div>
                                                                         </li>
                                                                     </ul>
                                                                     <div className="d-flex review-help-btn">
-                                                                        <a href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i> <span>Helpful</span></a>
-                                                                        <a href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i> <span>Flag</span></a>
+                                                                        <a href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i> <span>Útil</span></a>
+                                                                        <a href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i> <span>Reportar</span></a>
                                                                     </div>
 
                                                                 </div>
@@ -752,10 +752,10 @@ export default function TemplatePage() {
                                                                     <div className="d-sm-flex justify-content-between">
                                                                         <div>
                                                                             <h6 className="name">Perty Jinta</h6>
-                                                                            <div className="time fs-16">17 Aug, 23</div>
+                                                                            <div className="time fs-16">17 Ago, 23</div>
                                                                         </div>
                                                                         <ul className="rating style-none d-flex xs-mt-10">
-                                                                            <li><span className="fst-italic me-2">(4.7 Rating)</span> </li>
+                                                                            <li><span className="fst-italic me-2">(Calificación 4.7)</span> </li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
                                                                             <li><i className="fa-sharp fa-solid fa-star"></i></li>
@@ -765,8 +765,8 @@ export default function TemplatePage() {
                                                                     </div>
                                                                     <p className="fs-20 mt-20 mb-30">Lorem ipsum dolor sit amet consectetur. Pellentesque sed nulla facili diam posuere aliquam suscipit quam.</p>
                                                                     <div className="d-flex review-help-btn">
-                                                                        <a href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i> <span>Helpful</span></a>
-                                                                        <a href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i> <span>Flag</span></a>
+                                                                        <a href="#" className="me-5"><i className="fa-sharp fa-regular fa-thumbs-up"></i> <span>Útil</span></a>
+                                                                        <a href="#"><i className="fa-sharp fa-regular fa-flag-swallowtail"></i> <span>Reportar</span></a>
                                                                     </div>
                                                                 </div>
 
@@ -774,7 +774,7 @@ export default function TemplatePage() {
 
                                                         </div>
 
-                                                        <div className="load-more-review text-uppercase fw-500 w-100 inverse rounded-0 tran3s">VIEW ALL 120 REVIEWS <i className="bi bi-arrow-up-right"></i></div>
+                                                        <div className="load-more-review text-uppercase fw-500 w-100 inverse rounded-0 tran3s">VER LAS 120 RESEÑAS <i className="bi bi-arrow-up-right"></i></div>
                                                     </div>						
                                                 </div>
 
@@ -784,52 +784,52 @@ export default function TemplatePage() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelveA" aria-expanded="true" aria-controls="collapseTwelveA">
-                                                Leave A Reply
+                                                Dejar una Respuesta
                                             </button>
                                         </h2>
                                         <div id="collapseTwelveA" className="accordion-collapse collapse">
                                             <div className="accordion-body">
                                                 <div className="review-form">
-                                                    <p className="fs-20 lh-lg pb-15"><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="color-dark fw-500 text-decoration-underline">Sign in</a> to post your comment or signup if you don't have any account.</p>
+                                                    <p className="fs-20 lh-lg pb-15"><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="color-dark fw-500 text-decoration-underline">Inicia sesión</a> para publicar tu comentario o regístrate si no tienes una cuenta.</p>
 
                                                     <form action="#">
                                                         <div className="row">
                                                             <div className="col-12">
                                                                 <div className="input-box-two mb-30">
-                                                                    <div className="label">Title*</div>
+                                                                    <div className="label">Título*</div>
                                                                     <input type="text" placeholder="Rashed Kabir" className="type-input rounded-0" />
                                                                 </div>
 
                                                             </div>
                                                             <div className="col-lg-6">
                                                                 <div className="input-box-two mb-30">
-                                                                    <div className="label">Email*</div>
+                                                                    <div className="label">Correo electrónico*</div>
                                                                     <input type="email" placeholder="rshdkabir@gmail.com" className="type-input rounded-0" />
                                                                 </div>
 
                                                             </div>
                                                             <div className="col-lg-6">
                                                                 <div className="input-box-two mb-30">
-                                                                    <div className="label">Ratings*</div>
+                                                                    <div className="label">Calificaciones*</div>
                                                                     <select className="nice-select rounded-0">
-                                                                        <option value="0">Ratings</option>
-                                                                        <option value="1">Five Star</option>
-                                                                        <option value="1">Four Star</option>
-                                                                        <option value="1">Three Star</option>
-                                                                        <option value="1">Two Star</option>
-                                                                        <option value="1">One Star</option>
+                                                                        <option value="0">Calificaciones</option>
+                                                                        <option value="1">Cinco Estrellas</option>
+                                                                        <option value="1">Cuatro Estrellas</option>
+                                                                        <option value="1">Tres Estrellas</option>
+                                                                        <option value="1">Dos Estrellas</option>
+                                                                        <option value="1">Una Estrella</option>
                                                                     </select>
                                                                 </div>
 
                                                             </div>
                                                             <div className="col-12">
                                                                 <div className="input-box-two mb-30">
-                                                                    <textarea placeholder="Write your review here..." className="rounded-0"></textarea>
+                                                                    <textarea placeholder="Escribe tu reseña aquí..." className="rounded-0"></textarea>
                                                                 </div>
 
                                                             </div>
                                                         </div>
-                                                        <button className="btn-five text-uppercase rounded-0 sm">Post Review</button>
+                                                        <button className="btn-five text-uppercase rounded-0 sm">Publicar Reseña</button>
                                                     </form>
                                                 </div>
 
@@ -845,7 +845,7 @@ export default function TemplatePage() {
     								<img src="/images/lazy.svg" data-src="/images/agent/img_06.jpg" alt="" className="lazy-img rounded-circle ms-auto me-auto mt-3 avatar" />
     								<div className="text-center mt-25">
     									<h6 className="name">Rashed Kabir</h6>
-    									<p className="fs-16">Property Agent & Broker</p>
+    									<p className="fs-16">Agente y Corredor de Propiedades</p>
     									<ul className="style-none d-flex align-items-center justify-content-center social-icon">
     										<li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
     										<li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
@@ -855,40 +855,40 @@ export default function TemplatePage() {
     								</div>
     								<div className="divider-line mt-40 mb-45 pt-20">
     									<ul className="style-none">
-    										<li>Location: <span>Spain, Barcelona</span></li>
-    										<li>Email: <span><a href="mailto:akabirr770@gmail.com">akabirr770@gmail.com</a></span></li>
-    										<li>Phone: <span><a href="tel:+12347687565">+12347687565</a></span></li>
+    										<li>Ubicación: <span>España, Barcelona</span></li>
+    										<li>Correo: <span><a href="mailto:akabirr770@gmail.com">akabirr770@gmail.com</a></span></li>
+    										<li>Teléfono: <span><a href="tel:+12347687565">+12347687565</a></span></li>
     									</ul>
     								</div>
 
-    								<a href="/contact" className="btn-nine text-uppercase w-100 mb-10">CONTACT AGENT</a>
+    								<a href="/contact" className="btn-nine text-uppercase w-100 mb-10">CONTACTAR AGENTE</a>
     							</div>
 
 
     							<div className="tour-schedule bg-white p-30">
-    								<h5 className="mb-40">Schedule Tour</h5>
+    								<h5 className="mb-40">Programar Visita</h5>
     								<form action="#">
     									<div className="input-box-three mb-25">
-    										<div className="label">Your Name*</div>
-    										<input type="text" placeholder="Your full name" className="type-input rounded-0" />
+    										<div className="label">Tu Nombre*</div>
+    										<input type="text" placeholder="Tu nombre completo" className="type-input rounded-0" />
     									</div>
 
     									<div className="input-box-three mb-25">
-    										<div className="label">Your Email*</div>
-    										<input type="email" placeholder="Enter mail address" className="type-input rounded-0" />
+    										<div className="label">Tu Correo Electrónico*</div>
+    										<input type="email" placeholder="Ingresa tu correo" className="type-input rounded-0" />
     									</div>
 
     									<div className="input-box-three mb-25">
-    										<div className="label">Your Phone*</div>
-    										<input type="tel" placeholder="Your phone number" className="type-input rounded-0" />
+    										<div className="label">Tu Teléfono*</div>
+    										<input type="tel" placeholder="Tu número de teléfono" className="type-input rounded-0" />
     									</div>
 
     									<div className="input-box-three mb-15">
-    										<div className="label">Message*</div>
-    										<textarea placeholder="Hello, I am interested in [Califronia Apartments]" className="rounded-0"></textarea>
+    										<div className="label">Mensaje*</div>
+    										<textarea placeholder="Hola, estoy interesado en [Apartamentos California]" className="rounded-0"></textarea>
     									</div>
 
-    									<button className="btn-nine text-uppercase w-100 mb-10">INQUIry</button>
+    									<button className="btn-nine text-uppercase w-100 mb-10">CONSULTAR</button>
     								</form>
     							</div>
 
@@ -908,17 +908,17 @@ export default function TemplatePage() {
     				<div className="row align-items-center">
     					<div className="col-lg-6">
     						<div className="title-one text-center text-lg-start md-mb-40 pe-xl-5">
-    							<h3 className="text-white m0">Start your <span>Journey<img src="/images/lazy.svg" data-src="/images/shape/title_shape_06.svg" alt="" className="lazy-img" /></span> As a Retailer.</h3>
+    							<h3 className="text-white m0">Comienza tu <span>Viaje<img src="/images/lazy.svg" data-src="/images/shape/title_shape_06.svg" alt="" className="lazy-img" /></span> Como Minorista.</h3>
     						</div>
 
     					</div>
     					<div className="col-lg-6">
     						<div className="form-wrapper me-auto ms-auto me-lg-0">
     							<form action="#">
-    								<input type="email" placeholder="Email address" className="rounded-0" />
-    								<button className="rounded-0">Get Started</button>
+    								<input type="email" placeholder="Correo electrónico" className="rounded-0" />
+    								<button className="rounded-0">Comenzar</button>
     							</form>
-    							<div className="fs-16 mt-10 text-white">Already a Agent? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in.</a></div>
+    							<div className="fs-16 mt-10 text-white">¿Ya eres Agente? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Inicia sesión.</a></div>
     						</div>
     					</div>
     				</div>
@@ -942,7 +942,7 @@ export default function TemplatePage() {
     									</a>
     								</div> 
 
-    								<p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>
+    								<p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, Estados Unidos</p>
     								<a href="#" className="email tran3s mb-60 md-mb-30">hello@homerealestate.com</a>
     								<ul className="style-none d-flex align-items-center social-icon">
     									<li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
@@ -953,15 +953,15 @@ export default function TemplatePage() {
     						</div>
     						<div className="col-lg-3 col-sm-4 ms-auto mb-30">
     							<div className="footer-nav ps-xl-5">
-    								<h5 className="footer-title">Links</h5>
+    								<h5 className="footer-title">Enlaces</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/">Home</a></li>
-    									<li><a href="/dashboard/membership" target="_blank" rel="noopener noreferrer">Membership</a></li>
-    									<li><a href="/about_us_01">About Company</a></li>
+    									<li><a href="/">Inicio</a></li>
+    									<li><a href="/dashboard/membership" target="_blank" rel="noopener noreferrer">Membresía</a></li>
+    									<li><a href="/about_us_01">Sobre la Compañía</a></li>
     									<li><a href="/blog_01">Blog</a></li>
-    									<li><a href="/blog_02">Explore Careers</a></li>
-    									<li><a href="/pricing_02">Pricing</a></li>
-    									<li><a href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Dashboard</a></li>
+    									<li><a href="/blog_02">Explorar Carreras</a></li>
+    									<li><a href="/pricing_02">Precios</a></li>
+    									<li><a href="/dashboard/dashboard-index" target="_blank" rel="noopener noreferrer">Panel de Control</a></li>
     								</ul>
     							</div>
     						</div>
@@ -969,23 +969,23 @@ export default function TemplatePage() {
     							<div className="footer-nav">
     								<h5 className="footer-title">Legal</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/faq">Terms & conditions</a></li>
-    									<li><a href="/faq">Cookie</a></li>
-    									<li><a href="/faq">Privacy policy</a></li>
-    									<li><a href="/faq">Faq’s</a></li>
+    									<li><a href="/faq">Términos y condiciones</a></li>
+    									<li><a href="/faq">Cookies</a></li>
+    									<li><a href="/faq">Política de privacidad</a></li>
+    									<li><a href="/faq">Preguntas Frecuentes</a></li>
     								</ul>
     							</div>
     						</div>
     						<div className="col-lg-2 col-sm-4 mb-30">
     							<div className="footer-nav">
-    								<h5 className="footer-title">New Listing</h5>
+    								<h5 className="footer-title">Nuevos Anuncios</h5>
     								<ul className="footer-nav-link style-none">
-    									<li><a href="/listing_01">​Buy Apartments</a></li>
-    									<li><a href="/listing_02">Buy Condos</a></li>
-    									<li><a href="/listing_03">Rent Houses</a></li>
-    									<li><a href="/listing_04">Rent Industrial</a></li>
-    									<li><a href="/listing_05">Buy Villas</a></li>
-    									<li><a href="/listing_06">Rent Office</a></li>
+    									<li><a href="/listing_01">​Comprar Apartamentos</a></li>
+    									<li><a href="/listing_02">Comprar Condominios</a></li>
+    									<li><a href="/listing_03">Alquilar Casas</a></li>
+    									<li><a href="/listing_04">Alquilar Industrial</a></li>
+    									<li><a href="/listing_05">Comprar Villas</a></li>
+    									<li><a href="/listing_06">Alquilar Oficinas</a></li>
     								</ul>
     							</div>
     						</div>
@@ -1006,34 +1006,34 @@ export default function TemplatePage() {
                 <div className="modal-dialog modal-fullscreen modal-dialog-centered">
                     <div className="container">
                         <div className="user-data-form modal-content">
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
     						<div className="form-wrapper m-auto">
     							<ul className="nav nav-tabs w-100" role="tablist">
     								<li className="nav-item" role="presentation">
-    									<button className="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Login</button>
+    									<button className="nav-link active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Iniciar Sesión</button>
     								</li>
     								<li className="nav-item" role="presentation">
-    									<button className="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Signup</button>
+    									<button className="nav-link" data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Registrarse</button>
     								</li>
     							</ul>
     							<div className="tab-content mt-30">
     								<div className="tab-pane show active" role="tabpanel" id="fc1">
     									<div className="text-center mb-20">
-    										<h2>Welcome Back!</h2>
-    										<p className="fs-20 color-dark">Still don't have an account? <a href="#">Sign up</a></p>
+    										<h2>¡Bienvenido de Nuevo!</h2>
+    										<p className="fs-20 color-dark">¿Aún no tienes una cuenta? <a href="#">Regístrate</a></p>
     									</div>
     									<form action="#">
     										<div className="row">
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Email*</label>
+    													<label>Correo electrónico*</label>
     													<input type="email" placeholder="Youremail@gmail.com" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-20">
-    													<label>Password*</label>
-    													<input type="password" placeholder="Enter Password" className="pass_log_id" />
+    													<label>Contraseña*</label>
+    													<input type="password" placeholder="Ingresa la contraseña" className="pass_log_id" />
     													<span className="placeholder_icon"><span className="passVicon"><img src="/images/icon/icon_68.svg" alt="" /></span></span>
     												</div>
     											</div>
@@ -1041,13 +1041,13 @@ export default function TemplatePage() {
     												<div className="agreement-checkbox d-flex justify-content-between align-items-center">
     													<div>
     														<input type="checkbox" id="remember" />
-    														<label htmlFor="remember">Keep me logged in</label>
+    														<label htmlFor="remember">Mantener sesión iniciada</label>
     													</div>
-    													<a href="#">Forget Password?</a>
+    													<a href="#">¿Olvidaste tu contraseña?</a>
     												</div> 
     											</div>
     											<div className="col-12">
-    												<button className="btn-two w-100 text-uppercase d-block mt-20">Login</button>
+    												<button className="btn-two w-100 text-uppercase d-block mt-20">Iniciar Sesión</button>
     											</div>
     										</div>
     									</form>
@@ -1055,27 +1055,27 @@ export default function TemplatePage() {
 
     								<div className="tab-pane" role="tabpanel" id="fc2">
     									<div className="text-center mb-20">
-    										<h2>Register</h2>
-    										<p className="fs-20 color-dark">Already have an account? <a href="#">Login</a></p>
+    										<h2>Registrarse</h2>
+    										<p className="fs-20 color-dark">¿Ya tienes una cuenta? <a href="#">Iniciar Sesión</a></p>
     									</div>
     									<form action="#">
     										<div className="row">
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Name*</label>
+    													<label>Nombre*</label>
     													<input type="text" placeholder="Zubayer Hasan" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-25">
-    													<label>Email*</label>
+    													<label>Correo electrónico*</label>
     													<input type="email" placeholder="zubayerhasan@gmail.com" />
     												</div>
     											</div>
     											<div className="col-12">
     												<div className="input-group-meta position-relative mb-20">
-    													<label>Password*</label>
-    													<input type="password" placeholder="Enter Password" className="pass_log_id" />
+    													<label>Contraseña*</label>
+    													<input type="password" placeholder="Ingresa la contraseña" className="pass_log_id" />
     													<span className="placeholder_icon"><span className="passVicon"><img src="/images/icon/icon_68.svg" alt="" /></span></span>
     												</div>
     											</div>
@@ -1083,12 +1083,12 @@ export default function TemplatePage() {
     												<div className="agreement-checkbox d-flex justify-content-between align-items-center">
     													<div>
     														<input type="checkbox" id="remember2" />
-    														<label htmlFor="remember2">By hitting the "Register" button, you agree to the <a href="#">Terms conditions</a> & <a href="#">Privacy Policy</a></label>
+    														<label htmlFor="remember2">Al hacer clic en el botón "Registrarse", aceptas los <a href="#">Términos y condiciones</a> y la <a href="#">Política de privacidad</a></label>
     													</div>
     												</div> 
     											</div>
     											<div className="col-12">
-    												<button className="btn-two w-100 text-uppercase d-block mt-20">Sign Up</button>
+    												<button className="btn-two w-100 text-uppercase d-block mt-20">Registrarse</button>
     											</div>
     										</div>
     									</form>
@@ -1098,20 +1098,20 @@ export default function TemplatePage() {
 
     							<div className="d-flex align-items-center mt-30 mb-10">
     								<div className="line"></div>
-    								<span className="pe-3 ps-3 fs-6">OR</span>
+    								<span className="pe-3 ps-3 fs-6">O</span>
     								<div className="line"></div>
     							</div>
     							<div className="row">
     								<div className="col-sm-6">
     									<a href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
     										<img src="/images/icon/google.png" alt="" />
-    										<span className="ps-3">Signup with Google</span>
+    										<span className="ps-3">Registrarse con Google</span>
     									</a>
     								</div>
     								<div className="col-sm-6">
     									<a href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
     										<img src="/images/icon/facebook.png" alt="" />
-    										<span className="ps-3">Signup with Facebook</span>
+    										<span className="ps-3">Registrarse con Facebook</span>
     									</a>
     								</div>
     							</div>
